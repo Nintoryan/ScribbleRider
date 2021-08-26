@@ -39,7 +39,6 @@ public class Car : MonoBehaviour
             wheel.transform.position = _wheelPoints[i].position;
             wheel.transform.localScale *= 0.005f;
             wheel.transform.SetParent(transform);
-            wheel.layer = 13;
             var joint = wheel.AddComponent<HingeJoint>();
             joint.connectedBody = _model;
             joint.axis = new Vector3(0,0,-1);

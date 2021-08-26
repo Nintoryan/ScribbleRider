@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using CustomUserInput;
 using UnityEngine;
-using XDPaint;
+using UnityEngine.UI.Extensions;
 
 public class Drawing : MonoBehaviour
 {
     [SerializeField] private float newPointDistance;
-    [SerializeField] private float brokenLineSimplifyingDistance;
+    [SerializeField] private UILineRenderer _uiLineRenderer;
     [SerializeField] private HoldAndDrag _holdAndDrag;
-    [SerializeField] private PaintManager _paintManager;
     [SerializeField] private List<Vector3> brokenLinePoints = new List<Vector3>();
+    [SerializeField] private List<Vector2> uiLinePoints = new List<Vector2>();
     [SerializeField] private WheelMeshCreator _wheelMeshCreator;
     
     [SerializeField] private RectTransform m_CanvasTransform;
@@ -19,12 +19,16 @@ public class Drawing : MonoBehaviour
         _holdAndDrag.Started += () =>
         {
             brokenLinePoints.Add(_holdAndDrag.CurrentPoint);
+            uiLinePoints.Add(_holdAndDrag.CurrentPoint);
+            _uiLineRenderer.Points = uiLinePoints.ToArray();
         };
         _holdAndDrag.Dragged += () =>
         {
             if (Vector3.Distance(_holdAndDrag.CurrentPoint, brokenLinePoints[brokenLinePoints.Count-1]) > newPointDistance)
             {
                 brokenLinePoints.Add(_holdAndDrag.CurrentPoint);
+                uiLinePoints.Add(_holdAndDrag.CurrentPoint);
+                _uiLineRenderer.Points = uiLinePoints.ToArray();
             }
         };
         _holdAndDrag.Stopped += () =>
@@ -32,8 +36,10 @@ public class Drawing : MonoBehaviour
             Debug.Log($"Amount of Points:{brokenLinePoints.Count}");
             _wheelMeshCreator.CreateWheel(brokenLinePoints);
             brokenLinePoints.Clear();
-            _paintManager.PaintObject.ClearTexture();
-            _paintManager.Render();
+            uiLinePoints.Clear();
+            _uiLineRenderer.Points = new Vector2[0];
+            _uiLineRenderer.gameObject.SetActive(false);
+            _uiLineRenderer.gameObject.SetActive(true);
         };
     }
 

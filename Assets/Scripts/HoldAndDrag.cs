@@ -6,7 +6,6 @@ namespace CustomUserInput
 {
     public class HoldAndDrag : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler, IPointerClickHandler
     {
-        [SerializeField] private float _horizontalDumpingCoefficient = 0.002f;
         [SerializeField] private UnityEvent _clicked;
         [SerializeField] private UnityEvent _started;
         [SerializeField] private UnityEvent _dragged;
