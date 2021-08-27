@@ -2313,7 +2313,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2809,7 +2809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b406dbe555a6d89449d67bf3fa881c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ArchimedCoef: 45
+  _ArchimedCoef: 44
 --- !u!1 &1638007761
 GameObject:
   m_ObjectHideFlags: 0
@@ -3084,7 +3084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d642934351b4834485d27c8bd22e3b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedReduceCoef: 0.25
+  _speedReduceCoef: 0.5
 --- !u!65 &1883722547
 BoxCollider:
   m_ObjectHideFlags: 0
