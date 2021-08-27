@@ -1,15 +1,29 @@
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class WheelMeshCreator : MonoBehaviour
 {
     [SerializeField] private GameObject Cube;
     [SerializeField] private Car _car;
-    
+
 
     public void CreateWheel(List<Vector3> points)
     {
         if(points.Count<2) return;
+        float _sumDistance = 0;
+        if (points.Count == 2)
+        {
+            _sumDistance = 0;
+        }
+        else
+        {
+            for (int i = 1; i < points.Count-1; i++)
+            {
+                _sumDistance += HandleUtility.DistancePointLine(points[i], points[0], points[points.Count - 1]);
+            }
+            _sumDistance /= points.Count-2;
+        }
         var parent = new GameObject();
         var Center = Vector3.zero;
         var Cubes = new List<GameObject>();
@@ -47,6 +61,6 @@ public class WheelMeshCreator : MonoBehaviour
 
         parent.layer = LayerMask.NameToLayer("Wheels");
         parent.AddComponent<Rigidbody>();
-        _car.SetWheels(parent,Vector3.Distance(min,max));
+        _car.SetWheels(parent,Vector3.Distance(min,max),_sumDistance);
     }
 }
