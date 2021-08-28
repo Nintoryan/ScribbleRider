@@ -1,0 +1,788 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'ru' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/doodlebro/Yandex_Project/Build/YTaxi/YTaxi
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64833
+Successfully changed project path to: E:/doodlebro/Yandex_Project/Build/YTaxi/YTaxi
+E:/doodlebro/Yandex_Project/Build/YTaxi/YTaxi
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/doodlebro/Yandex_Project/Build/YTaxi/YTaxi/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6079
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002966 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004188 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.431 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3653.
+Total: 4.271600 ms (FindLiveObjects: 0.309400 ms CreateObjectMapping: 0.505300 ms MarkObjects: 3.373300 ms  DeleteObjects: 0.082100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(01eaeda34383345479a690e24c74a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(01eaeda34383345479a690e24c74a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b6a6e7499018c4e76537355b3c4729') in 0.012457 seconds
+  Import took 0.021096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Scenes/level1.unity
+  artifactKey: Guid(3af984e9f060d1c48a9608a0cff6353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level1.unity using Guid(3af984e9f060d1c48a9608a0cff6353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f48aee0db8a6c9473e4953ce0da7b17') in 0.016524 seconds
+  Import took 0.022830 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004376 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.3 MB.
+System memory in use after: 132.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3656.
+Total: 3.465600 ms (FindLiveObjects: 0.392800 ms CreateObjectMapping: 0.354400 ms MarkObjects: 2.674100 ms  DeleteObjects: 0.041600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 585.870337 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(4dc073ca213122d4886bcf699aed4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(4dc073ca213122d4886bcf699aed4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b07858f1605441ad029a1a2324d0e0') in 0.010570 seconds
+  Import took 0.016164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050488 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(aaeff93a3bfa11544aa8ef5f16b0a9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(aaeff93a3bfa11544aa8ef5f16b0a9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632acfd913376e5810744983610bf9f5') in 0.045766 seconds
+  Import took 0.051022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.481074 seconds.
+  path: Assets/Models
+  artifactKey: Guid(d8dfa9661cfe37c4486065e60a6b97d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(d8dfa9661cfe37c4486065e60a6b97d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4912f90b79b68f26a8d82f74102b1df') in 0.005883 seconds
+  Import took 0.010727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086028 seconds.
+  path: Assets/Models/photo_2021-08-24_16-15-40.jpg
+  artifactKey: Guid(01679a16acdb65a44bc7682b55cc70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/photo_2021-08-24_16-15-40.jpg using Guid(01679a16acdb65a44bc7682b55cc70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ec7528fd6c47c374ace43e7283522a') in 0.061151 seconds
+  Import took 0.066215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Models/ScribbleRiderProt2.fbx
+  artifactKey: Guid(e72ea9ea7a803d647a842abd70b3a4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ScribbleRiderProt2.fbx using Guid(e72ea9ea7a803d647a842abd70b3a4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5fef9d0cf8caa614ebba71fdb36460') in 0.425909 seconds
+  Import took 0.430716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.376224 seconds.
+  path: Assets/Models/Materials
+  artifactKey: Guid(bf127bd78f083424ab4e388f98a2746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials using Guid(bf127bd78f083424ab4e388f98a2746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9663412abffe7db770d72e7c88e3fc86') in 0.006797 seconds
+  Import took 0.012567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102848 seconds.
+  path: Assets/Models/Materials/Cars.mat
+  artifactKey: Guid(9c4121e3af47edb4b8c5ec7f47defce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Cars.mat using Guid(9c4121e3af47edb4b8c5ec7f47defce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215bb607f339fa92f29580164b9e0c34') in 0.015445 seconds
+  Import took 0.020732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Models/Materials/DriftIo_Color (2).png
+  artifactKey: Guid(8b748d8756b34c746bbb5cdb07f05933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/DriftIo_Color (2).png using Guid(8b748d8756b34c746bbb5cdb07f05933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c49de51ed21b2a0f7f2dc1457654ef') in 0.010259 seconds
+  Import took 0.016268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Models/Materials/photo_2021-08-24_16-15-40.mat
+  artifactKey: Guid(7fe1fa37c6febf74ea8dc4813908cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/photo_2021-08-24_16-15-40.mat using Guid(7fe1fa37c6febf74ea8dc4813908cf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c04f770e184768030e45c5a7f99e00') in 0.011742 seconds
+  Import took 0.016831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.475704 seconds.
+  path: Assets/Models/Materials/Back.mat
+  artifactKey: Guid(0267541f50f10464093f8f082b253725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Back.mat using Guid(0267541f50f10464093f8f082b253725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d6f50572920031ed4af2cd538fd8a6') in 0.030222 seconds
+  Import took 0.036171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.905477 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 5.png
+  artifactKey: Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 5.png using Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479f417854002f12a0bc95bf1bb067d9') in 0.036528 seconds
+  Import took 0.041271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 4.png
+  artifactKey: Guid(772031b03d9d46e4ab03e15c8e17718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 4.png using Guid(772031b03d9d46e4ab03e15c8e17718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47ad592a62f05a7d8638d736f25048b') in 0.010858 seconds
+  Import took 0.016052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 5.png
+  artifactKey: Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 5.png using Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479f417854002f12a0bc95bf1bb067d9') in 0.010814 seconds
+  Import took 0.016313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 4.png
+  artifactKey: Guid(772031b03d9d46e4ab03e15c8e17718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 4.png using Guid(772031b03d9d46e4ab03e15c8e17718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47ad592a62f05a7d8638d736f25048b') in 0.011219 seconds
+  Import took 0.016098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.250800 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 1.png
+  artifactKey: Guid(0a33360c1c6b85c45bb8a19af0c4e87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 1.png using Guid(0a33360c1c6b85c45bb8a19af0c4e87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e442a00b6c4aedaeeb49f485392341d3') in 0.010795 seconds
+  Import took 0.016519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 6.png
+  artifactKey: Guid(5293ac8cd3dd6f6478585f4f30abddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 6.png using Guid(5293ac8cd3dd6f6478585f4f30abddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab4d2c27342d53b42dfd711ca3b44f2') in 0.018653 seconds
+  Import took 0.024504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 1.png
+  artifactKey: Guid(0a33360c1c6b85c45bb8a19af0c4e87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 1.png using Guid(0a33360c1c6b85c45bb8a19af0c4e87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e442a00b6c4aedaeeb49f485392341d3') in 0.017080 seconds
+  Import took 0.022451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 7.png
+  artifactKey: Guid(ab507ff7ff37d954da98b07bf0bb152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 7.png using Guid(ab507ff7ff37d954da98b07bf0bb152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6127d0f0164d22627e3596834cf4a03d') in 0.010521 seconds
+  Import took 0.016597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 8.png
+  artifactKey: Guid(59322d9235e3b2a44a08574ae149f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 8.png using Guid(59322d9235e3b2a44a08574ae149f003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e8c40c6033814b999e4f99bfcb0fcc') in 0.011330 seconds
+  Import took 0.016398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 2.png
+  artifactKey: Guid(fcabffd57a8d737448ad0269a9d3092d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 2.png using Guid(fcabffd57a8d737448ad0269a9d3092d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a541d7f3c6ea9aa06881117e0fc480') in 0.009901 seconds
+  Import took 0.015062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 3.png
+  artifactKey: Guid(86ed7ce9e52fd71459c3ce9ac144d310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 3.png using Guid(86ed7ce9e52fd71459c3ce9ac144d310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc053c56b5b3235fa2e13a01f355aeb2') in 0.010224 seconds
+  Import took 0.015101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.574731 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 5.png
+  artifactKey: Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 5.png using Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8b09a4c7f1887c6f32d65149c870aa') in 0.031882 seconds
+  Import took 0.039427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.148567 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 5.png
+  artifactKey: Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 5.png using Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98a4919fb74d258905c4a914eca7ec0') in 0.032164 seconds
+  Import took 0.038593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.320619 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 5.png
+  artifactKey: Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 5.png using Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a667bc5c1d7afb66d25169d4f0ce985d') in 0.038243 seconds
+  Import took 0.043569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.144239 seconds.
+  path: Assets/Stylized Water For URP/Textures/Foam/Foam 5.png
+  artifactKey: Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Foam/Foam 5.png using Guid(d3b0d77dfe711a04c8ff18ecc260aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f082484278c2432a72c7cd418ef95351') in 0.027541 seconds
+  Import took 0.033238 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3746.
+Total: 2.514700 ms (FindLiveObjects: 0.277700 ms CreateObjectMapping: 0.129300 ms MarkObjects: 2.085400 ms  DeleteObjects: 0.021600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.799572 seconds.
+  path: Assets/Models/Materials/Back.mat
+  artifactKey: Guid(0267541f50f10464093f8f082b253725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Back.mat using Guid(0267541f50f10464093f8f082b253725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79cab0e580343f0037496ba496c6fb8') in 0.167248 seconds
+  Import took 0.172739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.708295 seconds.
+  path: Assets/Models/Materials/Back 1.mat
+  artifactKey: Guid(9092c225bdcf3284492c142316e84161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Back 1.mat using Guid(9092c225bdcf3284492c142316e84161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdb9fa94dfb040df4845f2f6165f1c3') in 0.011256 seconds
+  Import took 0.018160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.089132 seconds.
+  path: Assets/Models/Materials/Back 2.mat
+  artifactKey: Guid(f7874f0bac123f04da3c6fa8563ea69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Back 2.mat using Guid(f7874f0bac123f04da3c6fa8563ea69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bcb476934c2325947655fc0218ce81') in 0.011219 seconds
+  Import took 0.017395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.836440 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Negative.png
+  artifactKey: Guid(eaa5f86c319c9784f9805b7e27d1a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Negative.png using Guid(eaa5f86c319c9784f9805b7e27d1a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df39b8071c899989d55dca886485308') in 0.015769 seconds
+  Import took 0.021148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Neutral.png
+  artifactKey: Guid(06ae6920c59497e49b9c28eafdbf9d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Neutral.png using Guid(06ae6920c59497e49b9c28eafdbf9d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872176006dbe51c8659d09ba2116c487') in 0.008329 seconds
+  Import took 0.013741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Stylized Water For URP/Textures/Normals/Normals 2.png
+  artifactKey: Guid(82cc9f62fd63eb144b3397364af688b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Normals/Normals 2.png using Guid(82cc9f62fd63eb144b3397364af688b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ed983a5f0206db9e4cb12d94196894') in 0.019041 seconds
+  Import took 0.024063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Review.png
+  artifactKey: Guid(db9b24f3bfb254c4c8c649c8f001a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Review.png using Guid(db9b24f3bfb254c4c8c649c8f001a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbde7fdf8f8a46a28a637dea7bb3a742') in 0.009797 seconds
+  Import took 0.016482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Stylized Water For URP/Textures/Normals/Normals 5.png
+  artifactKey: Guid(bdb620c7bb6658e469cadc832bb58edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Normals/Normals 5.png using Guid(bdb620c7bb6658e469cadc832bb58edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab49c45dbb1392fa6e444dee3b7399e') in 0.014715 seconds
+  Import took 0.019753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Positive.png
+  artifactKey: Guid(1063cc0ab160f2b4e94bca8fe4a7a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Positive.png using Guid(1063cc0ab160f2b4e94bca8fe4a7a252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d99869104495bb9784859fa7e6f7b0d') in 0.008815 seconds
+  Import took 0.013792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Stylized Water For URP/Textures/Normals/Normals 3.png
+  artifactKey: Guid(f19bc2945cd1d724e92c1bcf2b70cab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Normals/Normals 3.png using Guid(f19bc2945cd1d724e92c1bcf2b70cab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b77adb9596a263432b817e3c1bb20d') in 0.016800 seconds
+  Import took 0.021796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Website.png
+  artifactKey: Guid(4018fd99b3b3e8c43917d6240a41833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Website.png using Guid(4018fd99b3b3e8c43917d6240a41833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a5f0a1f305916b33c0a6f0cc4fff24') in 0.008640 seconds
+  Import took 0.013743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/StylizedWaterURP.png
+  artifactKey: Guid(a70d19752756e9945b82e5c68af7ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/StylizedWaterURP.png using Guid(a70d19752756e9945b82e5c68af7ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7f38e6cdeaf4ce3a0917e3b977fbfe') in 0.009613 seconds
+  Import took 0.014858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Reflection.png
+  artifactKey: Guid(91bdde8a84232d24eb08739e82d1809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Reflection.png using Guid(91bdde8a84232d24eb08739e82d1809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385234563013dccff7cedf607190e1c7') in 0.008845 seconds
+  Import took 0.014190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/WaterEffects.png
+  artifactKey: Guid(6942e6e9506179243aca4809ab2e0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/WaterEffects.png using Guid(6942e6e9506179243aca4809ab2e0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2074093749ce5485fbe3897fd277fb04') in 0.012149 seconds
+  Import took 0.017932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Stylized Water For URP/Textures/Normals/Normals 4.png
+  artifactKey: Guid(746d7c598bbd4e346af730641ebd6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Normals/Normals 4.png using Guid(746d7c598bbd4e346af730641ebd6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1944d5d241b673149b238ec3af044e') in 0.013136 seconds
+  Import took 0.018977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Stylized Water For URP/Textures/Normals/Normals 1.png
+  artifactKey: Guid(a41da5f5671718b47bbc71e9ef691103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Normals/Normals 1.png using Guid(a41da5f5671718b47bbc71e9ef691103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dec396721a422afd8179c90a21cb11') in 0.012388 seconds
+  Import took 0.017641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Negative.png
+  artifactKey: Guid(eaa5f86c319c9784f9805b7e27d1a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Negative.png using Guid(eaa5f86c319c9784f9805b7e27d1a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df39b8071c899989d55dca886485308') in 0.005587 seconds
+  Import took 0.010902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Stylized Water For URP/Textures/Normals/Normals 4.png
+  artifactKey: Guid(746d7c598bbd4e346af730641ebd6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Normals/Normals 4.png using Guid(746d7c598bbd4e346af730641ebd6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1944d5d241b673149b238ec3af044e') in 0.014049 seconds
+  Import took 0.018865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Twitter.png
+  artifactKey: Guid(ec2d7381c7b698345b136f3f5717505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Twitter.png using Guid(ec2d7381c7b698345b136f3f5717505a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4077142b95a31b7a659093c7cd19e6dc') in 0.008280 seconds
+  Import took 0.014056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.508946 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b06bfb9e3963b791497750831a072ce') in 0.008887 seconds
+  Import took 0.014195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg using Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0111bd350d0071ec6e34254257eb158') in 0.010217 seconds
+  Import took 0.015640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Manual.png
+  artifactKey: Guid(a81da85df92aa4b45a92bad9df8622b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Manual.png using Guid(a81da85df92aa4b45a92bad9df8622b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1437f0e9a3a422576c459842ffff5c') in 0.008604 seconds
+  Import took 0.013907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8f843460956187612c2e1464fb21a5') in 0.008627 seconds
+  Import took 0.013788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Forum.png
+  artifactKey: Guid(3a013fbf440f65945af849c426c8b5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Forum.png using Guid(3a013fbf440f65945af849c426c8b5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9000eb6ff529953ad416bdfdeb8c44') in 0.007137 seconds
+  Import took 0.012666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054634 seconds.
+  path: Assets/Stylized Water For URP/Demos/Water/Floor.png
+  artifactKey: Guid(0be6c0dfd355f474ba09d913e04fa09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Demos/Water/Floor.png using Guid(0be6c0dfd355f474ba09d913e04fa09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0618735491fa07eb6081eb7f074cab') in 0.038156 seconds
+  Import took 0.046248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Discord.png
+  artifactKey: Guid(be1ea077bd3d5fe40bfe76eff7e300e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Discord.png using Guid(be1ea077bd3d5fe40bfe76eff7e300e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e90e14ec9e9f43670fab6ed2b94b46') in 0.008903 seconds
+  Import took 0.014619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58ad0df7ccac4cb42168e3011fb8ce7') in 0.008013 seconds
+  Import took 0.013025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d2f47de73b06c5564fbb530071eba4') in 0.008830 seconds
+  Import took 0.013995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Stylized Water For URP/Textures/Caustics/Caustics 1.png
+  artifactKey: Guid(b3f9fed74fb5f1c4ea4fe5b062c3b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Caustics/Caustics 1.png using Guid(b3f9fed74fb5f1c4ea4fe5b062c3b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8c855695ddce12fa89194c380bd2e9') in 0.009839 seconds
+  Import took 0.015008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Stylized Water For URP/Textures/Caustics/Caustics 2.png
+  artifactKey: Guid(9d52c8f4a571dce409356fdb189e8a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Caustics/Caustics 2.png using Guid(9d52c8f4a571dce409356fdb189e8a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5120c94dc222c6fcfae110238294525') in 0.010636 seconds
+  Import took 0.015848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/color.png
+  artifactKey: Guid(089cd13dbe5c3fc44a1f238bb33156b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/color.png using Guid(089cd13dbe5c3fc44a1f238bb33156b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13e6c9181a2e1fe4a8992d11cf19734') in 0.007821 seconds
+  Import took 0.013047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Stylized Water For URP/Textures/Caustics/Caustics 3.png
+  artifactKey: Guid(f2c40b951cee11943a1f6d5ec1b42f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Caustics/Caustics 3.png using Guid(f2c40b951cee11943a1f6d5ec1b42f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2370739f8ddd659b2683e38053715ee9') in 0.010528 seconds
+  Import took 0.015808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Stylized Water For URP/Textures/Caustics/Caustics 4.png
+  artifactKey: Guid(832a95b3f67bea74b941f33cce3a7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Caustics/Caustics 4.png using Guid(832a95b3f67bea74b941f33cce3a7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f9787edcc8a4665046b2b8e24b0069') in 0.010410 seconds
+  Import took 0.016220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Caustics.png
+  artifactKey: Guid(d49cec1719cda894390301599ba7b88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Scripts/UI/Resources/Icons/Caustics.png using Guid(d49cec1719cda894390301599ba7b88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb413aaf82adfb2286ae7585c84a14c') in 0.008494 seconds
+  Import took 0.013503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011040 seconds.
+  path: Assets/Stylized Water For URP/Textures/Caustics/Caustics 4.png
+  artifactKey: Guid(832a95b3f67bea74b941f33cce3a7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Textures/Caustics/Caustics 4.png using Guid(832a95b3f67bea74b941f33cce3a7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f9787edcc8a4665046b2b8e24b0069') in 0.008116 seconds
+  Import took 0.014344 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.2 MB.
+System memory in use after: 138.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3793.
+Total: 3.019200 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.224600 ms MarkObjects: 2.451400 ms  DeleteObjects: 0.021400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.395037 seconds.
+  path: Assets/Models/Materials/photo_2021-08-24_16-15-40 1.mat
+  artifactKey: Guid(05a75846c9ac0874d99528f25b1623d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/photo_2021-08-24_16-15-40 1.mat using Guid(05a75846c9ac0874d99528f25b1623d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9a5ff780dbbef4738183a75e5b4316') in 0.162389 seconds
+  Import took 0.167140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Models/Materials/Back 1.mat
+  artifactKey: Guid(9092c225bdcf3284492c142316e84161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Back 1.mat using Guid(9092c225bdcf3284492c142316e84161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac79cf9b060ed100f25b4452b2277ba') in 0.011950 seconds
+  Import took 0.016414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Models/Materials/Back 2.mat
+  artifactKey: Guid(f7874f0bac123f04da3c6fa8563ea69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Back 2.mat using Guid(f7874f0bac123f04da3c6fa8563ea69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8026041a498573b6b682f1166b02af75') in 0.011739 seconds
+  Import took 0.016385 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.4 MB.
+System memory in use after: 138.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3832.
+Total: 3.178200 ms (FindLiveObjects: 0.331200 ms CreateObjectMapping: 0.153700 ms MarkObjects: 2.665300 ms  DeleteObjects: 0.026900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.4 MB.
+System memory in use after: 138.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3835.
+Total: 3.054600 ms (FindLiveObjects: 0.340900 ms CreateObjectMapping: 0.153900 ms MarkObjects: 2.537900 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.283801 seconds.
+  path: Assets/Models/Materials/Back 3.mat
+  artifactKey: Guid(8f4b7462b548546449cb422bb81bd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Back 3.mat using Guid(8f4b7462b548546449cb422bb81bd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e48247e5cd87f82e9027a85888a9271') in 0.167034 seconds
+  Import took 0.171793 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003958 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.5 MB.
+System memory in use after: 138.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3874.
+Total: 2.916300 ms (FindLiveObjects: 0.408800 ms CreateObjectMapping: 0.175500 ms MarkObjects: 2.312200 ms  DeleteObjects: 0.018700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 346.363628 seconds.
+  path: Assets/Models/Car/Car.mat
+  artifactKey: Guid(f9938dcacbce0e74e903c08e6ff746b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car/Car.mat using Guid(f9938dcacbce0e74e903c08e6ff746b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8046c7f542ebe9fd2b0df959aba7198c') in 0.156355 seconds
+  Import took 0.162450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Models/Car/DOOR_HANDLE_FL_1.fbx
+  artifactKey: Guid(0cf3ec6d2fd88984ab4b03bdee76bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car/DOOR_HANDLE_FL_1.fbx using Guid(0cf3ec6d2fd88984ab4b03bdee76bc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52817fe90bf1e8f730277ab0021b75b') in 0.044605 seconds
+  Import took 0.049889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 598.062566 seconds.
+  path: Assets/Models/Car
+  artifactKey: Guid(ed0db72920256c44580c06d957023677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car using Guid(ed0db72920256c44580c06d957023677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87885b46c134c0fc37adce6b151a41d') in 0.001702 seconds
+  Import took 0.007434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.797629 seconds.
+  path: Assets/Models/Car/Car_1.fbx
+  artifactKey: Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car/Car_1.fbx using Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d227e39190dbcfc6b21117a79629c2') in 0.025217 seconds
+  Import took 0.032850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004608 seconds.
+  path: Assets/Models/Car/Car_1.fbx
+  artifactKey: Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car/Car_1.fbx using Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d227e39190dbcfc6b21117a79629c2') in 0.036710 seconds
+  Import took 0.042552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.071238 seconds.
+  path: Assets/Models/Car/Car_1.fbx
+  artifactKey: Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car/Car_1.fbx using Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd179d939eabe722a1104a26ed594d86a') in 0.016192 seconds
+  Import took 0.022498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.714114 seconds.
+  path: Assets/Models/Car/Car_1.fbx
+  artifactKey: Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car/Car_1.fbx using Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bd2eee500c558d2ff9498a4a18ff65') in 0.016611 seconds
+  Import took 0.023876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.905695 seconds.
+  path: Assets/Models/Car/Car 1.mat
+  artifactKey: Guid(cfc658bf20e087d43af2b4ad1f521d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Car/Car 1.mat using Guid(cfc658bf20e087d43af2b4ad1f521d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa7fbef652c1277426631b7433cd79b') in 0.013796 seconds
+  Import took 0.018777 seconds .
+
