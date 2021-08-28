@@ -60,7 +60,8 @@ public class WheelMeshCreator : MonoBehaviour
         }
 
         parent.layer = LayerMask.NameToLayer("Wheels");
-        parent.AddComponent<Rigidbody>();
+        var rb = parent.AddComponent<Rigidbody>();
+        rb.interpolation = RigidbodyInterpolation.Extrapolate;
         _car.SetWheels(parent,Vector3.Distance(min,max),_sumDistance);
     }
 }
