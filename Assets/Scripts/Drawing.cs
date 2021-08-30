@@ -33,7 +33,6 @@ public class Drawing : MonoBehaviour
         };
         _holdAndDrag.Stopped += () =>
         {
-            Debug.Log($"Amount of Points:{brokenLinePoints.Count}");
             _wheelMeshCreator.CreateWheel(brokenLinePoints);
             brokenLinePoints.Clear();
             uiLinePoints.Clear();

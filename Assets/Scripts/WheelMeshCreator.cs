@@ -11,19 +11,8 @@ public class WheelMeshCreator : MonoBehaviour
     public void CreateWheel(List<Vector3> points)
     {
         if(points.Count<2) return;
-        float _sumDistance = 0;
-        if (points.Count == 2)
-        {
-            _sumDistance = 0;
-        }
-        else
-        {
-            for (int i = 1; i < points.Count-1; i++)
-            {
-                _sumDistance += HandleUtility.DistancePointLine(points[i], points[0], points[points.Count - 1]);
-            }
-            _sumDistance /= points.Count-2;
-        }
+        var NonlinnearCoef = GetNonlinnearCoef(points);
+        var amountOfSharpAngles = GetKikiCoef(points);
         var parent = new GameObject();
         var Center = Vector3.zero;
         var Cubes = new List<GameObject>();
@@ -58,10 +47,54 @@ public class WheelMeshCreator : MonoBehaviour
         {
             cube.transform.SetParent(parent.transform);
         }
-
         parent.layer = LayerMask.NameToLayer("Wheels");
         var rb = parent.AddComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Extrapolate;
-        _car.SetWheels(parent,Vector3.Distance(min,max),_sumDistance);
+        _car.SetWheels(parent,Vector3.Distance(min,max), NonlinnearCoef,amountOfSharpAngles);
+    }
+
+    private float GetNonlinnearCoef(List<Vector3> points)
+    {
+        float _sumDistance = 0;
+        if (points.Count == 2)
+        {
+            _sumDistance = 0;
+        }
+        else
+        {
+            for (int i = 1; i < points.Count-1; i++)
+            {
+                _sumDistance += HandleUtility.DistancePointLine(points[i], 
+                    points[0],
+                    points[points.Count - 1]);
+            }
+            _sumDistance /= points.Count-2;
+        }
+
+        return _sumDistance;
+    }
+
+    private int GetKikiCoef(List<Vector3> points)
+    {
+        int amountOfSharpAngles = 0;
+        for (int i = 1; i < points.Count-1; i++)
+        {
+            var cosY = GetCosOfMiddle(points[i - 1], points[i], points[i + 1]);
+
+            if (cosY >= -0.5f)
+            {
+                amountOfSharpAngles++;
+            }
+        }
+        Debug.Log($"amountOfSharpAngles={amountOfSharpAngles}");
+        return amountOfSharpAngles;
+    }
+
+    private float GetCosOfMiddle(Vector3 p1, Vector3 p2, Vector3 p3)
+    {
+        var a = Vector3.Distance(p1, p2);
+        var b = Vector3.Distance(p2, p3);
+        var c = Vector3.Distance(p1, p3);
+        return (a * a + b * b - c * c) / (2 * a * b);
     }
 }

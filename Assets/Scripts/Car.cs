@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,38 +6,72 @@ public class Car : MonoBehaviour
 {
     [SerializeField] private List<Transform> _wheelPoints;
     [SerializeField] private Rigidbody _model;
-    [SerializeField] private float _speed;
+    [SerializeField] private float _wheelsSpeed;
+    [SerializeField] private float _modelSpeed;
+
+    public float WheelSpeed
+    {
+        get => _wheelsSpeed;
+        set => _wheelsSpeed = value;
+    }
+
+    public float ModelSpeed
+    {
+        get => _modelSpeed;
+        set => _modelSpeed = value;
+    }
+
     public Rigidbody Model => _model;
-    private float _baseSpeed;
-    private float _nonlinearityСoeff;
-    [SerializeField] private List<GameObject> _currentWheels = new List<GameObject>();
+    public float BaseWheelSpeed { get; private set; }
+    public float BaseModelSpeed { get; private set; }
+    public float NonlinearityСoeff { get; private set; }
+    
+    public int AmountOfSharpAngles { get; private set; }
+
+    private List<GameObject> _currentWheels = new List<GameObject>();
 
     private void Start()
     {
-        _baseSpeed = _speed;
+        BaseWheelSpeed = _wheelsSpeed;
+        BaseModelSpeed = _modelSpeed;
+    }
+
+    private void OnDrawGizmos()
+    {
+        for (int i = 0; i < _currentWheels.Count; i++)
+        {
+            for (int j = 0; j < _currentWheels[i].transform.childCount-1; j++)
+            {
+                Gizmos.DrawSphere(_currentWheels[i].transform.GetChild(j).position,0.01f);
+                Gizmos.DrawLine(_currentWheels[i].transform.GetChild(j).position,
+                    _currentWheels[i].transform.GetChild(j+1).position);
+            }
+        }
     }
 
     private void FixedUpdate()
     {
         foreach (var wheel in _currentWheels)
         {
-            wheel.GetComponent<Rigidbody>().AddTorque(new Vector3(0,0,-1)*_speed);
+            wheel.GetComponent<Rigidbody>().AddTorque(new Vector3(0,0,-1)*_wheelsSpeed);
         }
         var forward = _model.transform.forward;
         var Velocity = new Vector3(forward.x, Mathf.Clamp(forward.y,0,100000), forward.z);
         Velocity = Vector3.Lerp(Velocity,_model.transform.up,0.05f);
-        _model.velocity = Velocity * _speed;
+        if(!Mathf.Approximately(_modelSpeed,0))
+            _model.velocity = Velocity * _modelSpeed;
     }
-    public void SetWheels(GameObject wheelExample, float Distance, float nonlinearityСoeff)
+    public void SetWheels(GameObject wheelExample, float Distance, float nonlinearityСoeff, int amountOfSharpAngles)
     {
-        Debug.Log($"Nonlinnearity Coef of Drawing={nonlinearityСoeff}");
-        _nonlinearityСoeff = nonlinearityСoeff;
+        // Debug.Log($"Nonlinnearity Coef of Drawing={nonlinearityСoeff}");
+        // Debug.Log($"Kiki Coef of Drawing={kikiCoef}");
+        NonlinearityСoeff = nonlinearityСoeff;
+        AmountOfSharpAngles = amountOfSharpAngles;
         StartCoroutine(IESetWheels(wheelExample, Distance));
     }
 
     private IEnumerator IESetWheels(GameObject wheelExample, float Distance)
     {
-        Debug.Log(Distance);
         foreach (var wheel in _currentWheels)
         {
             Destroy(wheel);
@@ -64,15 +99,5 @@ public class Car : MonoBehaviour
         }
         Destroy(wheelExample);
         _model.isKinematic = false;
-    }
-
-    public void ApplySlowEffect(float _speedReduceCoef)
-    {
-        _speed = Mathf.Lerp(_baseSpeed * _speedReduceCoef, 1, _nonlinearityСoeff / 100f);
-    }
-
-    public void DisposeSlowEffect()
-    {
-        _speed = _baseSpeed;
     }
 }
