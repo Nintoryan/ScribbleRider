@@ -1,4 +1,5 @@
 using UnityEngine;
+using YTaxi;
 
 public interface IZone
 {

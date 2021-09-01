@@ -1,4 +1,5 @@
 using UnityEngine;
+using YTaxi;
 
 public abstract class Zone : MonoBehaviour, IZone
 {

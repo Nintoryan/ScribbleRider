@@ -1,4 +1,5 @@
 using UnityEngine;
+using YTaxi;
 
 public class WaterZone : Zone
 {

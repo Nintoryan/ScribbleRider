@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
  
-namespace CustomUserInput
+namespace YTaxi.CustomUserInput
 {
     public class HoldAndDrag : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler, IPointerClickHandler
     {
@@ -53,6 +53,7 @@ namespace CustomUserInput
         public void OnDrag(PointerEventData eventData)
         {
             _currentPoint = eventData.position;
+            Debug.Log(eventData.position);
             Delta = eventData.delta;
             _dragged?.Invoke();
         }

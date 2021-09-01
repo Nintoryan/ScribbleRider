@@ -1,3 +1,5 @@
+using YTaxi;
+
 public class SlowlyZone : Zone
 {
     public float _speedReduceCoef;

@@ -1,3 +1,5 @@
+using YTaxi;
+
 public class IceZone : Zone
 {
     public override void AppyEffect(CarEffects _carEffects)

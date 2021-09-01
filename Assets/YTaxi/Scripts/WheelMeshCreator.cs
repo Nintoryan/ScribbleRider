@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using YTaxi;
 
 public class WheelMeshCreator : MonoBehaviour
 {
@@ -86,7 +87,6 @@ public class WheelMeshCreator : MonoBehaviour
                 amountOfSharpAngles++;
             }
         }
-        Debug.Log($"amountOfSharpAngles={amountOfSharpAngles}");
         return amountOfSharpAngles;
     }
 
