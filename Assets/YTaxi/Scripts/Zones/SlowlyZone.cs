@@ -11,6 +11,6 @@ public class SlowlyZone : Zone
 
     public override void DisposeEffect(CarEffects _carEffects)
     {
-        _carEffects.DisposeSlowEffect();
+        _carEffects.ResetSpeed();
     }
 }

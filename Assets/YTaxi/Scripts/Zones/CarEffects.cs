@@ -5,13 +5,27 @@ namespace YTaxi
     public class CarEffects : MonoBehaviour
     {
         [SerializeField] private Car _car;
+        public float WheelSpeed
+        {
+            get => _car.WheelSpeed;
+            set => _car.WheelSpeed = value;
+        }
+
+        public float ModelSpeed
+        {
+            get => _car.ModelSpeed;
+            set => _car.ModelSpeed = value;
+        }
+
+        public Rigidbody Model => _car.Model;
+        
 
         public void ApplySlowEffect(float _speedReduceCoef)
         {
             _car.WheelSpeed = Mathf.Lerp(_car.BaseWheelSpeed * _speedReduceCoef, 1, _car.NonlinearityСoeff / 100f);
             _car.ModelSpeed = Mathf.Lerp(_car.BaseModelSpeed * _speedReduceCoef, 1, _car.NonlinearityСoeff / 100f);
         }
-        public void DisposeSlowEffect()
+        public void ResetSpeed()
         {
             _car.WheelSpeed = _car.BaseWheelSpeed;
             _car.ModelSpeed = _car.BaseModelSpeed;

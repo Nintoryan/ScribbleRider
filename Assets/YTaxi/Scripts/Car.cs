@@ -10,6 +10,7 @@ namespace YTaxi
         [SerializeField] private Rigidbody _model;
         [SerializeField] private float _wheelsSpeed;
         [SerializeField] private float _modelSpeed;
+        [SerializeField] private float _spoilerForce;
 
         public float WheelSpeed
         {
@@ -44,7 +45,7 @@ namespace YTaxi
             {
                 wheel.GetComponent<Rigidbody>().AddTorque(new Vector3(0, 0, -1) * _wheelsSpeed);
             }
-
+            _model.AddForce(-_model.transform.up*_spoilerForce);
             var forward = _model.transform.forward;
             var Velocity = new Vector3(forward.x, Mathf.Clamp(forward.y, 0, 100000), forward.z);
             Velocity = Vector3.Lerp(Velocity, _model.transform.up, 0.05f);
