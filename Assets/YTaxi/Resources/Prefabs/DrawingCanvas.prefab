@@ -212,7 +212,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7652716393906661027}
   - component: {fileID: 7652716393906661026}
-  - component: {fileID: 7652716393906661029}
   m_Layer: 0
   m_Name: BrokenLine
   m_TagString: Untagged
@@ -252,20 +251,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newPointDistance: 20
+  _field: {fileID: 0}
+  defaultLineThickness: 20
   _uiLineRenderer: {fileID: 7652716394031139397}
   _holdAndDrag: {fileID: 7652716393592517759}
   brokenLinePoints: []
   uiLinePoints: []
   _wheelMeshCreator: {fileID: 0}
   m_CanvasTransform: {fileID: 7652716393517793602}
---- !u!222 &7652716393906661029
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7652716393906661025}
-  m_CullTransparentMesh: 1
 --- !u!1 &7652716394031139395
 GameObject:
   m_ObjectHideFlags: 0
