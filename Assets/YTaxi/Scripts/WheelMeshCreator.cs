@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using YTaxi;
 
@@ -65,7 +64,7 @@ public class WheelMeshCreator : MonoBehaviour
         {
             for (int i = 1; i < points.Count-1; i++)
             {
-                _sumDistance += HandleUtility.DistancePointLine(points[i], 
+                _sumDistance += DistancePointLine(points[i], 
                     points[0],
                     points[points.Count - 1]);
             }
@@ -96,5 +95,25 @@ public class WheelMeshCreator : MonoBehaviour
         var b = Vector3.Distance(p2, p3);
         var c = Vector3.Distance(p1, p3);
         return (a * a + b * b - c * c) / (2 * a * b);
+    }
+
+    private float DistancePointLine(Vector3 point, Vector3 lineStart, Vector3 lineEnd)
+    {
+        return Vector3.Magnitude(ProjectPointLine(point, lineStart, lineEnd) - point);
+    }
+
+    private static Vector3 ProjectPointLine(
+        Vector3 point,
+        Vector3 lineStart,
+        Vector3 lineEnd)
+    {
+        var rhs = point - lineStart;
+        var vector3 = lineEnd - lineStart;
+        var magnitude = vector3.magnitude;
+        var lhs = vector3;
+        if (magnitude > 9.99999997475243E-07)
+            lhs /= magnitude;
+        var num = Mathf.Clamp(Vector3.Dot(lhs, rhs), 0.0f, magnitude);
+        return lineStart + lhs * num;
     }
 }

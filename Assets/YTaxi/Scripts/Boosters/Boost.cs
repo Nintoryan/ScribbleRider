@@ -11,7 +11,7 @@ public class Boost : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         var carEffects = other.GetComponentInParent<CarEffects>();
-        if (carEffects != null)
+        if (carEffects != null && _graphics.activeInHierarchy)
         {
             carEffects.ModelSpeed *= _multibliedBy;
             carEffects.WheelSpeed *= _multibliedBy;

@@ -12,12 +12,7 @@ namespace YTaxi.Layers
         {
             Apply();
         }
-
-        private void OnValidate()
-        {
-            Apply();
-        }
-
+        
         private void Apply()
         {
             gameObject.layer = LayerMask.NameToLayer(layer);

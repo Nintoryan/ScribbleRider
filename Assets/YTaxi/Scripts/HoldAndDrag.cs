@@ -53,7 +53,6 @@ namespace YTaxi.CustomUserInput
         public void OnDrag(PointerEventData eventData)
         {
             _currentPoint = eventData.position;
-            Debug.Log(eventData.position);
             Delta = eventData.delta;
             _dragged?.Invoke();
         }

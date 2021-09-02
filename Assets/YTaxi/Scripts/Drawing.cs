@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI.Extensions;
@@ -53,6 +54,15 @@ namespace YTaxi.Drawing
                 _uiLineRenderer.gameObject.SetActive(true);
             };
         }
+        #if UNITY_EDITOR
+        private void OnValidate()
+        {
+            if (_wheelMeshCreator == null)
+            {
+                _wheelMeshCreator = FindObjectOfType<WheelMeshCreator>();
+            }
+        }
+#endif
 
         private void ResizePoints()
         {

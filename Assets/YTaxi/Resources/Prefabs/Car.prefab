@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2841133623985587763}
   - component: {fileID: 2841133623985587764}
+  - component: {fileID: 6039238153964598898}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -173,8 +174,23 @@ MonoBehaviour:
   - {fileID: 2841133622968655935}
   _model: {fileID: 2841133624088891130}
   _wheelsSpeed: 50
-  _modelSpeed: 10
+  _modelSpeed: 15
+--- !u!114 &6039238153964598898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2841133623985587762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a943537bfe90d814c92a7ac7864b7122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _car: {fileID: 2841133623985587764}
   _spoilerForce: 20000
+  _nonEnableReductionCoef: 0.3
+  Enable: 0
 --- !u!1 &2841133624088891129
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,8 +242,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.62808347, z: 3.9324791}
-  m_Center: {x: 1.2234442e-15, y: 0.26404178, z: 0.6721846}
+  m_Size: {x: 1, y: 0.453493, z: 3.521676}
+  m_Center: {x: 7.1261475e-16, y: 0.2999869, z: 0.6002917}
 --- !u!54 &2841133624088891130
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -270,6 +286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _car: {fileID: 2841133623985587764}
+  _spoiler: {fileID: 6039238153964598898}
 --- !u!1 &5688228495530992286
 GameObject:
   m_ObjectHideFlags: 0
