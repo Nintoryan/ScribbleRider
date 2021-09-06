@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'ru' Physical Memory: 16326 MB
+OS: 'Windows 10 Education; OS build 19041.1165; Version 2004; 64bit' Language: 'ru' Physical Memory: 15805 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,1375 +11,305 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/doodlebro/YandexProject/Build/YTaxi
+C:/Users/Nintoryan/Documents/GitHub/YTaxi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55140
-Successfully changed project path to: E:/doodlebro/YandexProject/Build/YTaxi
-E:/doodlebro/YandexProject/Build/YTaxi
+56490
+Successfully changed project path to: C:/Users/Nintoryan/Documents/GitHub/YTaxi
+C:/Users/Nintoryan/Documents/GitHub/YTaxi
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 109.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/doodlebro/YandexProject/Build/YTaxi/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Nintoryan/Documents/GitHub/YTaxi/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   27.21.14.6079
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+    VRAM:     3962 MB
+    Driver:   27.21.14.5206
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001933 seconds.
+Registered in 0.004246 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.92 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 184.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
+- Completed reload, in  5.530 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004377 seconds.
+Registered in 0.011031 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.94 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.295 seconds
+- Completed reload, in  3.868 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.1 MB.
-System memory in use after: 141.3 MB.
+Unloading 3273 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 141.0 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3668.
-Total: 2.936100 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.151500 ms MarkObjects: 2.420200 ms  DeleteObjects: 0.087200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/YTaxi
-  artifactKey: Guid(a5bf5e04c045d8a49b7b6d4b8e34e4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi using Guid(a5bf5e04c045d8a49b7b6d4b8e34e4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5568bec6c59fe12d801ed62059726ab') in 0.010296 seconds
-  Import took 0.015323 seconds .
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3686.
+Total: 13.489800 ms (FindLiveObjects: 2.551300 ms CreateObjectMapping: 0.502800 ms MarkObjects: 5.159300 ms  DeleteObjects: 5.273600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/YTaxi/Scenes
-  artifactKey: Guid(01eaeda34383345479a690e24c74a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes using Guid(01eaeda34383345479a690e24c74a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b6a6e7499018c4e76537355b3c4729') in 0.006108 seconds
-  Import took 0.010966 seconds .
+  path: Assets/YTaxi/Scripts/Shop/Skin.cs
+  artifactKey: Guid(234a10d04dc587344b85ea20610fc14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YTaxi/Scripts/Shop/Skin.cs using Guid(234a10d04dc587344b85ea20610fc14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.100098 seconds
+  ERROR: Build asset version error: assets/ytaxi/scripts/shop/skin.cs in SourceAssetDB has modification time of '2021-09-06T13:55:01.8375552Z' while content on disk has modification time of '2021-09-06T13:56:59.5175217Z'
+  Import took 0.111499 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.699497 seconds.
-  path: Assets/YTaxi/Scenes/level1.unity
-  artifactKey: Guid(dba6a0ddaf2d4c848af1e292f52bc775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/level1.unity using Guid(dba6a0ddaf2d4c848af1e292f52bc775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8487ab7ff0c1600a72ca5aec532a0b5c') in 0.016846 seconds
-  Import took 0.021237 seconds .
+  Time since last request: 0.000253 seconds.
+  path: Assets/YTaxi/Scripts/Shop/WheelSkin.cs
+  artifactKey: Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YTaxi/Scripts/Shop/WheelSkin.cs using Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2801681e28b0587362702d74828f0d76') in 0.021260 seconds
+  Import took 0.030806 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.841929 seconds.
-  path: Assets/YTaxi/Scenes/Level2.unity
-  artifactKey: Guid(48c167eebd6c77f468d3d716fb33d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level2.unity using Guid(48c167eebd6c77f468d3d716fb33d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0c4b1453e5ed8bec6eb460920e18af') in 0.006764 seconds
-  Import took 0.012486 seconds .
+  Time since last request: 59.136238 seconds.
+  path: Assets/YTaxi/Scripts/Shop/WheelSkin.cs
+  artifactKey: Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YTaxi/Scripts/Shop/WheelSkin.cs using Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7ec0544e4de63223ead3c274da5138') in 0.004946 seconds
+  Import took 0.017272 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000805 seconds.
-  path: Assets/YTaxi/Scenes/Level2.unity
-  artifactKey: Guid(48c167eebd6c77f468d3d716fb33d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level2.unity using Guid(48c167eebd6c77f468d3d716fb33d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0c4b1453e5ed8bec6eb460920e18af') in 0.002246 seconds
-  Import took 0.008177 seconds .
+  Time since last request: 0.136608 seconds.
+  path: Assets/YTaxi/Scripts/Shop/WheelSkin.cs
+  artifactKey: Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YTaxi/Scripts/Shop/WheelSkin.cs using Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7ec0544e4de63223ead3c274da5138') in 0.004600 seconds
+  Import took 0.013398 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.691717 seconds.
-  path: Assets/YTaxi/Scenes/Level3.unity
-  artifactKey: Guid(c405996b719d1f142855387a2a1854c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level3.unity using Guid(c405996b719d1f142855387a2a1854c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2363b4c1f6579b98889ce0976e0c04f') in 0.005365 seconds
-  Import took 0.011036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001354 seconds.
-  path: Assets/YTaxi/Scenes/Level3.unity
-  artifactKey: Guid(c405996b719d1f142855387a2a1854c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level3.unity using Guid(c405996b719d1f142855387a2a1854c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2363b4c1f6579b98889ce0976e0c04f') in 0.001599 seconds
-  Import took 0.006966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.625834 seconds.
-  path: Assets/YTaxi/Scenes/Level4.unity
-  artifactKey: Guid(e7ac4999fc6f2144ab277f05bccd47a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level4.unity using Guid(e7ac4999fc6f2144ab277f05bccd47a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9034fa9f5e5ae98fc9e1904cfaeaf178') in 0.005846 seconds
-  Import took 0.010644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.547512 seconds.
-  path: Assets/YTaxi/Scenes/Level5.unity
-  artifactKey: Guid(a157379f5e5509049a978620d9b08206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level5.unity using Guid(a157379f5e5509049a978620d9b08206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e70502140f921f31050e39608d3218') in 0.005103 seconds
-  Import took 0.010258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.516625 seconds.
-  path: Assets/YTaxi/Scenes/Level6.unity
-  artifactKey: Guid(56cc2823d587bcd4c9a368200cab026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level6.unity using Guid(56cc2823d587bcd4c9a368200cab026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa57058bbf156bd191d0a6142cbbefde') in 0.005227 seconds
-  Import took 0.010899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.519157 seconds.
-  path: Assets/YTaxi/Scenes/Level7.unity
-  artifactKey: Guid(0afc587974138c54a8e28ceca8522392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level7.unity using Guid(0afc587974138c54a8e28ceca8522392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd1844a79d7aae5fa2d72a22f9403de') in 0.006276 seconds
-  Import took 0.011437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.512875 seconds.
-  path: Assets/YTaxi/Scenes/Level8.unity
-  artifactKey: Guid(eab2d3f5ea838304ca2b0f2a3152316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level8.unity using Guid(eab2d3f5ea838304ca2b0f2a3152316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd10a75f16cfc0808a774df2b128cab') in 0.005266 seconds
-  Import took 0.010984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000549 seconds.
-  path: Assets/YTaxi/Scenes/Level8.unity
-  artifactKey: Guid(eab2d3f5ea838304ca2b0f2a3152316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level8.unity using Guid(eab2d3f5ea838304ca2b0f2a3152316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd10a75f16cfc0808a774df2b128cab') in 0.001929 seconds
-  Import took 0.006897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.481521 seconds.
-  path: Assets/YTaxi/Scenes/Level9.unity
-  artifactKey: Guid(92c808e24173d0e42a28f8c92e01c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level9.unity using Guid(92c808e24173d0e42a28f8c92e01c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c493d7a70dfd8a618c3e01da4b53f7') in 0.007918 seconds
-  Import took 0.013396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000722 seconds.
-  path: Assets/YTaxi/Scenes/Level9.unity
-  artifactKey: Guid(92c808e24173d0e42a28f8c92e01c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level9.unity using Guid(92c808e24173d0e42a28f8c92e01c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c493d7a70dfd8a618c3e01da4b53f7') in 0.002410 seconds
-  Import took 0.007530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.547228 seconds.
-  path: Assets/YTaxi/Scenes/Level10.unity
-  artifactKey: Guid(623307cf4501dc94887285075db82bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level10.unity using Guid(623307cf4501dc94887285075db82bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5f615dabcc1011e5e0f69e2bc4b5ff') in 0.005429 seconds
-  Import took 0.010484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000696 seconds.
-  path: Assets/YTaxi/Scenes/Level10.unity
-  artifactKey: Guid(623307cf4501dc94887285075db82bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level10.unity using Guid(623307cf4501dc94887285075db82bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5f615dabcc1011e5e0f69e2bc4b5ff') in 0.002672 seconds
-  Import took 0.008267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.279289 seconds.
-  path: Assets/YTaxi/Scenes/Level13.unity
-  artifactKey: Guid(7e51f48728e4d8e4ea04083b33b9e59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level13.unity using Guid(7e51f48728e4d8e4ea04083b33b9e59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78044b57d797a8d86936c8465102f824') in 0.005419 seconds
-  Import took 0.010483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.793173 seconds.
-  path: Assets/YTaxi/Scenes/test.unity
-  artifactKey: Guid(3af984e9f060d1c48a9608a0cff6353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/test.unity using Guid(3af984e9f060d1c48a9608a0cff6353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd6c16bde22d399544aebe827d2e0bd') in 0.005814 seconds
-  Import took 0.010858 seconds .
+  Time since last request: 507.112026 seconds.
+  path: Assets/YTaxi/Scripts/Shop/WheelSkin.cs
+  artifactKey: Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YTaxi/Scripts/Shop/WheelSkin.cs using Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41cbca3cab5419010e689cf1d2731db') in 0.005485 seconds
+  Import took 0.014486 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003870 seconds.
+Registered in 0.007694 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
+- Completed reload, in  1.718 seconds
 Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.6 MB.
-System memory in use after: 132.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3671.
-Total: 2.621400 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.153800 ms MarkObjects: 2.170900 ms  DeleteObjects: 0.023600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 678.214164 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(4a8b52825cd14ab4ab20dff4ef494b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(4a8b52825cd14ab4ab20dff4ef494b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d62ac6d3040a5198dacad56cf61b73e') in 0.011944 seconds
-  Import took 0.017685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008322 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(4a8b52825cd14ab4ab20dff4ef494b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(4a8b52825cd14ab4ab20dff4ef494b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d62ac6d3040a5198dacad56cf61b73e') in 0.001582 seconds
-  Import took 0.007818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.513991 seconds.
-  path: Assets/Stylized Water For URP
-  artifactKey: Guid(e5b3d8b7c09439d4086c2bb616673bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Water For URP using Guid(e5b3d8b7c09439d4086c2bb616673bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b3177e4191def2dfe6bd0fbad72648') in 0.006509 seconds
-  Import took 0.012080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/Stylized Water For URP
-  artifactKey: Guid(e5b3d8b7c09439d4086c2bb616673bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Water For URP using Guid(e5b3d8b7c09439d4086c2bb616673bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b3177e4191def2dfe6bd0fbad72648') in 0.002538 seconds
-  Import took 0.007387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.598568 seconds.
-  path: Assets/Resources/DOTweenSettings.asset
-  artifactKey: Guid(e2e585fb043f8064da94ef819a355496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DOTweenSettings.asset using Guid(e2e585fb043f8064da94ef819a355496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ceeed86a00f1c27eb8235851ccced4') in 0.046226 seconds
-  Import took 0.051130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.972109 seconds.
-  path: Assets/YTaxi/Resources
-  artifactKey: Guid(4dc073ca213122d4886bcf699aed4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources using Guid(4dc073ca213122d4886bcf699aed4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b07858f1605441ad029a1a2324d0e0') in 0.001465 seconds
-  Import took 0.006782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056140 seconds.
-  path: Assets/YTaxi/Resources/DOTweenSettings.asset
-  artifactKey: Guid(aaeff93a3bfa11544aa8ef5f16b0a9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/DOTweenSettings.asset using Guid(aaeff93a3bfa11544aa8ef5f16b0a9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632acfd913376e5810744983610bf9f5') in 0.002188 seconds
-  Import took 0.007527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.550533 seconds.
-  path: Assets/YTaxi/Models
-  artifactKey: Guid(d8dfa9661cfe37c4486065e60a6b97d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models using Guid(d8dfa9661cfe37c4486065e60a6b97d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4912f90b79b68f26a8d82f74102b1df') in 0.005167 seconds
-  Import took 0.010303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001521 seconds.
-  path: Assets/YTaxi/Models
-  artifactKey: Guid(d8dfa9661cfe37c4486065e60a6b97d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models using Guid(d8dfa9661cfe37c4486065e60a6b97d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4912f90b79b68f26a8d82f74102b1df') in 0.001361 seconds
-  Import took 0.008451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070073 seconds.
-  path: Assets/YTaxi/Models/Car1.fbx
-  artifactKey: Guid(f015a86cd8805da4486608b7725def37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Car1.fbx using Guid(f015a86cd8805da4486608b7725def37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93de1cfcfc1ed5ac684b57fd1b79c3a') in 0.844609 seconds
-  Import took 0.849988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/YTaxi/Models/Car3.fbx
-  artifactKey: Guid(a5d7e5e84309ec24e9af2bcef8345adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Car3.fbx using Guid(a5d7e5e84309ec24e9af2bcef8345adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3a826b69dab7cb5816a8e9abeea1bd') in 0.045992 seconds
-  Import took 0.050648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/YTaxi/Models/Car2.fbx
-  artifactKey: Guid(9009b76d8b2ef0440ad1c7484deebd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Car2.fbx using Guid(9009b76d8b2ef0440ad1c7484deebd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355160b87d9da759eaaf1a44478b1814') in 0.052044 seconds
-  Import took 0.056962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.384073 seconds.
-  path: Assets/YTaxi/Models/Materials
-  artifactKey: Guid(bf127bd78f083424ab4e388f98a2746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials using Guid(bf127bd78f083424ab4e388f98a2746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9663412abffe7db770d72e7c88e3fc86') in 0.005182 seconds
-  Import took 0.011439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000798 seconds.
-  path: Assets/YTaxi/Models/Materials
-  artifactKey: Guid(bf127bd78f083424ab4e388f98a2746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials using Guid(bf127bd78f083424ab4e388f98a2746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9663412abffe7db770d72e7c88e3fc86') in 0.001411 seconds
-  Import took 0.006304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100965 seconds.
-  path: Assets/YTaxi/Models/Materials/Back 1.mat
-  artifactKey: Guid(9092c225bdcf3284492c142316e84161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Back 1.mat using Guid(9092c225bdcf3284492c142316e84161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f219c3a8d1f591ecf759471f9179c2b') in 0.286610 seconds
-  Import took 0.293345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/YTaxi/Models/Materials/DriftIo_Color (2).png
-  artifactKey: Guid(8b748d8756b34c746bbb5cdb07f05933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/DriftIo_Color (2).png using Guid(8b748d8756b34c746bbb5cdb07f05933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c49de51ed21b2a0f7f2dc1457654ef') in 0.032799 seconds
-  Import took 0.037320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/YTaxi/Models/Materials/Cars.mat
-  artifactKey: Guid(9c4121e3af47edb4b8c5ec7f47defce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Cars.mat using Guid(9c4121e3af47edb4b8c5ec7f47defce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bde4b2da67b81263ddd81d7ee0bdb8a') in 0.014200 seconds
-  Import took 0.019268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/YTaxi/Models/Materials/StikySand.mat
-  artifactKey: Guid(812a38061220db842b32236afe83f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/StikySand.mat using Guid(812a38061220db842b32236afe83f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e70a0ba48f16750f65c2845080db61') in 0.023811 seconds
-  Import took 0.029108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/YTaxi/Models/Materials/photo_2021-08-24_16-15-40 1.mat
-  artifactKey: Guid(05a75846c9ac0874d99528f25b1623d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/photo_2021-08-24_16-15-40 1.mat using Guid(05a75846c9ac0874d99528f25b1623d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55098be6c1430aa0e670c5300bb12fe') in 0.015586 seconds
-  Import took 0.021007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/YTaxi/Models/Materials/Black.mat
-  artifactKey: Guid(4490cd70978398642a5eec54665cee98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Black.mat using Guid(4490cd70978398642a5eec54665cee98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc17806b516861e0c4551ae94de5e77') in 0.011405 seconds
-  Import took 0.016794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/YTaxi/Models/Materials/Back.mat
-  artifactKey: Guid(0267541f50f10464093f8f082b253725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Back.mat using Guid(0267541f50f10464093f8f082b253725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b307e2d44969a1adc0e9ff710d2f050b') in 0.022427 seconds
-  Import took 0.027907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/YTaxi/Models/Materials/white.mat
-  artifactKey: Guid(043b435b2fc2f554c9bd04161cf48703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/white.mat using Guid(043b435b2fc2f554c9bd04161cf48703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e986b8c069b214398e82aff5519c8d') in 0.013433 seconds
-  Import took 0.018415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/YTaxi/Models/Materials/Back 3.mat
-  artifactKey: Guid(8f4b7462b548546449cb422bb81bd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Back 3.mat using Guid(8f4b7462b548546449cb422bb81bd4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cee1c74f81e1dd87ce3d49cf54b6f0') in 0.019176 seconds
-  Import took 0.025266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/YTaxi/Models/Materials/Ice.mat
-  artifactKey: Guid(088a86a8d9c550a4d81ce0e535b450ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Ice.mat using Guid(088a86a8d9c550a4d81ce0e535b450ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa06555cac8d77591cb86b2d0f65da8') in 0.268912 seconds
-  Import took 0.273811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/YTaxi/Models/Materials/Back 4.mat
-  artifactKey: Guid(6372375abc403f340a5f1e8a68edea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Back 4.mat using Guid(6372375abc403f340a5f1e8a68edea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f566f7db6997a75de81a841d52b7b453') in 0.010632 seconds
-  Import took 0.015137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/YTaxi/Models/Materials/Sand.mat
-  artifactKey: Guid(b8131d8718aa9414a89854eff3db1bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Sand.mat using Guid(b8131d8718aa9414a89854eff3db1bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f54de21624e193390cfacd0f12a3578') in 0.013216 seconds
-  Import took 0.018278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/YTaxi/Models/Materials/Booster.mat
-  artifactKey: Guid(8b70fa8840dbb3046a065b39d8b316c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Booster.mat using Guid(8b70fa8840dbb3046a065b39d8b316c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cca5b5a0fed6918e9dd0dd0d2cce9f') in 0.013015 seconds
-  Import took 0.018678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/YTaxi/Models/Materials/Back 2.mat
-  artifactKey: Guid(f7874f0bac123f04da3c6fa8563ea69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Back 2.mat using Guid(f7874f0bac123f04da3c6fa8563ea69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d70a456a8b85c15d458564819dd2b2') in 0.016381 seconds
-  Import took 0.022784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.762165 seconds.
-  path: Assets/YTaxi/Models/Enviroment
-  artifactKey: Guid(c88a9270cf4144b48a1f889c3b9ff01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment using Guid(c88a9270cf4144b48a1f889c3b9ff01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab26e93a4c28ed756a6291f0be39887') in 0.005986 seconds
-  Import took 0.012510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068728 seconds.
-  path: Assets/YTaxi/Models/Enviroment/Batut.fbx
-  artifactKey: Guid(f1d1d7ba86d7cd54aaaa0066e16a9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment/Batut.fbx using Guid(f1d1d7ba86d7cd54aaaa0066e16a9d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e262d7e01aaa3a9842466b7efae43c8') in 0.020929 seconds
-  Import took 0.025723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/YTaxi/Models/Enviroment/Rock_1.fbx
-  artifactKey: Guid(0c095d6677346064296ee79b609f30f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment/Rock_1.fbx using Guid(0c095d6677346064296ee79b609f30f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9281aaecab1b51ad0db5cb70a9eeaeb2') in 0.017665 seconds
-  Import took 0.022860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/YTaxi/Models/Enviroment/Rock_3.fbx
-  artifactKey: Guid(2d5fb0db6e6e0e845bea6d677e8bba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment/Rock_3.fbx using Guid(2d5fb0db6e6e0e845bea6d677e8bba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ceb7d36cdc51554bbff6cba48478160') in 0.022394 seconds
-  Import took 0.027703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/YTaxi/Models/Enviroment/Can_Closed.fbx
-  artifactKey: Guid(4e39251c14076ba4aac8054e0c78297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment/Can_Closed.fbx using Guid(4e39251c14076ba4aac8054e0c78297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90fe51a5ae495ad9c38b5b78cb58e7c') in 0.024090 seconds
-  Import took 0.030201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/YTaxi/Models/Enviroment/Cube.fbx
-  artifactKey: Guid(ac8f6d70feb6f844a982f0633e95e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment/Cube.fbx using Guid(ac8f6d70feb6f844a982f0633e95e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80a1047e964e903ea47986668d346ca') in 0.015968 seconds
-  Import took 0.020860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/YTaxi/Models/Enviroment/Rock_2.fbx
-  artifactKey: Guid(75bc17267493a38449bfb54b1726b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment/Rock_2.fbx using Guid(75bc17267493a38449bfb54b1726b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9924b087b0915388c7ecc4d40b56d396') in 0.024883 seconds
-  Import took 0.030443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/YTaxi/Models/Enviroment/PowerUp_Speed.fbx
-  artifactKey: Guid(70fa387d9f460bc468a7204691c12f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment/PowerUp_Speed.fbx using Guid(70fa387d9f460bc468a7204691c12f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438e63c76a45d9a2da66df9e23e83f5c') in 0.036565 seconds
-  Import took 0.041460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/YTaxi/Models/Enviroment/blades2.fbx
-  artifactKey: Guid(319f4db1341f4144cbd8777acc3c6786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment/blades2.fbx using Guid(319f4db1341f4144cbd8777acc3c6786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b29d7b7c6efeb4a6d5e34ec0b07f56') in 0.027712 seconds
-  Import took 0.032535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/YTaxi/Models/Enviroment/blades.fbx
-  artifactKey: Guid(e02dc2264c6e566429252230d2a4018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Enviroment/blades.fbx using Guid(e02dc2264c6e566429252230d2a4018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edf612cef8f082bd6dd6405d998acb4') in 0.022866 seconds
-  Import took 0.028285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.567026 seconds.
-  path: Assets/YTaxi/Models/map
-  artifactKey: Guid(551ed1bab7301684f899e9a931aa607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/map using Guid(551ed1bab7301684f899e9a931aa607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7549857e6295105d68ac2ffd298573fd') in 0.007282 seconds
-  Import took 0.012450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069872 seconds.
-  path: Assets/YTaxi/Models/map/slide up.fbx
-  artifactKey: Guid(55f2273fbfebfd8488fec281830e1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/map/slide up.fbx using Guid(55f2273fbfebfd8488fec281830e1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2916b756f165b58aed311e823a48dd') in 0.012655 seconds
-  Import took 0.017793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/YTaxi/Models/map/stairs2.fbx
-  artifactKey: Guid(d65dc8d907c30c545afdbb520bdf17ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/map/stairs2.fbx using Guid(d65dc8d907c30c545afdbb520bdf17ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65d391089807a22d07f39e1f0131a07') in 0.017509 seconds
-  Import took 0.022057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/YTaxi/Models/map/stairs3.fbx
-  artifactKey: Guid(5201d05518282d64293fa0a24b056517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/map/stairs3.fbx using Guid(5201d05518282d64293fa0a24b056517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7852393c799d758906ba326ab3faa4bc') in 0.013102 seconds
-  Import took 0.019364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/YTaxi/Models/map/straight.fbx
-  artifactKey: Guid(5eebe57816108bf4daa5e4d4851d6bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/map/straight.fbx using Guid(5eebe57816108bf4daa5e4d4851d6bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e36cb046b2f9df8703ba80ee4eb8d60') in 0.016939 seconds
-  Import took 0.022049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/YTaxi/Models/map/stairs1.fbx
-  artifactKey: Guid(eaeb9a22bbca24240a8eeb0f89c0ac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/map/stairs1.fbx using Guid(eaeb9a22bbca24240a8eeb0f89c0ac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078316fbaa3a044dcf8c7fc49fb46100') in 0.015486 seconds
-  Import took 0.021944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/YTaxi/Models/map/wawes.fbx
-  artifactKey: Guid(439390e322100c140996ee1f3ace1ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/map/wawes.fbx using Guid(439390e322100c140996ee1f3ace1ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7503c2814eae9dce7b112976b41e3d') in 0.018482 seconds
-  Import took 0.024016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/YTaxi/Models/map/stairs1.fbx
-  artifactKey: Guid(eaeb9a22bbca24240a8eeb0f89c0ac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/map/stairs1.fbx using Guid(eaeb9a22bbca24240a8eeb0f89c0ac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078316fbaa3a044dcf8c7fc49fb46100') in 0.009663 seconds
-  Import took 0.016927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.690572 seconds.
-  path: Assets/YTaxi/Models/Car
-  artifactKey: Guid(ed0db72920256c44580c06d957023677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Car using Guid(ed0db72920256c44580c06d957023677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87885b46c134c0fc37adce6b151a41d') in 0.005571 seconds
-  Import took 0.011043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000934 seconds.
-  path: Assets/YTaxi/Models/Car
-  artifactKey: Guid(ed0db72920256c44580c06d957023677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Car using Guid(ed0db72920256c44580c06d957023677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87885b46c134c0fc37adce6b151a41d') in 0.001424 seconds
-  Import took 0.006757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.047377 seconds.
-  path: Assets/YTaxi/Models/Car/Car 1.mat
-  artifactKey: Guid(cfc658bf20e087d43af2b4ad1f521d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Car/Car 1.mat using Guid(cfc658bf20e087d43af2b4ad1f521d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcd7dada7029948a687d57a68b1389f') in 0.014769 seconds
-  Import took 0.020075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/YTaxi/Models/Car/photo_2021-08-24_16-15-40.jpg
-  artifactKey: Guid(01679a16acdb65a44bc7682b55cc70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Car/photo_2021-08-24_16-15-40.jpg using Guid(01679a16acdb65a44bc7682b55cc70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ec7528fd6c47c374ace43e7283522a') in 0.011781 seconds
-  Import took 0.017078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/YTaxi/Models/Car/Car_1.fbx
-  artifactKey: Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Car/Car_1.fbx using Guid(ef61be062385aa649bdbd06c5a4da625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2400d8141a6904dc4e0d1361580ecc') in 0.032132 seconds
-  Import took 0.037856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.024320 seconds.
-  path: Assets/YTaxi/Plugins
-  artifactKey: Guid(78ef011bcf1d1af43bfcec726c73508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Plugins using Guid(78ef011bcf1d1af43bfcec726c73508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1ea3a4adf28e92dd13a5e81d3668db') in 0.005970 seconds
-  Import took 0.011900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000653 seconds.
-  path: Assets/YTaxi/Plugins
-  artifactKey: Guid(78ef011bcf1d1af43bfcec726c73508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Plugins using Guid(78ef011bcf1d1af43bfcec726c73508b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1ea3a4adf28e92dd13a5e81d3668db') in 0.001431 seconds
-  Import took 0.006587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.531093 seconds.
-  path: Assets/YTaxi/Resources/Obstacles
-  artifactKey: Guid(3468225eb73d6364bbed8755b8796bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles using Guid(3468225eb73d6364bbed8755b8796bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464a08aa4e3679f79c031ba51f1c5ad9') in 0.005440 seconds
-  Import took 0.010940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089920 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/Blade.prefab
-  artifactKey: Guid(cf35bdd14237f134dbbe0f967ed39850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/Blade.prefab using Guid(cf35bdd14237f134dbbe0f967ed39850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c518fbdbdafc6eff93c92baa82b93d65') in 0.013371 seconds
-  Import took 0.018307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/SlideUp.prefab
-  artifactKey: Guid(c3de58d302d50f54d9be26c2b45b948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/SlideUp.prefab using Guid(c3de58d302d50f54d9be26c2b45b948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d97fceb1b834f1f82e2d1a07ff3b799') in 0.013114 seconds
-  Import took 0.021490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/Stairs.prefab
-  artifactKey: Guid(98430bf79f10a584fbb96e6838d86d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/Stairs.prefab using Guid(98430bf79f10a584fbb96e6838d86d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c6d5b644d81effe7e37a4909dfa02e') in 0.012754 seconds
-  Import took 0.018724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/Ice.physicMaterial
-  artifactKey: Guid(4a27e800ec1f3fe409e4b990de111876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/Ice.physicMaterial using Guid(4a27e800ec1f3fe409e4b990de111876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec8af2e43eb62a55f982edfb9e97110') in 0.003869 seconds
-  Import took 0.010009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/Sand.prefab
-  artifactKey: Guid(74d5741256b372b47834a8db8a36a582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/Sand.prefab using Guid(74d5741256b372b47834a8db8a36a582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da7edfe07b000129b681d0a45cf2bca') in 0.013929 seconds
-  Import took 0.021089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/SimpleRoad.prefab
-  artifactKey: Guid(be5e62c6d4ef6614488e83feccaea81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/SimpleRoad.prefab using Guid(be5e62c6d4ef6614488e83feccaea81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022b0826fcfd18c192d2a6b6b8639ba4') in 0.014236 seconds
-  Import took 0.020151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/RollingBarrel.prefab
-  artifactKey: Guid(2363c3bea8db5a4409b99cb58350179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/RollingBarrel.prefab using Guid(2363c3bea8db5a4409b99cb58350179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5f7d5bb58f983b11619e9b1bd700c4') in 0.011903 seconds
-  Import took 0.017157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/Block.prefab
-  artifactKey: Guid(8091fdf9fd6eb0f4b81867b681d19af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/Block.prefab using Guid(8091fdf9fd6eb0f4b81867b681d19af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5931e576f8f944f82c14913548ebac0d') in 0.024204 seconds
-  Import took 0.029996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/Waves.prefab
-  artifactKey: Guid(ae58d1f67dbb9544eb1779105fed644b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/Waves.prefab using Guid(ae58d1f67dbb9544eb1779105fed644b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fb0725e06a1bbcfc7a8e01c9c2d82d') in 0.013165 seconds
-  Import took 0.018896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/Water.prefab
-  artifactKey: Guid(8e61d001f7c57d6478f0fda0fee793c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/Water.prefab using Guid(8e61d001f7c57d6478f0fda0fee793c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d55794a2d3dc148334d505bf90908d') in 0.528565 seconds
-  Import took 0.534170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/FloatingBarrel.prefab
-  artifactKey: Guid(437c0d2cab60a8c4686e4c6e73a1bcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/FloatingBarrel.prefab using Guid(437c0d2cab60a8c4686e4c6e73a1bcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67e2db10b977ab680e5938d68e71c20') in 0.012043 seconds
-  Import took 0.017110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/YTaxi/Resources/Obstacles/Ice.prefab
-  artifactKey: Guid(1da487b27d0f55d40a72d00ba3bea7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Resources/Obstacles/Ice.prefab using Guid(1da487b27d0f55d40a72d00ba3bea7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157aa8e7cf93ee0b6fe11c373e3a6c47') in 0.015755 seconds
-  Import took 0.021603 seconds .
-
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3689.
+Total: 4.723600 ms (FindLiveObjects: 0.384700 ms CreateObjectMapping: 0.085000 ms MarkObjects: 2.823800 ms  DeleteObjects: 1.428100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004156 seconds.
+Registered in 0.007353 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.126 seconds
+- Completed reload, in  1.548 seconds
 Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.4 MB.
-System memory in use after: 139.6 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3761.
-Total: 3.403000 ms (FindLiveObjects: 0.323700 ms CreateObjectMapping: 0.174700 ms MarkObjects: 2.878400 ms  DeleteObjects: 0.024500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 365.379630 seconds.
-  path: Assets/YTaxi/Models/Materials/Back 1.mat
-  artifactKey: Guid(9092c225bdcf3284492c142316e84161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Back 1.mat using Guid(9092c225bdcf3284492c142316e84161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46f583a172f63e6b04adefa2c2bc5b1') in 0.166880 seconds
-  Import took 0.174469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.261520 seconds.
-  path: Assets/YTaxi/Models/Materials/Ground.mat
-  artifactKey: Guid(d2209bdc92f8bdb4dbd73ce0430ab237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Ground.mat using Guid(d2209bdc92f8bdb4dbd73ce0430ab237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8c704e07ae47594a5f6c4efdb75b6b') in 0.018997 seconds
-  Import took 0.024483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 223.443485 seconds.
-  path: Assets/YTaxi/Models/Materials/Ground.mat
-  artifactKey: Guid(d2209bdc92f8bdb4dbd73ce0430ab237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Ground.mat using Guid(d2209bdc92f8bdb4dbd73ce0430ab237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a67b784263a18c3bb79178302b5525f') in 0.025323 seconds
-  Import took 0.031331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.411181 seconds.
-  path: Assets/YTaxi/Models/Materials/border.mat
-  artifactKey: Guid(7cb3462973e03184784b62b8aae67b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/border.mat using Guid(7cb3462973e03184784b62b8aae67b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537635a45ab34defbb72ade17232a0f7') in 0.011950 seconds
-  Import took 0.017259 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003989 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
-Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.4 MB.
-System memory in use after: 139.6 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3800.
-Total: 3.469100 ms (FindLiveObjects: 0.611200 ms CreateObjectMapping: 0.273600 ms MarkObjects: 2.561800 ms  DeleteObjects: 0.021600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 296.010390 seconds.
-  path: Assets/YTaxi/Models/Background
-  artifactKey: Guid(3a5b73585e0400042b209393fbc5ca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background using Guid(3a5b73585e0400042b209393fbc5ca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e471055d7dee6d9fac0d26b897c5ceb') in 0.009878 seconds
-  Import took 0.015804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.460244 seconds.
-  path: Assets/YTaxi/Models/Background/Cylinder001.fbx
-  artifactKey: Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Cylinder001.fbx using Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bef553fa269039b54d79bcb218c0310') in 0.196153 seconds
-  Import took 0.201191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/YTaxi/Models/Background/salfetka001.fbx
-  artifactKey: Guid(bd558373facf83a4fac818ca3b64e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/salfetka001.fbx using Guid(bd558373facf83a4fac818ca3b64e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c045404d5172093477d05c962ac3a61') in 0.016251 seconds
-  Import took 0.021094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/YTaxi/Models/Background/KinoColored.fbx
-  artifactKey: Guid(4d83e23f0e6ade048af5e085dffc008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/KinoColored.fbx using Guid(4d83e23f0e6ade048af5e085dffc008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856a7c9c47ecf0d2111cec39cf945e8a') in 0.018315 seconds
-  Import took 0.023522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/YTaxi/Models/Background/Music.fbx
-  artifactKey: Guid(b9572daad3e350a41a7c9af55105c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Music.fbx using Guid(b9572daad3e350a41a7c9af55105c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfd781abdc0d3775da89c04d166ec7f') in 0.019704 seconds
-  Import took 0.025593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 285.822818 seconds.
-  path: Assets/YTaxi/Models/Background/Cylinder001.fbx
-  artifactKey: Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Cylinder001.fbx using Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541c43e4e9ff779f4f8a4849bc6ca333') in 0.031028 seconds
-  Import took 0.037341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.529094 seconds.
-  path: Assets/YTaxi/Models/Background/Cylinder001.fbx
-  artifactKey: Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Cylinder001.fbx using Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16afde8465b3671dfde253162aec1a85') in 0.016424 seconds
-  Import took 0.021187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001758 seconds.
-  path: Assets/YTaxi/Models/Background/Cylinder001.fbx
-  artifactKey: Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Cylinder001.fbx using Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16afde8465b3671dfde253162aec1a85') in 0.036119 seconds
-  Import took 0.042655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.539066 seconds.
-  path: Assets/YTaxi/Models/Background/Cylinder001.fbx
-  artifactKey: Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Cylinder001.fbx using Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fb70992981b42877c53b52ef5d4378') in 0.016001 seconds
-  Import took 0.021489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005535 seconds.
-  path: Assets/YTaxi/Models/Background/Cylinder001.fbx
-  artifactKey: Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Cylinder001.fbx using Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fb70992981b42877c53b52ef5d4378') in 0.033001 seconds
-  Import took 0.039559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.572107 seconds.
-  path: Assets/YTaxi/Models/Background/Cylinder001.fbx
-  artifactKey: Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Cylinder001.fbx using Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478e22e995e9e4093939cdc359acf024') in 0.014125 seconds
-  Import took 0.020622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003972 seconds.
-  path: Assets/YTaxi/Models/Background/Cylinder001.fbx
-  artifactKey: Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Cylinder001.fbx using Guid(32676965d1c05044b8c30f481f582eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478e22e995e9e4093939cdc359acf024') in 0.037857 seconds
-  Import took 0.043452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.752264 seconds.
-  path: Assets/YTaxi/Models/Background/KinoColored.fbx
-  artifactKey: Guid(4d83e23f0e6ade048af5e085dffc008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/KinoColored.fbx using Guid(4d83e23f0e6ade048af5e085dffc008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d01ac721c5416bcd50430e42a9c986') in 0.016373 seconds
-  Import took 0.021584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006927 seconds.
-  path: Assets/YTaxi/Models/Background/KinoColored.fbx
-  artifactKey: Guid(4d83e23f0e6ade048af5e085dffc008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/KinoColored.fbx using Guid(4d83e23f0e6ade048af5e085dffc008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d01ac721c5416bcd50430e42a9c986') in 0.033935 seconds
-  Import took 0.039919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.786724 seconds.
-  path: Assets/YTaxi/Models/Background/Music.fbx
-  artifactKey: Guid(b9572daad3e350a41a7c9af55105c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Music.fbx using Guid(b9572daad3e350a41a7c9af55105c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4881903a5edf5fd4808bf8d403c7a3') in 0.012466 seconds
-  Import took 0.017430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005908 seconds.
-  path: Assets/YTaxi/Models/Background/Music.fbx
-  artifactKey: Guid(b9572daad3e350a41a7c9af55105c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Music.fbx using Guid(b9572daad3e350a41a7c9af55105c4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4881903a5edf5fd4808bf8d403c7a3') in 0.029817 seconds
-  Import took 0.035406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.122358 seconds.
-  path: Assets/YTaxi/Models/Materials/Materials
-  artifactKey: Guid(900f32925ee3cef4dbc3978f2671f45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Materials using Guid(900f32925ee3cef4dbc3978f2671f45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f782f26b255f2c15c594dfe9ff65c2af') in 0.001530 seconds
-  Import took 0.007306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081063 seconds.
-  path: Assets/YTaxi/Models/Materials/Materials/DriftIo_Color (2).mat
-  artifactKey: Guid(348af11b3cba7be4ebf1bd2deb642e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Materials/DriftIo_Color (2).mat using Guid(348af11b3cba7be4ebf1bd2deb642e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491b330a9f69f35a945c76170660a78e') in 0.022820 seconds
-  Import took 0.027581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.855597 seconds.
-  path: Assets/YTaxi/Models/Materials/Background.mat
-  artifactKey: Guid(1e4e914b1565bcb4882c02a358dba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Background.mat using Guid(1e4e914b1565bcb4882c02a358dba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83df1b2278b8714e51e0d33c00159b80') in 0.023697 seconds
-  Import took 0.028977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/YTaxi/Models/Materials/Ground.mat
-  artifactKey: Guid(d2209bdc92f8bdb4dbd73ce0430ab237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Ground.mat using Guid(d2209bdc92f8bdb4dbd73ce0430ab237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ab23256d45807310defba8d217f5e3') in 0.017363 seconds
-  Import took 0.022816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/YTaxi/Models/Materials/border.mat
-  artifactKey: Guid(7cb3462973e03184784b62b8aae67b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/border.mat using Guid(7cb3462973e03184784b62b8aae67b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3f359f0531516070cec282ce5ed1f0') in 0.009301 seconds
-  Import took 0.014805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 252.706644 seconds.
-  path: Assets/YTaxi/Models/Materials/Background.mat
-  artifactKey: Guid(1e4e914b1565bcb4882c02a358dba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Background.mat using Guid(1e4e914b1565bcb4882c02a358dba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e5faf317a80af7a359391728d6d8e3') in 0.015119 seconds
-  Import took 0.020191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.366151 seconds.
-  path: Assets/YTaxi/Models/Materials/Block.mat
-  artifactKey: Guid(3079d0860e97adb4bbeab5224beb8b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Block.mat using Guid(3079d0860e97adb4bbeab5224beb8b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afda49ad08884bdfbd69d87d19c4219') in 0.024618 seconds
-  Import took 0.029813 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003796 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.090 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.5 MB.
-System memory in use after: 139.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3839.
-Total: 2.524200 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.139300 ms MarkObjects: 2.072000 ms  DeleteObjects: 0.023100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 203.536357 seconds.
-  path: Assets/YTaxi/Models/Background/salfetka001.fbx
-  artifactKey: Guid(bd558373facf83a4fac818ca3b64e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/salfetka001.fbx using Guid(bd558373facf83a4fac818ca3b64e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc15d71d911c249c199a9a743cb9eb32') in 0.187088 seconds
-  Import took 0.192243 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004126 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.363 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.7 MB.
-System memory in use after: 139.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3878.
-Total: 4.018400 ms (FindLiveObjects: 0.322300 ms CreateObjectMapping: 0.149500 ms MarkObjects: 3.518700 ms  DeleteObjects: 0.026800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 329.604657 seconds.
-  path: Assets/YTaxi/Models/Materials/Back 4.mat
-  artifactKey: Guid(6372375abc403f340a5f1e8a68edea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Back 4.mat using Guid(6372375abc403f340a5f1e8a68edea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed85c1aca7e76ed494f4fafd49a24cbc') in 0.170509 seconds
-  Import took 0.176520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/YTaxi/Models/Materials/Block.mat
-  artifactKey: Guid(3079d0860e97adb4bbeab5224beb8b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Block.mat using Guid(3079d0860e97adb4bbeab5224beb8b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c41e3239e1881c727bf9128f1fed5e') in 0.011090 seconds
-  Import took 0.016058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/YTaxi/Models/Materials/Background.mat
-  artifactKey: Guid(1e4e914b1565bcb4882c02a358dba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Background.mat using Guid(1e4e914b1565bcb4882c02a358dba8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b456b40841c236a0257e9a4efc6090fc') in 0.009766 seconds
-  Import took 0.015298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.375450 seconds.
-  path: Assets/YTaxi/Models/Materials/Ground 2.mat
-  artifactKey: Guid(15051f75443ebd843b548ba57b359f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Ground 2.mat using Guid(15051f75443ebd843b548ba57b359f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cb7331bd167710585cc63393f53f22') in 0.021566 seconds
-  Import took 0.027000 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003813 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 140.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3917.
-Total: 2.711400 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.140300 ms MarkObjects: 2.253200 ms  DeleteObjects: 0.018100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003724 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.072 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.9 MB.
-System memory in use after: 140.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3920.
-Total: 3.192100 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.149600 ms MarkObjects: 2.666200 ms  DeleteObjects: 0.027400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 645.686851 seconds.
-  path: Assets/YTaxi/Models/Background/ScribbleRider1.fbx
-  artifactKey: Guid(1bf26510eb2ab094ab7e5438ee504ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/ScribbleRider1.fbx using Guid(1bf26510eb2ab094ab7e5438ee504ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a86c9069b4cd3ea940170f8d085f89') in 0.226380 seconds
-  Import took 0.232470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/YTaxi/Models/Background/ScribbleRider2.fbx
-  artifactKey: Guid(f5530f68fb378d54dac2ce8b7c196cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/ScribbleRider2.fbx using Guid(f5530f68fb378d54dac2ce8b7c196cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a250f63cedbfe1855a58cede1f213c13') in 0.022421 seconds
-  Import took 0.027527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003577 seconds.
-  path: Assets/YTaxi/Models/Background/ScribbleRider2.fbx
-  artifactKey: Guid(f5530f68fb378d54dac2ce8b7c196cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/ScribbleRider2.fbx using Guid(f5530f68fb378d54dac2ce8b7c196cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a250f63cedbfe1855a58cede1f213c13') in 0.023053 seconds
-  Import took 0.028308 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004072 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.0 MB.
-System memory in use after: 140.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3959.
-Total: 3.298800 ms (FindLiveObjects: 0.294200 ms CreateObjectMapping: 0.131900 ms MarkObjects: 2.847800 ms  DeleteObjects: 0.023900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 271.971045 seconds.
-  path: Assets/YTaxi/Models/Materials/photo_2021-08-24_16-15-40 1.mat
-  artifactKey: Guid(05a75846c9ac0874d99528f25b1623d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/photo_2021-08-24_16-15-40 1.mat using Guid(05a75846c9ac0874d99528f25b1623d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce14def14640671a4574bbe1bc4fcc2') in 0.161654 seconds
-  Import took 0.166715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/YTaxi/Models/Materials/Ground 2.mat
-  artifactKey: Guid(15051f75443ebd843b548ba57b359f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Ground 2.mat using Guid(15051f75443ebd843b548ba57b359f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1741048a86cd7a681fdd36edd129f6') in 0.012507 seconds
-  Import took 0.017055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.157988 seconds.
-  path: Assets/YTaxi/Models/Materials/Background 2.mat
-  artifactKey: Guid(fff663dfd7000b645b1e0f8f7cce5b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Background 2.mat using Guid(fff663dfd7000b645b1e0f8f7cce5b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140727e8fa9799ef6829ec5e0b60bc76') in 0.010913 seconds
-  Import took 0.015832 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003856 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.095 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.2 MB.
-System memory in use after: 140.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3998.
-Total: 2.805900 ms (FindLiveObjects: 0.309700 ms CreateObjectMapping: 0.136200 ms MarkObjects: 2.340100 ms  DeleteObjects: 0.018900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004050 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.2 MB.
-System memory in use after: 140.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4001.
-Total: 2.697000 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.137600 ms MarkObjects: 2.233500 ms  DeleteObjects: 0.017900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003783 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.2 MB.
-System memory in use after: 140.4 MB.
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 134.6 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4004.
-Total: 2.998900 ms (FindLiveObjects: 0.372600 ms CreateObjectMapping: 0.170400 ms MarkObjects: 2.434600 ms  DeleteObjects: 0.020200 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3692.
+Total: 5.560800 ms (FindLiveObjects: 0.488600 ms CreateObjectMapping: 0.181000 ms MarkObjects: 3.231600 ms  DeleteObjects: 1.657500 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004487 seconds.
+Registered in 0.007620 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.095 seconds
+- Completed reload, in  1.612 seconds
 Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.2 MB.
-System memory in use after: 140.4 MB.
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 134.6 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4007.
-Total: 2.758700 ms (FindLiveObjects: 0.339100 ms CreateObjectMapping: 0.137300 ms MarkObjects: 2.262000 ms  DeleteObjects: 0.019200 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3695.
+Total: 5.112700 ms (FindLiveObjects: 0.399100 ms CreateObjectMapping: 0.106800 ms MarkObjects: 3.090600 ms  DeleteObjects: 1.511600 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008231 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.289 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3698.
+Total: 7.263800 ms (FindLiveObjects: 0.798400 ms CreateObjectMapping: 0.438200 ms MarkObjects: 4.062600 ms  DeleteObjects: 1.961900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 858.570589 seconds.
-  path: Assets/YTaxi/Models/Materials/Background 2.mat
-  artifactKey: Guid(fff663dfd7000b645b1e0f8f7cce5b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/Background 2.mat using Guid(fff663dfd7000b645b1e0f8f7cce5b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6524ded1ab4c7821abb1ecf552cd4917') in 0.172952 seconds
-  Import took 0.177582 seconds .
+  Time since last request: 1998.156293 seconds.
+  path: Assets/YTaxi/Scripts/Shop/WheelSkin.cs
+  artifactKey: Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YTaxi/Scripts/Shop/WheelSkin.cs using Guid(06ccaeb0e48ffa645b5e79445a7ac8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6aba4ef71a0778443e169348a85c8c7') in 0.009605 seconds
+  Import took 0.025994 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003940 seconds.
+Registered in 0.011916 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.099 seconds
+- Completed reload, in  3.561 seconds
 Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.3 MB.
-System memory in use after: 140.6 MB.
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 134.7 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4046.
-Total: 2.939700 ms (FindLiveObjects: 0.383300 ms CreateObjectMapping: 0.147900 ms MarkObjects: 2.387700 ms  DeleteObjects: 0.019100 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3701.
+Total: 7.009800 ms (FindLiveObjects: 0.513600 ms CreateObjectMapping: 0.151900 ms MarkObjects: 4.361100 ms  DeleteObjects: 1.980900 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 468.372932 seconds.
-  path: Assets/YTaxi/Models/Materials/border.mat
-  artifactKey: Guid(7cb3462973e03184784b62b8aae67b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Materials/border.mat using Guid(7cb3462973e03184784b62b8aae67b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488a95cb9a233b9ff4e43c9684edc67c') in 0.177415 seconds
-  Import took 0.183442 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004551 seconds.
+Registered in 0.006944 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
+- Completed reload, in  1.619 seconds
 Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.6 MB.
-System memory in use after: 140.8 MB.
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 134.7 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4085.
-Total: 2.854400 ms (FindLiveObjects: 0.310600 ms CreateObjectMapping: 0.134900 ms MarkObjects: 2.387800 ms  DeleteObjects: 0.020200 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3704.
+Total: 5.372600 ms (FindLiveObjects: 0.399900 ms CreateObjectMapping: 0.101700 ms MarkObjects: 3.296300 ms  DeleteObjects: 1.572300 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007494 seconds.
+Registered in 0.008288 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.099 seconds
+- Completed reload, in  1.794 seconds
 Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.6 MB.
-System memory in use after: 140.8 MB.
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 134.7 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4088.
-Total: 3.474500 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.144900 ms MarkObjects: 2.985800 ms  DeleteObjects: 0.021700 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3707.
+Total: 5.734800 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.086600 ms MarkObjects: 3.534200 ms  DeleteObjects: 1.730900 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
