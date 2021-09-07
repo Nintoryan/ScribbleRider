@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a8764b23055efb4a8511a9bc37d7b23, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  _wheelMaterials:
+  - {fileID: 2100000, guid: 043b435b2fc2f554c9bd04161cf48703, type: 2}
+  - {fileID: 2100000, guid: b8131d8718aa9414a89854eff3db1bd3, type: 2}
+  - {fileID: 2100000, guid: 088a86a8d9c550a4d81ce0e535b450ad, type: 2}
+  - {fileID: 2100000, guid: 088a86a8d9c550a4d81ce0e535b450ad, type: 2}
+  _carSkins:
+  - {fileID: 703884910368257005, guid: 0dec7b8ef4291974e9ee86b75a6f4261, type: 3}
+  - {fileID: 2296519691374453587, guid: 2d78a9828cb5fa745bcb6c8753fa765d, type: 3}
+  - {fileID: 1575069319289507535, guid: b022512f5d4885c47b4939e521a0190f, type: 3}
+  - {fileID: 1575069319289507535, guid: b022512f5d4885c47b4939e521a0190f, type: 3}

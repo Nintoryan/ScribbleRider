@@ -7,6 +7,8 @@ namespace YTaxi.Shop
     {
         [SerializeField] private CarSkin[] _carSkins;
         [SerializeField] private WheelSkin[] _wheelSkins;
+        [SerializeField] private CarView _carView;
+        
 
 #if UNITY_EDITOR
         private void OnValidate()
@@ -34,6 +36,7 @@ namespace YTaxi.Shop
             {
                 skin.Refresh();
             }
+            _carView.ApplyCar(selected.ID);
         }
         private void RefreshWheelSkins(Skin selected)
         {
@@ -41,6 +44,7 @@ namespace YTaxi.Shop
             {
                 skin.Refresh();
             }
+            _carView.ApplyWheel(selected.ID);
         }
 
     }
