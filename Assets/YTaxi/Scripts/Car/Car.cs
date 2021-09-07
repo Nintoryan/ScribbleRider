@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace YTaxi
 {
@@ -9,8 +10,11 @@ namespace YTaxi
         [SerializeField] private Rigidbody _model;
         [SerializeField] private float _wheelsSpeed;
         [SerializeField] private float _modelSpeed;
+        public event UnityAction OnFirstWheelSet;
+        public event UnityAction OnFinished;
+        private bool _finished;
         
-
+        public Wheel _currentWheel { get; private set; }
         public float WheelSpeed
         {
             get => _wheelsSpeed;
@@ -26,11 +30,8 @@ namespace YTaxi
         public Rigidbody Model => _model;
         public float BaseWheelSpeed { get; private set; }
         public float BaseModelSpeed { get; private set; }
-        public float NonlinearityСoeff { get; private set; }
 
-        public int AmountOfSharpAngles { get; private set; }
-
-        private List<GameObject> _currentWheels = new List<GameObject>();
+        private readonly List<GameObject> _currentWheels = new List<GameObject>();
 
         private void Start()
         {
@@ -51,14 +52,22 @@ namespace YTaxi
                 _model.velocity = Velocity * _modelSpeed;
         }
 
-        public void SetWheels(GameObject wheelExample, float Distance, float nonlinearityСoeff, int amountOfSharpAngles)
+        public void Finish()
         {
-            NonlinearityСoeff = nonlinearityСoeff;
-            AmountOfSharpAngles = amountOfSharpAngles;
-            IESetWheels(wheelExample, Distance);
+            if (!_finished)
+            {
+                _finished = true;
+                OnFinished?.Invoke();
+            }
         }
 
-        private void IESetWheels(GameObject wheelExample, float Distance)
+        public void SetWheels(Wheel _wheel)
+        {
+            _currentWheel = _wheel;
+            IESetWheels(_wheel);
+        }
+
+        private void IESetWheels(Wheel wheelExample)
         {
             foreach (var wheel in _currentWheels)
             {
@@ -74,7 +83,7 @@ namespace YTaxi
                     Destroy(_wheelPoints[i].GetChild(i).gameObject);
                 }
 
-                var wheel = Instantiate(wheelExample, transform);
+                var wheel = Instantiate(wheelExample.gameObject, transform);
                 wheel.transform.position = _wheelPoints[i].position;
                 wheel.transform.localScale *= 0.005f;
                 wheel.transform.SetParent(transform);
@@ -86,8 +95,12 @@ namespace YTaxi
                 _currentWheels.Add(wheel);
             }
 
-            Destroy(wheelExample);
-            _model.isKinematic = false;
+            Destroy(wheelExample.gameObject);
+            if (_model.isKinematic)
+            {
+                OnFirstWheelSet?.Invoke();
+                _model.isKinematic = false;
+            }
         }
     }
 

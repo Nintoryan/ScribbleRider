@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 namespace YTaxi
@@ -6,6 +7,7 @@ namespace YTaxi
     {
         [SerializeField] private Car _car;
         [SerializeField] private Spoiler _spoiler;
+        public Car Car => _car; 
         
         public float WheelSpeed
         {
@@ -24,8 +26,8 @@ namespace YTaxi
 
         public void ApplySlowEffect(float _speedReduceCoef)
         {
-            _car.WheelSpeed = Mathf.Lerp(_car.BaseWheelSpeed * _speedReduceCoef, 1, _car.NonlinearityСoeff / 100f);
-            _car.ModelSpeed = Mathf.Lerp(_car.BaseModelSpeed * _speedReduceCoef, 1, _car.NonlinearityСoeff / 100f);
+            _car.WheelSpeed = Mathf.Lerp(_car.BaseWheelSpeed * _speedReduceCoef, 1, _car._currentWheel._nonlinnearCoef / 100f);
+            _car.ModelSpeed = Mathf.Lerp(_car.BaseModelSpeed * _speedReduceCoef, 1, _car._currentWheel._nonlinnearCoef / 100f);
         }
         public void ResetSpeed()
         {
@@ -35,7 +37,7 @@ namespace YTaxi
 
         public void ApplyIceEffect()
         {
-            switch (_car.AmountOfSharpAngles)
+            switch (_car._currentWheel._amountOfSharpAngles)
             {
                 case 0:
                     _car.ModelSpeed = _car.BaseModelSpeed / 10f;

@@ -50,7 +50,12 @@ public class WheelMeshCreator : MonoBehaviour
         parent.layer = LayerMask.NameToLayer("Wheels");
         var rb = parent.AddComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Extrapolate;
-        _car.SetWheels(parent,Vector3.Distance(min,max), NonlinnearCoef,amountOfSharpAngles);
+        var Distance = Vector3.Distance(min, max);
+        
+        var wheel = parent.AddComponent<Wheel>();
+        wheel.Initialize(NonlinnearCoef,amountOfSharpAngles,Distance);
+        
+        _car.SetWheels(wheel);
     }
 
     private float GetNonlinnearCoef(List<Vector3> points)

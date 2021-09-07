@@ -14,7 +14,7 @@ public class Finish : MonoBehaviour
             carEffects.ModelSpeed *= 0;
             carEffects.WheelSpeed *= 0;
             StartCoroutine(Finished());
-
+            carEffects.Car.Finish();
         }
     }
 
