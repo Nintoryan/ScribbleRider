@@ -1,12 +1,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using YTaxi;
+using YTaxi.Shop;
 
 public class WheelMeshCreator : MonoBehaviour
 {
-    [SerializeField] private GameObject Cube;
+    [SerializeField] private WheelPart wheelPart;
     [SerializeField] private Car _car;
+    [SerializeField] private CarView _carView;
+    
 
+    private void Start()
+    {
+        wheelPart = Instantiate(wheelPart);
+        wheelPart.transform.SetParent(null);
+        wheelPart.SetMaterial(_carView.GetCurrentMaterial());
+    }
 
     public void CreateWheel(List<Vector3> points)
     {
@@ -15,7 +24,7 @@ public class WheelMeshCreator : MonoBehaviour
         var amountOfSharpAngles = GetKikiCoef(points);
         var parent = new GameObject();
         var Center = Vector3.zero;
-        var Cubes = new List<GameObject>();
+        var wheelParts = new List<WheelPart>();
         var currentPoint = points[0];
         points.Remove(points[0]);
         var min = new Vector3(10000,10000,0);
@@ -31,19 +40,27 @@ public class WheelMeshCreator : MonoBehaviour
             {
                 min = point;
             }
-            var newCube = Instantiate(Cube);
-            newCube.transform.position = (currentPoint + point) / 2f;
-            newCube.transform.localScale= new Vector3(newCube.transform.localScale.x,
-                newCube.transform.localScale.y,
-                Vector3.Distance(currentPoint,point));
-            newCube.transform.LookAt(point);
-            Cubes.Add(newCube);
-            Center += newCube.transform.position;
+            var newPart = Instantiate(wheelPart);
+
+            var transform1 = newPart.transform;
+            
+            transform1.position = (currentPoint + point) / 2f;
+            
+            var localScale = transform1.localScale;
+            
+            localScale = new Vector3(localScale.x, localScale.y,Vector3.Distance(currentPoint,point));
+            
+            newPart.transform.localScale = localScale;
+            
+            newPart.transform.LookAt(point);
+
+            wheelParts.Add(newPart);
+
+            Center += newPart.transform.position;
             currentPoint = point;
         }
-
-        parent.transform.position = Center/Cubes.Count;
-        foreach (var cube in Cubes)
+        parent.transform.position = Center/wheelParts.Count;
+        foreach (var cube in wheelParts)
         {
             cube.transform.SetParent(parent.transform);
         }
@@ -53,11 +70,11 @@ public class WheelMeshCreator : MonoBehaviour
         var Distance = Vector3.Distance(min, max);
         
         var wheel = parent.AddComponent<Wheel>();
-        wheel.Initialize(NonlinnearCoef,amountOfSharpAngles,Distance);
         
+        wheel.Initialize(NonlinnearCoef,amountOfSharpAngles,Distance);
+
         _car.SetWheels(wheel);
     }
-
     private float GetNonlinnearCoef(List<Vector3> points)
     {
         float _sumDistance = 0;

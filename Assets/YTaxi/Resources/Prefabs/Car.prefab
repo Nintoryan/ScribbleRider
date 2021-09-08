@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 2841133623985587763}
   - component: {fileID: 2841133623985587764}
   - component: {fileID: 6039238153964598898}
+  - component: {fileID: 7444920242111708879}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -191,6 +192,21 @@ MonoBehaviour:
   _spoilerForce: 20000
   _nonEnableReductionCoef: 0.3
   Enable: 0
+--- !u!114 &7444920242111708879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2841133623985587762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 505c1e5e864119947b12f01973353939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data: {fileID: 11400000, guid: 14d7217994e41a140a6b2c6bd96e410c, type: 2}
+  _wheelParts: []
+  _currentModel: {fileID: 3147121324090535041}
 --- !u!1 &2841133624088891129
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,8 +507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff64cf09d355af45b3bba34f7089437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cube: {fileID: 7426819441587674707, guid: 06ca80a29b1235544a6e92a49f4c9e3b, type: 3}
+  wheelPart: {fileID: 0}
   _car: {fileID: 2841133623985587764}
+  _carView: {fileID: 0}
 --- !u!1001 &2841133624226746832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -569,5 +586,10 @@ PrefabInstance:
 --- !u!4 &2370866507976111675 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ef61be062385aa649bdbd06c5a4da625, type: 3}
+  m_PrefabInstance: {fileID: 2841133624226746832}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3147121324090535041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ef61be062385aa649bdbd06c5a4da625, type: 3}
   m_PrefabInstance: {fileID: 2841133624226746832}
   m_PrefabAsset: {fileID: 0}

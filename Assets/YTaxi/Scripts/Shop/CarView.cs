@@ -1,5 +1,6 @@
 using UnityEngine;
 using YTaxi.Customization;
+using YTaxi.Data;
 
 namespace YTaxi.Shop
 {
@@ -8,6 +9,16 @@ namespace YTaxi.Shop
         [SerializeField] private SkinData _data;
         [SerializeField] private MeshRenderer[] _wheelParts;
         [SerializeField] private GameObject _currentModel;
+
+        public Material GetCurrentMaterial()
+        {
+            return _data.GetWheelMaterial(PlayerData.SelectedWheels);
+        }
+        
+        private void Start()
+        {
+            ApplyCar(PlayerData.SelectedCar);
+        }
 
         public void ApplyWheel(int id)
         {

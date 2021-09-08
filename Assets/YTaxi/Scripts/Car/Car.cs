@@ -76,22 +76,17 @@ namespace YTaxi
 
             _currentWheels.Clear();
             
-            for (int i = 0; i < _wheelPoints.Count; i++)
+            foreach (var t in _wheelPoints)
             {
-                for (int j = 0; j < _wheelPoints[i].childCount; j++)
-                {
-                    Destroy(_wheelPoints[i].GetChild(i).gameObject);
-                }
-
                 var wheel = Instantiate(wheelExample.gameObject, transform);
-                wheel.transform.position = _wheelPoints[i].position;
+                wheel.transform.position = t.position;
                 wheel.transform.localScale *= 0.005f;
                 wheel.transform.SetParent(transform);
                 var joint = wheel.AddComponent<HingeJoint>();
+                joint.anchor = Vector3.zero;
                 joint.connectedBody = _model;
                 joint.axis = new Vector3(0, 0, -1);
                 joint.connectedMassScale = 1000f;
-
                 _currentWheels.Add(wheel);
             }
 
