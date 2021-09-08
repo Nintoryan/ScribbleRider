@@ -44,7 +44,7 @@ namespace HerbariumGames.Tool
 
     public class PlayerPrefsUtils
     {
-        [MenuItem("HerbariumGames/Clear PlayerPrefs %D")]
+        [MenuItem("HerbariumGames/Clear PlayerPrefs %&D")]
         private static void NewMenuOption()
         {
             PlayerPrefs.DeleteAll();
