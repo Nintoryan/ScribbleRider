@@ -15,11 +15,11 @@ E:/doodlebro/YandexProject/Build/YTaxi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58280
+62249
 Successfully changed project path to: E:/doodlebro/YandexProject/Build/YTaxi
 E:/doodlebro/YandexProject/Build/YTaxi
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,140 +36,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002160 seconds.
+Registered in 0.002454 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
+- Completed reload, in  1.163 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004471 seconds.
+Registered in 0.003884 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.275 seconds
+- Completed reload, in  1.297 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.8 MB.
-System memory in use after: 145.0 MB.
+System memory in use before: 145.1 MB.
+System memory in use after: 145.3 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3716.
-Total: 2.653200 ms (FindLiveObjects: 0.384700 ms CreateObjectMapping: 0.184400 ms MarkObjects: 2.013100 ms  DeleteObjects: 0.069800 ms)
+Total: 2.573800 ms (FindLiveObjects: 0.271100 ms CreateObjectMapping: 0.141300 ms MarkObjects: 2.057000 ms  DeleteObjects: 0.103300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/YTaxi/Models/Background/ScribbleRider2.fbx
-  artifactKey: Guid(f1102d17b8fd7fe40a233f78ffee82ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/ScribbleRider2.fbx using Guid(f1102d17b8fd7fe40a233f78ffee82ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f8098e56a4b36159906254edc53873') in 0.307373 seconds
-  Import took 0.311943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 297.751170 seconds.
-  path: Assets/YTaxi/Models/Background/Props
-  artifactKey: Guid(7458c2d50da74fc40a30c20de02cbb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props using Guid(7458c2d50da74fc40a30c20de02cbb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c103f28d3b6ac2122066af8badff5dd7') in 0.007931 seconds
-  Import took 0.018933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.449360 seconds.
-  path: Assets/YTaxi/Models/Background/Props/BackroundStuff.rar
-  artifactKey: Guid(1535fc3f1b108914aa1f8535d6dee169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/BackroundStuff.rar using Guid(1535fc3f1b108914aa1f8535d6dee169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97f3923b62f2a64ba81a3a86b1312cc') in 0.009967 seconds
-  Import took 0.014855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.363712 seconds.
-  path: Assets/YTaxi/Models/Background/Props/Billboard.fbx
-  artifactKey: Guid(06e78effadf856b4689dab6310c5cd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/Billboard.fbx using Guid(06e78effadf856b4689dab6310c5cd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506a1ac3df87cd7fc1b1c10124ad2d5c') in 0.055712 seconds
-  Import took 0.063213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/YTaxi/Models/Background/Props/lamp.fbx
-  artifactKey: Guid(20251d107381d274b947b812f0417e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/lamp.fbx using Guid(20251d107381d274b947b812f0417e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978355fafa5b6286a03bc829173aa660') in 0.052515 seconds
-  Import took 0.059022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/YTaxi/Models/Background/Props/colodets.fbx
-  artifactKey: Guid(d7ca1e03344162a4d90229dcbfafd3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/colodets.fbx using Guid(d7ca1e03344162a4d90229dcbfafd3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585eabe016f4235fffb9791f1e09f1f1') in 0.033070 seconds
-  Import took 0.038038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/YTaxi/Models/Background/Props/stolbik.fbx
-  artifactKey: Guid(405ef02a4ae70d048a7b615ec430fba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/stolbik.fbx using Guid(405ef02a4ae70d048a7b615ec430fba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d48eb54e8c1b4d255e3584e0507007') in 0.031386 seconds
-  Import took 0.036188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/YTaxi/Models/Background/Props/bordur.fbx
-  artifactKey: Guid(0599cf58f5a1d5046935242f1a41174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/bordur.fbx using Guid(0599cf58f5a1d5046935242f1a41174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7eb935b70df6d98239f3f3d1bdf004') in 0.017207 seconds
-  Import took 0.022338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/YTaxi/Models/Background/Props/lavka.fbx
-  artifactKey: Guid(0bb8476a6805dc74483d73356479e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/lavka.fbx using Guid(0bb8476a6805dc74483d73356479e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bfa0e62c257b00beb8531761ba6252') in 0.028268 seconds
-  Import took 0.033498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/YTaxi/Models/Background/Props/bordur.fbx
-  artifactKey: Guid(0599cf58f5a1d5046935242f1a41174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/bordur.fbx using Guid(0599cf58f5a1d5046935242f1a41174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7eb935b70df6d98239f3f3d1bdf004') in 0.017857 seconds
-  Import took 0.023376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/YTaxi/Models/Background/Props/Bordur2.fbx
-  artifactKey: Guid(2efaa929220d8f54cb11d6517d8cb1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/Bordur2.fbx using Guid(2efaa929220d8f54cb11d6517d8cb1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053a563ef0f70d7ffdee7e7750c7a0de') in 0.019228 seconds
-  Import took 0.024737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/YTaxi/Models/Background/Props/plate.fbx
-  artifactKey: Guid(194b8abf53875e446b62ba9ca4967f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/plate.fbx using Guid(194b8abf53875e446b62ba9ca4967f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9420eb1e01c4681089d46ba514a184') in 0.016642 seconds
-  Import took 0.021652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005290 seconds.
-  path: Assets/YTaxi/Models/Background/Props/plate.fbx
-  artifactKey: Guid(194b8abf53875e446b62ba9ca4967f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Models/Background/Props/plate.fbx using Guid(194b8abf53875e446b62ba9ca4967f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9420eb1e01c4681089d46ba514a184') in 0.024432 seconds
-  Import took 0.030614 seconds .
+  path: Assets/YTaxi/Models/Background/box (2).fbx
+  artifactKey: Guid(16cbf8378d34c7346a68ab530b78ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YTaxi/Models/Background/box (2).fbx using Guid(16cbf8378d34c7346a68ab530b78ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d638f6569d8e48c2db95937a73bb4f') in 0.354765 seconds
+  Import took 0.359666 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
