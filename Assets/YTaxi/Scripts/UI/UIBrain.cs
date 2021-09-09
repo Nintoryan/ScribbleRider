@@ -13,11 +13,16 @@ public class UIBrain : MonoBehaviour
     [SerializeField] private GameObject _endGameCanvas;
     [SerializeField] private GameObject _drawingCanvas;
     [SerializeField] private GameObject _gamePlayCanvas;
+    [SerializeField] private GameObject _menuCanvas;
     
 
     private void Start()
     {
         _progress.Initialize(_car.Model.transform.position.x,_finish.transform.position.x);
+        _car.OnFirstWheelSet += () =>
+        {
+            _menuCanvas.SetActive(false);
+        };
         _finish.OnFinished += OpenEndGameCanvas;
     }
 #if UNITY_EDITOR
@@ -41,6 +46,11 @@ public class UIBrain : MonoBehaviour
         _gamePlayCanvas.SetActive(false);
         _drawingCanvas.SetActive(false);
         _endGameCanvas.SetActive(true);
+    }
+
+    public void OpenShop()
+    {
+        SceneManager.LoadScene("YTaxi/Scenes/Shop");
     }
     
     private void Update()

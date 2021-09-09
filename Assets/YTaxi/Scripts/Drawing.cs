@@ -23,7 +23,7 @@ namespace YTaxi.Drawing
         private void Start()
         {
             newPointDistance = 20f / (900f / Screen.width);
-            _uiLineRenderer.lineThickness = defaultLineThickness / (900f / Screen.width);
+            _uiLineRenderer.LineThickness = defaultLineThickness / (900f / Screen.width);
             CheckingRect = _field.rect;
             CheckingRect.center = new Vector2(Screen.width * 0.5f, Screen.height * _field.anchorMax.y *0.5f);
 
