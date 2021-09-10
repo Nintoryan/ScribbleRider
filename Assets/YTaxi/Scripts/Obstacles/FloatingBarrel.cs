@@ -14,8 +14,8 @@ public class FloatingBarrel : MonoBehaviour
         transform.position = new Vector3(position.x,downpoint,position.z);
         
         var s = DOTween.Sequence();
-        s.Append(transform.DOMoveY(uppoint, 1f).SetEase(Ease.Linear));
-        s.Append(transform.DOMoveY(downpoint, 1f).SetEase(Ease.Linear));
+        s.Append(transform.DOMoveY(uppoint, Random.Range(0.95f,1.05f)).SetEase(Ease.Linear));
+        s.Append(transform.DOMoveY(downpoint, Random.Range(0.95f,1.05f)).SetEase(Ease.Linear));
         s.SetLoops(-1);
     }
 }

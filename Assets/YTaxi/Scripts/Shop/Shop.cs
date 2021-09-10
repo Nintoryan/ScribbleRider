@@ -1,5 +1,7 @@
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using YTaxi.Data;
 
 namespace YTaxi.Shop
 {
@@ -28,6 +30,11 @@ namespace YTaxi.Shop
             {
                 wheelSkin.Selected += RefreshWheelSkins;
             }
+        }
+
+        public void CloseShop()
+        {
+            SceneManager.LoadScene($"YTaxi/Scenes/Level{PlayerData.LevelNumber}");
         }
 
         private void RefreshCarSkins(Skin selected)

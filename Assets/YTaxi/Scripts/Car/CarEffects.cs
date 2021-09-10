@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 
 namespace YTaxi
@@ -7,6 +6,9 @@ namespace YTaxi
     {
         [SerializeField] private Car _car;
         [SerializeField] private Spoiler _spoiler;
+        
+        
+
         public Car Car => _car; 
         
         public float WheelSpeed
@@ -61,15 +63,21 @@ namespace YTaxi
             _car.Model.AddForce(_force*_car.Model.mass);
         }
 
-        public void EnableSpoiler()
+        public void FullPowerSpoiler()
         {
-            _spoiler.Enable = true;
+            _spoiler.FullPower();
+        }
+
+        public void ResetSpoiler()
+        {
+            _spoiler.Reset();
         }
 
         public void DisableSpoiler()
         {
-            _spoiler.Enable = false;
+            _spoiler.Disable();
         }
+        
     }
 }
 

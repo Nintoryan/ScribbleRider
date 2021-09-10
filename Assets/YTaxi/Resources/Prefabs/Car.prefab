@@ -190,8 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _car: {fileID: 2841133623985587764}
   _spoilerForce: 20000
-  _nonEnableReductionCoef: 0.3
-  Enable: 0
+  _baseReductionCoef: 0.3
 --- !u!114 &7444920242111708879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,8 +257,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.453493, z: 3.521676}
-  m_Center: {x: 7.1261475e-16, y: 0.2999869, z: 0.6002917}
+  m_Size: {x: 1, y: 0.40165997, z: 3.3779764}
+  m_Center: {x: 2.964573e-17, y: 0.41774035, z: 0.25417233}
 --- !u!54 &2841133624088891130
 Rigidbody:
   m_ObjectHideFlags: 0

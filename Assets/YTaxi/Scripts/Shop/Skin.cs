@@ -8,6 +8,12 @@ namespace YTaxi.Shop
     public class Skin : MonoBehaviour
     {
         [SerializeField] private Text _text;
+        [SerializeField] private Image _image;
+        [SerializeField] private Sprite _selected;
+        [SerializeField] private Sprite _select;
+        [SerializeField] private Sprite _locked;
+        [SerializeField] private Button _button;
+
         [SerializeField] protected int _id;
         [SerializeField] private int _cost;
         private State _state;
@@ -34,12 +40,18 @@ namespace YTaxi.Shop
             {
                 case State.Locked:
                     _text.text = $"{_cost} уровень";
+                    _image.sprite = _locked;
+                    _button.interactable = false;
                     break;
                 case State.Opened:
                     _text.text = "";
+                    _image.sprite = _select;
+                    _button.interactable = true;
                     break;
                 case State.Selected:
                     _text.text = "Выбрано";
+                    _image.sprite = _selected;
+                    _button.interactable = true;
                     break;
             }
         }

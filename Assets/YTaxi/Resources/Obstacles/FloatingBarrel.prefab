@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6064166979343931264}
   - component: {fileID: 6064166979343931267}
+  - component: {fileID: 3719836951335192245}
   m_Layer: 0
   m_Name: FloatingBarrel
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 6064166979343931278}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 82.89, y: 8.48, z: -5.337747}
-  m_LocalScale: {x: 2, y: 3.3357794, z: 2}
+  m_LocalScale: {x: 4, y: 4.19074, z: 4}
   m_Children:
   - {fileID: 263051016294329995}
   m_Father: {fileID: 0}
@@ -46,6 +47,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &3719836951335192245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6064166979343931278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ca169b8f546f6428e4a9cf70b4c151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _amplitude: 0.15
 --- !u!1001 &300671333287201120
 PrefabInstance:
   m_ObjectHideFlags: 0

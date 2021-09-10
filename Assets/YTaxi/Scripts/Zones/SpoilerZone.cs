@@ -4,11 +4,11 @@ public class SpoilerZone : Zone
 {
     public override void AppyEffect(CarEffects _carEffects)
     {
-        _carEffects.EnableSpoiler();
+        _carEffects.FullPowerSpoiler();
     }
 
     public override void DisposeEffect(CarEffects _carEffects)
     {
-        _carEffects.DisableSpoiler();
+        _carEffects.ResetSpoiler();
     }
 }
