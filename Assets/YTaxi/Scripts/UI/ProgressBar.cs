@@ -4,7 +4,9 @@ using YTaxi.Data;
 
 public class ProgressBar : MonoBehaviour
 {
-    [SerializeField] private Image _progressScaler;
+    [SerializeField] private Image _progressfill;
+    [SerializeField] private RectTransform _progressScale;
+    
     [SerializeField] private Text _levelNumber;
     
 
@@ -28,6 +30,7 @@ public class ProgressBar : MonoBehaviour
     
     private void SetValue(float value)
     {
-        _progressScaler.fillAmount = value;
+        _progressfill.fillAmount = Mathf.Clamp(value,0,1);
+        _progressScale.localScale = new Vector3(Mathf.Clamp(value,0,1),1,1);
     }
 }

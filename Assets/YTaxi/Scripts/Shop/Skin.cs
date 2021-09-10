@@ -16,6 +16,7 @@ namespace YTaxi.Shop
 
         [SerializeField] protected int _id;
         [SerializeField] private int _cost;
+        public bool isAvailiable => _cost <= PlayerData.LevelNumber;
         private State _state;
         public int ID => _id;
         public event UnityAction<Skin> Selected;

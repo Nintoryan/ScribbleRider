@@ -54,7 +54,6 @@ namespace YTaxi.CustomUserInput
         {
             _currentPoint = eventData.position;
             Delta = eventData.delta;
-            Debug.Log(eventData.pointerCurrentRaycast);
             _dragged?.Invoke();
         }
  

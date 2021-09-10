@@ -1,20 +1,36 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class Tabs : MonoBehaviour
+namespace YTaxi.Shop
 {
-    [SerializeField] private RectTransform _container;
-    [SerializeField] private float _step;
-    
-    private float _zeroPosition;
-
-    private void Start()
+    public class Tabs : MonoBehaviour
     {
-        _zeroPosition = _container.anchoredPosition.x;
-    }
+        [SerializeField] private RectTransform _container;
+        [SerializeField] private float _step;
+        [SerializeField] private Tab[] _tabses;
+        
+        
+        private float _zeroPosition;
 
-    public void OpenTab(int number)
-    {
-        _container.DOAnchorPosX(_zeroPosition + number*_step,0.5f);
+        private void Start()
+        {
+            _zeroPosition = _container.anchoredPosition.x;
+            for (int i = 0; i < _tabses.Length; i++)
+            {
+                for (int j = 0; j < _tabses.Length; j++)
+                {
+                    if(i == j) continue;
+                    _tabses[i].OnSelected += _tabses[j].Deselect;
+                }
+            }
+            
+        }
+
+        public void OpenTab(int number)
+        {
+            _container.DOAnchorPosX(_zeroPosition + number*_step,0.5f);
+        
+        }
     }
 }
+

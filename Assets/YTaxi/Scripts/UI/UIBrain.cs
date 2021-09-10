@@ -64,7 +64,6 @@ public class UIBrain : MonoBehaviour
     
     private void OpenWinCanvas()
     {
-        _gamePlayCanvas.SetActive(false);
         _drawingCanvas.SetActive(false);
         _winCanvas.SetActive(true);
     }
@@ -78,6 +77,7 @@ public class UIBrain : MonoBehaviour
 
     public void OpenShop()
     {
+        SkinNotification.NewSkins = 0;
         SceneManager.LoadScene("YTaxi/Scenes/Shop");
     }
     
@@ -89,6 +89,7 @@ public class UIBrain : MonoBehaviour
     public void NextLevel()
     {
         PlayerData.LevelNumber++;
+        SkinNotification.NewSkins++;
         SceneManager.LoadScene($"YTaxi/Scenes/Level{PlayerData.LevelNumber%7}");
     }
 

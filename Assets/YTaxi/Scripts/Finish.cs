@@ -23,7 +23,7 @@ public class Finish : MonoBehaviour
 
     private IEnumerator Finished(Car _car)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         OnFinished?.Invoke(_car);
     }
 }
