@@ -1,11 +1,15 @@
 using UnityEngine;
 
-public class WheelPart : MonoBehaviour
+namespace YTaxi.Wheels
 {
-    [SerializeField] private MeshRenderer _meshRenderer;
-
-    public void SetMaterial(Material material)
+    public class WheelPart : MonoBehaviour
     {
-        _meshRenderer.material = material;
+        [SerializeField] private MeshRenderer _meshRenderer;
+
+        public void SetMaterial(Material material)
+        {
+            _meshRenderer.material = material;
+        }
     }
+
 }

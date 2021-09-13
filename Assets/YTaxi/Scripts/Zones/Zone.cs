@@ -1,25 +1,27 @@
 using UnityEngine;
-using YTaxi;
 
-public abstract class Zone : MonoBehaviour, IZone
+namespace YTaxi.Zones
 {
-    public void OnTriggerStay(Collider other)
+    public abstract class Zone : MonoBehaviour, IZone
     {
-        var carEffects = other.GetComponentInParent<CarEffects>();
-        if (carEffects == null) { }
-        else
+        public void OnTriggerStay(Collider other)
         {
-            AppyEffect(carEffects);
+            var carEffects = other.GetComponentInParent<CarEffects>();
+            if (carEffects == null) { }
+            else
+            {
+                AppyEffect(carEffects);
+            }
+            
         }
+        public void OnTriggerExit(Collider other)
+        {
+            var carEffects = other.GetComponentInParent<CarEffects>();
+            if (carEffects == null) return;
+            DisposeEffect(carEffects);
+        }
+        public virtual void AppyEffect(CarEffects _carEffects) {}
         
+        public virtual void DisposeEffect(CarEffects _carEffects) {}
     }
-    public void OnTriggerExit(Collider other)
-    {
-        var carEffects = other.GetComponentInParent<CarEffects>();
-        if (carEffects == null) return;
-        DisposeEffect(carEffects);
-    }
-    public virtual void AppyEffect(CarEffects _carEffects) {}
-    
-    public virtual void DisposeEffect(CarEffects _carEffects) {}
 }

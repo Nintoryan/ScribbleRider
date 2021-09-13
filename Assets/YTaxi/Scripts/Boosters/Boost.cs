@@ -1,28 +1,31 @@
 using System.Collections;
 using UnityEngine;
-using YTaxi;
 
-public class Boost : MonoBehaviour
+namespace YTaxi.Boosters
 {
-    [SerializeField] private float _multibliedBy;
-    [SerializeField] private float _duration;
-    [SerializeField] private GameObject _graphics;
-
-    private void OnTriggerEnter(Collider other)
+    public class Boost : MonoBehaviour
     {
-        var carEffects = other.GetComponentInParent<CarEffects>();
-        if (carEffects != null && _graphics.activeInHierarchy)
+        [SerializeField] private float _multibliedBy;
+        [SerializeField] private float _duration;
+        [SerializeField] private GameObject _graphics;
+
+        private void OnTriggerEnter(Collider other)
         {
-            carEffects.ModelSpeed *= _multibliedBy;
-            carEffects.WheelSpeed *= _multibliedBy;
-            StartCoroutine(EndBoostEffect(carEffects, _duration));
-            _graphics.SetActive(false);
+            var carEffects = other.GetComponentInParent<CarEffects>();
+            if (carEffects != null && _graphics.activeInHierarchy)
+            {
+                carEffects.ModelSpeed *= _multibliedBy;
+                carEffects.WheelSpeed *= _multibliedBy;
+                StartCoroutine(EndBoostEffect(carEffects, _duration));
+                _graphics.SetActive(false);
+            }
+        }
+
+        private IEnumerator EndBoostEffect(CarEffects _carEffects,float duration)
+        {
+            yield return new WaitForSecondsRealtime(duration);
+            _carEffects.ResetSpeed();
         }
     }
-
-    private IEnumerator EndBoostEffect(CarEffects _carEffects,float duration)
-    {
-        yield return new WaitForSecondsRealtime(duration);
-        _carEffects.ResetSpeed();
-    }
 }
+

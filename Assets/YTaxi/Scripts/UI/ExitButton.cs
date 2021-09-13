@@ -1,9 +1,14 @@
 using UnityEngine;
 
-public class ExitButton : MonoBehaviour
+namespace YTaxi.UI
 {
-    public void Exit()
+    public class ExitButton : MonoBehaviour
     {
-        
+        public void Exit()
+        {
+            
+        }
     }
+
 }
+

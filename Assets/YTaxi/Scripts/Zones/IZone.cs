@@ -1,10 +1,14 @@
 using UnityEngine;
 using YTaxi;
 
-public interface IZone
+namespace YTaxi.Zones
 {
-    void OnTriggerStay(Collider other);
-    void OnTriggerExit(Collider other);
-    void AppyEffect(CarEffects _carEffects);
-    void DisposeEffect(CarEffects _carEffects);
+    public interface IZone
+    {
+        void OnTriggerStay(Collider other);
+        void OnTriggerExit(Collider other);
+        void AppyEffect(CarEffects _carEffects);
+        void DisposeEffect(CarEffects _carEffects);
+    }
+
 }

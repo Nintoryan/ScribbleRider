@@ -1,29 +1,32 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
-using YTaxi;
 
-public class Finish : MonoBehaviour
+namespace YTaxi.Zones
 {
-    /// <summary>
-    /// Invokes on any car reach the finish 
-    /// </summary>
-    public event UnityAction<Car> OnFinished;
-    private void OnTriggerEnter(Collider other)
+    public class Finish : MonoBehaviour
     {
-        var carEffects = other.GetComponentInParent<CarEffects>();
-        if (carEffects != null)
+        /// <summary>
+        /// Invokes on any car reach the finish 
+        /// </summary>
+        public event UnityAction<Car> OnFinished;
+        private void OnTriggerEnter(Collider other)
         {
-            carEffects.ModelSpeed *= 0;
-            carEffects.WheelSpeed *= 0;
-            StartCoroutine(Finished(carEffects.Car));
-            carEffects.Car.Finish();
+            var carEffects = other.GetComponentInParent<CarEffects>();
+            if (carEffects != null)
+            {
+                carEffects.ModelSpeed *= 0;
+                carEffects.WheelSpeed *= 0;
+                StartCoroutine(Finished(carEffects.Car));
+                carEffects.Car.Finish();
+            }
+        }
+    
+        private IEnumerator Finished(Car _car)
+        {
+            yield return new WaitForSeconds(0.5f);
+            OnFinished?.Invoke(_car);
         }
     }
-
-    private IEnumerator Finished(Car _car)
-    {
-        yield return new WaitForSeconds(0.5f);
-        OnFinished?.Invoke(_car);
-    }
 }
+

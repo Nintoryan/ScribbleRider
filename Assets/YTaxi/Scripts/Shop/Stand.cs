@@ -1,11 +1,15 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class Stand : MonoBehaviour
+namespace YTaxi.Shop
 {
-    [SerializeField] private Transform _stand;
-    private void Start()
+    public class Stand : MonoBehaviour
     {
-        _stand.DOLocalRotate(new Vector3(0,360,0), 10f,RotateMode.FastBeyond360).SetLoops(-1).SetEase(Ease.Linear);
+        [SerializeField] private Transform _stand;
+        private void Start()
+        {
+            _stand.DOLocalRotate(new Vector3(0,360,0), 10f,RotateMode.FastBeyond360).SetLoops(-1).SetEase(Ease.Linear);
+        }
     }
 }
+

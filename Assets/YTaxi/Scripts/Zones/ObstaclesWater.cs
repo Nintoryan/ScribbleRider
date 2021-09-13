@@ -1,13 +1,18 @@
 using UnityEngine;
 
-public class ObstaclesWater : MonoBehaviour
+namespace YTaxi.Zones
 {
-    private void OnTriggerStay(Collider other)
+    public class ObstaclesWater : MonoBehaviour
     {
-        var fo = other.GetComponent<FloatingObject>();
-        if (fo != null)
+        private void OnTriggerStay(Collider other)
         {
-            fo.rb.AddForce(-Physics.gravity * fo.rb.mass*1.01f);
+            var fo = other.GetComponent<FloatingObject>();
+            if (fo != null)
+            {
+                fo.rb.AddForce(-Physics.gravity * fo.rb.mass*1.01f);
+            }
         }
     }
+
 }
+

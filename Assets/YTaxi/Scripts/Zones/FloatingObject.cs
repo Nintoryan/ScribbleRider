@@ -1,6 +1,10 @@
 using UnityEngine;
 
-public class FloatingObject : MonoBehaviour
+namespace YTaxi.Zones
 {
-    public Rigidbody rb;
+    public class FloatingObject : MonoBehaviour
+    {
+        public Rigidbody rb;
+    }
+
 }

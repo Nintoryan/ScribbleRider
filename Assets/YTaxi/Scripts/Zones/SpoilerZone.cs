@@ -1,14 +1,15 @@
-using YTaxi;
-
-public class SpoilerZone : Zone
+namespace YTaxi.Zones
 {
-    public override void AppyEffect(CarEffects _carEffects)
+    public class SpoilerZone : Zone
     {
-        _carEffects.FullPowerSpoiler();
-    }
-
-    public override void DisposeEffect(CarEffects _carEffects)
-    {
-        _carEffects.ResetSpoiler();
+        public override void AppyEffect(CarEffects _carEffects)
+        {
+            _carEffects.FullPowerSpoiler();
+        }
+    
+        public override void DisposeEffect(CarEffects _carEffects)
+        {
+            _carEffects.ResetSpoiler();
+        }
     }
 }

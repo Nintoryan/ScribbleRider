@@ -1,14 +1,18 @@
 using YTaxi;
 
-public class IceZone : Zone
+namespace YTaxi.Zones
 {
-    public override void AppyEffect(CarEffects _carEffects)
+    public class IceZone : Zone
     {
-        _carEffects.ApplyIceEffect();
+        public override void AppyEffect(CarEffects _carEffects)
+        {
+            _carEffects.ApplyIceEffect();
+        }
+    
+        public override void DisposeEffect(CarEffects _carEffects)
+        {
+            _carEffects.ResetSpeed();
+        }
     }
 
-    public override void DisposeEffect(CarEffects _carEffects)
-    {
-        _carEffects.ResetSpeed();
-    }
 }
