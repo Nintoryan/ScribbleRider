@@ -15,6 +15,7 @@ namespace YTaxi.UI
         private float _start;
         private float _length;
         private float _currentLength;
+
     
         public void PassCurrent(float _currentX)
         {
@@ -32,8 +33,9 @@ namespace YTaxi.UI
         
         private void SetValue(float value)
         {
-            _progressfill.fillAmount = Mathf.Clamp(value,0,1);
-            _progressScale.localScale = new Vector3(Mathf.Clamp(value,0,1),1,1);
+            var clampedValue = Mathf.Clamp(value,0,1);
+            _progressfill.fillAmount = clampedValue;
+            _progressScale.localScale = new Vector3(clampedValue,1,1);
         }
     }
 }

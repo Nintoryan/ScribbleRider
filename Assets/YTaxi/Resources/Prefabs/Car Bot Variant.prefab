@@ -15,10 +15,8 @@ MonoBehaviour:
   _car: {fileID: 7185332830409374603}
   _player: {fileID: 0}
   _wheelsVariants:
-  - {fileID: 7100876848059532838, guid: 397fe91a808e947418d044cafc61a22c, type: 3}
-  - {fileID: 1031263716838788377, guid: 29cb210a8080edc45a7d2c98df7d4406, type: 3}
-  - {fileID: 4315060335653967975, guid: 52c3ead038faa384da3fde51261f9225, type: 3}
-  - {fileID: 979152509593933904, guid: 7bdcd5d26f466d2419281faf271fa37f, type: 3}
+  - _wheelVariant: {fileID: 9012239646089077326, guid: baf91849895c8a648a899522f17f8c79, type: 3}
+    duration: 0
 --- !u!1001 &4961513070247869887
 PrefabInstance:
   m_ObjectHideFlags: 0

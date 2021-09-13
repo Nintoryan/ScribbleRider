@@ -1,7 +1,7 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using YTaxi.Wheels;
-using Random = UnityEngine.Random;
 
 namespace YTaxi.Bot
 {
@@ -10,30 +10,38 @@ namespace YTaxi.Bot
         [SerializeField] private Car _car;
         [SerializeField] private Car _player;
         
-        [SerializeField] private Wheel[] _wheelsVariants;
+        [SerializeField] private WheelAndTime[] _wheelsVariants;
     
         private bool _stop;
+        private int id;
     
         private void Start()
         {
-            _player.OnFirstWheelSet += () => { ApplyRandomWheel();};
-            _car.OnFirstWheelSet += () => { StartCoroutine(RandomWheelSet()); };
+            _player.OnFirstWheelSet += () => { StartCoroutine(StartWheelQueue()); };
             _car.OnFinished += () => { _stop = true; };
         }
     
-        private void ApplyRandomWheel()
+        private void ApplyNextWheel()
         {
-            var wheel = Instantiate(_wheelsVariants[Random.Range(0, _wheelsVariants.Length - 1)]);
+            var wheel = Instantiate(_wheelsVariants[id]._wheelVariant);
             _car.SetWheels(wheel);
         }
     
-        private IEnumerator RandomWheelSet()
+        private IEnumerator StartWheelQueue()
         {
-            yield return new WaitForSeconds(5f);
-            ApplyRandomWheel();
-            if(!_stop)
-                StartCoroutine(RandomWheelSet());
+            ApplyNextWheel();
+            yield return new WaitForSeconds(_wheelsVariants[id].duration);
+            id++;
+            if(!_stop && id < _wheelsVariants.Length)
+                StartCoroutine(StartWheelQueue());
         }
+    }
+
+    [Serializable]
+    public class WheelAndTime
+    {
+        public Wheel _wheelVariant;
+        public float duration;
     }
 }
 

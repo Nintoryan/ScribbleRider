@@ -29,13 +29,13 @@ namespace YTaxi.CustomUserInput
             add => _dragged.AddListener(value);
             remove => _dragged.RemoveListener(value);
         }
+
+        public event UnityAction<PointerEventData> DraggedData;
         public event UnityAction Stopped
         {
             add => _stopped.AddListener(value);
             remove => _stopped.RemoveListener(value);
         }
- 
- 
         public Vector2 StartPoint => _startPoint;
         public Vector2 CurrentPoint => _currentPoint;
         public Vector2 Delta { get; private set; }
@@ -46,7 +46,6 @@ namespace YTaxi.CustomUserInput
         {
             _startPoint = eventData.position;
             _currentPoint = eventData.position;
-            
             _started?.Invoke();
         }
  
@@ -55,6 +54,7 @@ namespace YTaxi.CustomUserInput
             _currentPoint = eventData.position;
             Delta = eventData.delta;
             _dragged?.Invoke();
+            DraggedData?.Invoke(eventData);
         }
  
         public void OnPointerUp(PointerEventData eventData)

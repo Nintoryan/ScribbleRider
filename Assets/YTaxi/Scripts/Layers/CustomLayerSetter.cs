@@ -6,7 +6,7 @@ namespace YTaxi.Layers
     [ExecuteInEditMode]
     public class CustomLayerSetter : MonoBehaviour
     {
-        [SerializeField] private string layer;
+        private string layer = "Wheels";
         
         private void OnEnable()
         {

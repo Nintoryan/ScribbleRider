@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace YTaxi
 {
@@ -6,8 +7,6 @@ namespace YTaxi
     {
         [SerializeField] private Car _car;
         [SerializeField] private Spoiler _spoiler;
-        
-        
 
         public Car Car => _car; 
         
@@ -77,7 +76,11 @@ namespace YTaxi
         {
             _spoiler.Disable();
         }
-        
+
+        public void InvokeOutOfBounds()
+        {
+            _car.InvokeOutOfBounds();
+        }
     }
 }
 

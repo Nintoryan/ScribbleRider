@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Data
   m_EditorClassIdentifier: 
   _wheelMaterials:
+  - {fileID: 2100000, guid: f7874f0bac123f04da3c6fa8563ea69c, type: 2}
   - {fileID: 2100000, guid: 043b435b2fc2f554c9bd04161cf48703, type: 2}
   - {fileID: 2100000, guid: b8131d8718aa9414a89854eff3db1bd3, type: 2}
-  - {fileID: 2100000, guid: 088a86a8d9c550a4d81ce0e535b450ad, type: 2}
   - {fileID: 2100000, guid: 088a86a8d9c550a4d81ce0e535b450ad, type: 2}
   _carSkins:
   - {fileID: 5904276471989199656, guid: 0dec7b8ef4291974e9ee86b75a6f4261, type: 3}

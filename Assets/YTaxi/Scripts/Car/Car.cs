@@ -9,13 +9,18 @@ namespace YTaxi
     {
         [SerializeField] private List<Transform> _wheelPoints;
         [SerializeField] private Rigidbody _model;
+        [SerializeField] private AnimationCurve _wheelsBaseSpeed;
+        [SerializeField] private AnimationCurve _modelBaseSpeed;
+        
         [SerializeField] private float _wheelsSpeed;
         [SerializeField] private float _modelSpeed;
         public event UnityAction OnFirstWheelSet;
+        public event UnityAction OnOutOfBounds;
         public event UnityAction OnFinished;
         private bool _finished;
         
         public Wheel _currentWheel { get; private set; }
+        
         public float WheelSpeed
         {
             get => _wheelsSpeed;
@@ -97,6 +102,11 @@ namespace YTaxi
                 OnFirstWheelSet?.Invoke();
                 _model.isKinematic = false;
             }
+        }
+
+        public void InvokeOutOfBounds()
+        {
+            OnOutOfBounds?.Invoke();
         }
     }
 

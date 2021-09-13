@@ -26,6 +26,11 @@ namespace YTaxi.UI
             {
                 _menuCanvas.SetActive(false);
             };
+            _player.OnOutOfBounds += () =>
+            {
+                Time.timeScale = 0;
+                OpenLooseCanvas();
+            };
             _finish.OnFinished += DetectReachingFinish;
         }
     #if UNITY_EDITOR

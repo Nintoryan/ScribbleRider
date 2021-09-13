@@ -10,6 +10,8 @@ namespace YTaxi.Drawing
     {
         [SerializeField] private float newPointDistance;
         [SerializeField] private RectTransform _field;
+        [SerializeField] private int _maxPoints = 75;
+        
         [SerializeField] private float defaultLineThickness = 20f;
         [SerializeField] private UILineRenderer _uiLineRenderer;
         [SerializeField] private HoldAndDrag _holdAndDrag;
@@ -17,7 +19,6 @@ namespace YTaxi.Drawing
         [SerializeField] private List<Vector2> uiLinePoints = new List<Vector2>();
         [SerializeField] private WheelMeshCreator _wheelMeshCreator;
         
-        [SerializeField] private RectTransform m_CanvasTransform;
         private Rect CheckingRect;
     
         private void Start()
@@ -33,15 +34,20 @@ namespace YTaxi.Drawing
                 uiLinePoints.Add(_holdAndDrag.CurrentPoint);
                 _uiLineRenderer.Points = uiLinePoints.ToArray();
             };
-            _holdAndDrag.Dragged += () =>
+            _holdAndDrag.DraggedData += (data) =>
             {
-                if (Vector3.Distance(_holdAndDrag.CurrentPoint, brokenLinePoints[brokenLinePoints.Count-1]) > newPointDistance)
+                if(brokenLinePoints.Count > _maxPoints) return;
+                if (!data.hovered.Contains(_field.gameObject)) return;
+                foreach (var point in brokenLinePoints)
                 {
-                    if (!CheckingRect.Contains(_holdAndDrag.CurrentPoint)) return;
-                    brokenLinePoints.Add(_holdAndDrag.CurrentPoint);
-                    uiLinePoints.Add(_holdAndDrag.CurrentPoint);
-                    _uiLineRenderer.Points = uiLinePoints.ToArray();
+                    if (Vector3.Distance(_holdAndDrag.CurrentPoint, point) < newPointDistance)
+                    {
+                        return;
+                    }
                 }
+                brokenLinePoints.Add(_holdAndDrag.CurrentPoint);
+                uiLinePoints.Add(_holdAndDrag.CurrentPoint);
+                _uiLineRenderer.Points = uiLinePoints.ToArray();
             };
             _holdAndDrag.Stopped += () =>
             {
