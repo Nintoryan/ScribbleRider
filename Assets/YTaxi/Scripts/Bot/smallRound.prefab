@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 4882506242577945988}
   - component: {fileID: 7785056202326547648}
   - component: {fileID: 3034476266669740196}
-  - component: {fileID: 7969235397746540112}
   - component: {fileID: 6446252585634904616}
   - component: {fileID: 453012535172302375}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,19 +55,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7969235397746540112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13165350050800675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &6446252585634904616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,10 +120,9 @@ GameObject:
   - component: {fileID: 6364591881134005600}
   - component: {fileID: 6408820294636959117}
   - component: {fileID: 551101770181676394}
-  - component: {fileID: 272928253569869093}
   - component: {fileID: 6629069472599262808}
   - component: {fileID: 8051133639905990076}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,19 +164,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &272928253569869093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049960818528315166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &6629069472599262808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,10 +229,9 @@ GameObject:
   - component: {fileID: 859225008035643973}
   - component: {fileID: 8184273665591851592}
   - component: {fileID: 651001277226824632}
-  - component: {fileID: 4009486477049368563}
   - component: {fileID: 7175484554989501718}
   - component: {fileID: 7255726071322288665}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,19 +273,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4009486477049368563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970344553942890778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &7175484554989501718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,10 +338,9 @@ GameObject:
   - component: {fileID: 1757732388474545460}
   - component: {fileID: 3489190539812853693}
   - component: {fileID: 732283472018887492}
-  - component: {fileID: 8137328848070195174}
   - component: {fileID: 1698908438205093116}
   - component: {fileID: 3574352258427440034}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,19 +382,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8137328848070195174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047376041044801791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &1698908438205093116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -503,10 +447,9 @@ GameObject:
   - component: {fileID: 7085941568167554988}
   - component: {fileID: 7699048629762904030}
   - component: {fileID: 3309520052209921197}
-  - component: {fileID: 6910789682466663813}
   - component: {fileID: 3442356174699729314}
   - component: {fileID: 5213709412227050909}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,19 +491,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6910789682466663813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3048568174385205133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &3442356174699729314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,10 +556,9 @@ GameObject:
   - component: {fileID: 3051743592421464799}
   - component: {fileID: 6525357184613639590}
   - component: {fileID: 4073798676709892732}
-  - component: {fileID: 3193143616240569930}
   - component: {fileID: 177911748826284027}
   - component: {fileID: 5823051815448872843}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -671,19 +600,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3193143616240569930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3490610489074761344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &177911748826284027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -749,10 +665,9 @@ GameObject:
   - component: {fileID: 2096440224325730713}
   - component: {fileID: 4015827996715633603}
   - component: {fileID: 1937265070884199645}
-  - component: {fileID: 1059832384097060406}
   - component: {fileID: 2990678853032989323}
   - component: {fileID: 8386711538660410169}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -794,19 +709,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1059832384097060406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4366402169883807152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &2990678853032989323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -872,7 +774,7 @@ GameObject:
   - component: {fileID: 2647776261008955945}
   - component: {fileID: 1863099639703095682}
   - component: {fileID: 2240188275946920263}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: smallRound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,10 +858,9 @@ GameObject:
   - component: {fileID: 4757714991265864395}
   - component: {fileID: 5932890195156480777}
   - component: {fileID: 2964809430625074197}
-  - component: {fileID: 8640794766654905216}
   - component: {fileID: 3625984109845595421}
   - component: {fileID: 678143304477146120}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1001,19 +902,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8640794766654905216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5153571246164309101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &3625984109845595421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1079,10 +967,9 @@ GameObject:
   - component: {fileID: 1740306759458777823}
   - component: {fileID: 1912299359139724004}
   - component: {fileID: 814106356510116942}
-  - component: {fileID: 2963580777117213465}
   - component: {fileID: 3625791381793931829}
   - component: {fileID: 146356403513092781}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,19 +1011,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2963580777117213465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5522644927243448120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &3625791381793931829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,10 +1076,9 @@ GameObject:
   - component: {fileID: 443196383956610462}
   - component: {fileID: 6652315899330610481}
   - component: {fileID: 1421454471417581307}
-  - component: {fileID: 6021164863450603399}
   - component: {fileID: 8600366982005684146}
   - component: {fileID: 4330527287709698812}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1247,19 +1120,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6021164863450603399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5889392346621465671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &8600366982005684146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,10 +1185,9 @@ GameObject:
   - component: {fileID: 7628125107624701721}
   - component: {fileID: 1624446364418896503}
   - component: {fileID: 1609786356695819357}
-  - component: {fileID: 6688169472414590996}
   - component: {fileID: 1043373267243237099}
   - component: {fileID: 3970671441770812636}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1370,19 +1229,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6688169472414590996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6731963685805294449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &1043373267243237099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1448,10 +1294,9 @@ GameObject:
   - component: {fileID: 4291674250243070871}
   - component: {fileID: 7164335296283584232}
   - component: {fileID: 2395198845071635067}
-  - component: {fileID: 4874378570912455174}
   - component: {fileID: 6832510505512529361}
   - component: {fileID: 3230733149332337240}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1493,19 +1338,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4874378570912455174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6739335170643637566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &6832510505512529361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1571,10 +1403,9 @@ GameObject:
   - component: {fileID: 109346417614594660}
   - component: {fileID: 5978563749789441424}
   - component: {fileID: 6869062907777498078}
-  - component: {fileID: 1047095879702631163}
   - component: {fileID: 7125776014057061710}
   - component: {fileID: 3231710973580817384}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1616,19 +1447,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1047095879702631163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6798442153270418072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &7125776014057061710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1694,10 +1512,9 @@ GameObject:
   - component: {fileID: 1410426347314084526}
   - component: {fileID: 8798283307405923157}
   - component: {fileID: 468494196414525961}
-  - component: {fileID: 8679353711218757911}
   - component: {fileID: 1210325682391615009}
   - component: {fileID: 5439376122049731218}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1739,19 +1556,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8679353711218757911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6974929645938657730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &1210325682391615009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,10 +1621,9 @@ GameObject:
   - component: {fileID: 1999139487476277244}
   - component: {fileID: 6136041254148156893}
   - component: {fileID: 6450708802731320457}
-  - component: {fileID: 8741293413884809402}
   - component: {fileID: 1822609949851595995}
   - component: {fileID: 4842473267133179419}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1862,19 +1665,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8741293413884809402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7261450026359148723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &1822609949851595995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1940,10 +1730,9 @@ GameObject:
   - component: {fileID: 875398946956007829}
   - component: {fileID: 1658394704482145230}
   - component: {fileID: 5099136429722431533}
-  - component: {fileID: 844643840608450499}
   - component: {fileID: 5262340961018596524}
   - component: {fileID: 6471040626972654591}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1985,19 +1774,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &844643840608450499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7599550299930865314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &5262340961018596524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2063,10 +1839,9 @@ GameObject:
   - component: {fileID: 1764051014632390809}
   - component: {fileID: 8768484981637546205}
   - component: {fileID: 7293830321406091326}
-  - component: {fileID: 7574541694435230748}
   - component: {fileID: 4253715364641607449}
   - component: {fileID: 6737253431072847259}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2108,19 +1883,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7574541694435230748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7613195673802139031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &4253715364641607449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2186,10 +1948,9 @@ GameObject:
   - component: {fileID: 6740531877318463824}
   - component: {fileID: 1832011499072497401}
   - component: {fileID: 493807974479758118}
-  - component: {fileID: 8604131734580491843}
   - component: {fileID: 902498172913477067}
   - component: {fileID: 5299874607902027644}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2231,19 +1992,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8604131734580491843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8083733944686445551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &902498172913477067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2309,10 +2057,9 @@ GameObject:
   - component: {fileID: 2559327524119093832}
   - component: {fileID: 8141523221052402678}
   - component: {fileID: 7393181158781732974}
-  - component: {fileID: 5594163585431488509}
   - component: {fileID: 7311853668271607890}
   - component: {fileID: 4339791631987707691}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2354,19 +2101,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5594163585431488509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8333967353610372326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &7311853668271607890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2432,10 +2166,9 @@ GameObject:
   - component: {fileID: 4375224159568647390}
   - component: {fileID: 8560938818914754801}
   - component: {fileID: 9127004288301261860}
-  - component: {fileID: 1289933050011527715}
   - component: {fileID: 9111732492949726019}
   - component: {fileID: 395235545721123356}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2477,19 +2210,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1289933050011527715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8347090796754403176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &9111732492949726019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2555,10 +2275,9 @@ GameObject:
   - component: {fileID: 7830171738911056884}
   - component: {fileID: 827961187602023213}
   - component: {fileID: 296604469934412869}
-  - component: {fileID: 4770347403257992176}
   - component: {fileID: 3463282154970181502}
   - component: {fileID: 1509574066240109856}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WheelPart(Clone)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2600,19 +2319,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4770347403257992176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8841330298934139098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layer: Wheels
 --- !u!114 &3463282154970181502
 MonoBehaviour:
   m_ObjectHideFlags: 0

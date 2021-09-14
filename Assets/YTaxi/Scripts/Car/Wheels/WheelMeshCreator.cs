@@ -65,7 +65,6 @@ namespace YTaxi.Wheels
             {
                 cube.transform.SetParent(parent.transform);
             }
-            parent.layer = LayerMask.NameToLayer("Wheels");
             var rb = parent.AddComponent<Rigidbody>();
             rb.interpolation = RigidbodyInterpolation.Extrapolate;
             var Distance = Vector3.Distance(min, max);

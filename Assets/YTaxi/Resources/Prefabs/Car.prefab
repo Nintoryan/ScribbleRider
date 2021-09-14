@@ -229,7 +229,6 @@ GameObject:
   - component: {fileID: 2841133624088891133}
   - component: {fileID: 2841133624088891131}
   - component: {fileID: 2841133624088891130}
-  - component: {fileID: 2841133624088891134}
   - component: {fileID: 2841133624088891132}
   m_Layer: 6
   m_Name: Model
@@ -287,18 +286,6 @@ Rigidbody:
   m_Interpolate: 2
   m_Constraints: 104
   m_CollisionDetection: 3
---- !u!114 &2841133624088891134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2841133624088891129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab90478f5397547907b48827a5c715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2841133624088891132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -597,13 +584,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6070f3f41029dd24eb5f8f7b81cadde9, type: 3}
---- !u!4 &5129615687333558153 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6070f3f41029dd24eb5f8f7b81cadde9, type: 3}
-  m_PrefabInstance: {fileID: 4664241812346818658}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5511243651519999283 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6070f3f41029dd24eb5f8f7b81cadde9, type: 3}
+  m_PrefabInstance: {fileID: 4664241812346818658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5129615687333558153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6070f3f41029dd24eb5f8f7b81cadde9, type: 3}
   m_PrefabInstance: {fileID: 4664241812346818658}
   m_PrefabAsset: {fileID: 0}
