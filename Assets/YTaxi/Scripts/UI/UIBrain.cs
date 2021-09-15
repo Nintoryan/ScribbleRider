@@ -107,7 +107,7 @@ namespace YTaxi.UI
     
         private void OnEnable()
         {
-            Time.timeScale = 1.4f;
+            Time.timeScale = 1.5f;
         }
     
         private void OnDisable()

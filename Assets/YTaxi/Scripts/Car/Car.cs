@@ -25,12 +25,14 @@ namespace YTaxi
             get => _wheelsSpeed;
             set => _wheelsSpeed = value;
         }
-
         public float ModelSpeed
         {
             get => _modelSpeed;
             set => _modelSpeed = value;
         }
+
+        public float WheelSpeedCoef = 1f;
+        public float ModelSpeedCoef = 1f;
 
         public Rigidbody Model => _model;
         public float BaseWheelSpeed { get; private set; }
@@ -46,8 +48,8 @@ namespace YTaxi
 
         public void ApplyModifyedBaseSpeed(BotSpeedModifyer _modifyer)
         {
-            _wheelsSpeed = BaseWheelSpeed * _modifyer.SpeedCoef;
-            _modelSpeed = BaseModelSpeed  * _modifyer.SpeedCoef;
+            WheelSpeedCoef  =  _modifyer.SpeedCoef;
+            ModelSpeedCoef = _modifyer.SpeedCoef;
         }
         
         private void FixedUpdate()
@@ -55,13 +57,13 @@ namespace YTaxi
             if(_finished) return;
             foreach (var wheel in _currentWheels)
             {
-                wheel.GetComponent<Rigidbody>().AddTorque(new Vector3(0, 0, -1) * _wheelsSpeed);
+                wheel.GetComponent<Rigidbody>().AddTorque(new Vector3(0, 0, -1) * (_wheelsSpeed * WheelSpeedCoef));
             }
             var forward = _model.transform.forward;
             var Velocity = new Vector3(forward.x, Mathf.Clamp(forward.y, 0, 100000), forward.z);
             Velocity = Vector3.Lerp(Velocity, _model.transform.up, 0.05f);
             if (!Mathf.Approximately(_modelSpeed, 0))
-                _model.velocity = Velocity * _modelSpeed;
+                _model.velocity = Velocity * (_modelSpeed * ModelSpeedCoef);
         }
 
         public void Finish()

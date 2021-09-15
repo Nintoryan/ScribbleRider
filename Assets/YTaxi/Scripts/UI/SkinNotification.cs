@@ -18,6 +18,8 @@ namespace YTaxi.UI
         {
             _amount.gameObject.SetActive(NewSkins != 0);
             _star.gameObject.SetActive(NewSkins != 0);
+            _amount.text = NewSkins.ToString();
+
         }
         
     }
