@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using YTaxi.Bot;
 using YTaxi.Wheels;
 
 namespace YTaxi
@@ -9,9 +10,7 @@ namespace YTaxi
     {
         [SerializeField] private List<Transform> _wheelPoints;
         [SerializeField] private Rigidbody _model;
-        [SerializeField] private AnimationCurve _wheelsBaseSpeed;
-        [SerializeField] private AnimationCurve _modelBaseSpeed;
-        
+
         [SerializeField] private float _wheelsSpeed;
         [SerializeField] private float _modelSpeed;
         public event UnityAction OnFirstWheelSet;
@@ -44,9 +43,16 @@ namespace YTaxi
             BaseWheelSpeed = _wheelsSpeed;
             BaseModelSpeed = _modelSpeed;
         }
+
+        public void ApplyModifyedBaseSpeed(BotSpeedModifyer _modifyer)
+        {
+            _wheelsSpeed = BaseWheelSpeed * _modifyer.SpeedCoef;
+            _modelSpeed = BaseModelSpeed  * _modifyer.SpeedCoef;
+        }
         
         private void FixedUpdate()
         {
+            if(_finished) return;
             foreach (var wheel in _currentWheels)
             {
                 wheel.GetComponent<Rigidbody>().AddTorque(new Vector3(0, 0, -1) * _wheelsSpeed);

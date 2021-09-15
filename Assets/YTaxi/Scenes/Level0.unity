@@ -1984,6 +1984,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73fe2a2368540b449886e1f5e6664b6c, type: 3}
+--- !u!114 &495453471377571036 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 495453472874608410, guid: 73fe2a2368540b449886e1f5e6664b6c, type: 3}
+  m_PrefabInstance: {fileID: 495453471377571035}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f32cb5cf584a04eb0c7956b7d08810, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4408150117048014936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2113,6 +2124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Core
       objectReference: {fileID: 0}
+    - target: {fileID: 776493170487153984, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _wheelsVariants.Array.data[0]._wheelVariant
+      value: 
+      objectReference: {fileID: 7100876848059532838, guid: 397fe91a808e947418d044cafc61a22c, type: 3}
     - target: {fileID: 1567062985494368572, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _modelSpeed
       value: 13.5
@@ -2125,6 +2140,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _finish
+      value: 
+      objectReference: {fileID: 495453471377571036}
     - target: {fileID: 4105199241606070262, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: m_Layer
       value: 0

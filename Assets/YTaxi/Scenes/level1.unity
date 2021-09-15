@@ -231,6 +231,38 @@ PrefabInstance:
       propertyPath: _wheelsVariants.Array.data[1]._wheelVariant
       value: 
       objectReference: {fileID: 1031263716838788377, guid: 29cb210a8080edc45a7d2c98df7d4406, type: 3}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _finish
+      value: 
+      objectReference: {fileID: 2076450139}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].time
+      value: 0.43098873
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].value
+      value: 0.96870303
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[0].inSlope
+      value: -0.65267825
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].inSlope
+      value: -1.5580623
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[0].outSlope
+      value: -0.65267825
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].outSlope
+      value: -1.5580623
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].outWeight
+      value: 0.1143927
+      objectReference: {fileID: 0}
     - target: {fileID: 5780124039771122996, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: m_RootOrder
       value: 4

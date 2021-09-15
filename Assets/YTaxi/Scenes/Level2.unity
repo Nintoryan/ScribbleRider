@@ -225,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 776493170487153984, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _wheelsVariants.Array.data[0].duration
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 776493170487153984, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _wheelsVariants.Array.data[0]._wheelVariant
