@@ -7,6 +7,8 @@ namespace YTaxi
         [SerializeField] private Car _car;
         [SerializeField] private float _spoilerForce;
         [SerializeField] private float _baseReductionCoef;
+        [SerializeField] private Transform _point;
+        
     
         public float _Coef
         {
@@ -36,7 +38,7 @@ namespace YTaxi
     
         private void Update()
         {
-            _car.Model.AddForce(-_car.Model.transform.up*(_spoilerForce*_Coef));
+            _car.Model.AddForceAtPosition(-_car.Model.transform.up*(_spoilerForce*_Coef),_point.position);
         }
     }
 }

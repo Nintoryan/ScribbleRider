@@ -2127,14 +2127,10 @@ PrefabInstance:
     - target: {fileID: 776493170487153984, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _wheelsVariants.Array.data[0]._wheelVariant
       value: 
-      objectReference: {fileID: 7100876848059532838, guid: 397fe91a808e947418d044cafc61a22c, type: 3}
-    - target: {fileID: 1567062985494368572, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
-      propertyPath: _modelSpeed
-      value: 13.5
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3308855847294721739, guid: 608bd3d4447ddb449966451d46e3e5a5, type: 3}
     - target: {fileID: 1567062985494368572, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _wheelsSpeed
-      value: 48.5
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2034453146196575180, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2195,6 +2191,34 @@ PrefabInstance:
     - target: {fileID: 5865242122117731217, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865242122117731218, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865242122117731218, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865242122148682588, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _wheelsSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702422124803301615, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: m_UseSpring
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702422124803301615, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: m_Limits.max
+      value: 94.279686
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702422124803301615, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: m_Limits.min
+      value: 83.060234
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702422124803301615, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: m_Spring.spring
+      value: 62.99
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1567062985395329526, guid: 745be69628cfccb4182eca682484fb2c, type: 3}

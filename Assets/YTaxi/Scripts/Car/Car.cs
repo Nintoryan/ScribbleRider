@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -9,6 +10,7 @@ namespace YTaxi
     public class Car : MonoBehaviour
     {
         [SerializeField] private List<Transform> _wheelPoints;
+
         [SerializeField] private Rigidbody _model;
 
         [SerializeField] private float _wheelsSpeed;
@@ -65,6 +67,7 @@ namespace YTaxi
             if (!Mathf.Approximately(_modelSpeed, 0))
                 _model.velocity = Velocity * (_modelSpeed * ModelSpeedCoef);
         }
+        
 
         public void Finish()
         {
@@ -100,6 +103,7 @@ namespace YTaxi
                 joint.anchor = Vector3.zero;
                 joint.connectedBody = _model;
                 joint.axis = new Vector3(0, 0, -1);
+                joint.massScale = 2;
                 joint.connectedMassScale = 1000f;
                 _currentWheels.Add(wheel);
             }

@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7426819441587674711}
-  - component: {fileID: 7426819441587674710}
   - component: {fileID: 7426819441587674704}
-  - component: {fileID: 8379557916691697428}
-  - component: {fileID: 4865434977516834871}
+  - component: {fileID: 3932304223120396433}
+  - component: {fileID: 8760423831987348919}
+  - component: {fileID: 8638292009753420451}
   m_Layer: 0
   m_Name: WheelPart
   m_TagString: Untagged
@@ -34,14 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7426819441587674710
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7426819441587674707}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!65 &7426819441587674704
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55,7 +47,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8379557916691697428
+--- !u!114 &3932304223120396433
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,8 +59,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25d8ee85382719b4cb1ae0697303a470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 4865434977516834871}
---- !u!23 &4865434977516834871
+  _meshRenderers:
+  - {fileID: 8638292009753420451}
+--- !u!33 &8760423831987348919
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426819441587674707}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8638292009753420451
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

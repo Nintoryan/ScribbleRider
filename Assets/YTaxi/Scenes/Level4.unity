@@ -1505,7 +1505,15 @@ PrefabInstance:
     - target: {fileID: 776493170487153984, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _wheelsVariants.Array.data[0]._wheelVariant
       value: 
-      objectReference: {fileID: 9012239646089077326, guid: baf91849895c8a648a899522f17f8c79, type: 3}
+      objectReference: {fileID: 3308855847294721739, guid: 608bd3d4447ddb449966451d46e3e5a5, type: 3}
+    - target: {fileID: 1567062985494368572, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _modelSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567062985494368572, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _wheelsSpeed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5780124039771122996, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1552,11 +1560,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5865242122148682588, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _modelSpeed
-      value: 12
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 5865242122148682588, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _wheelsSpeed
-      value: 47
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5865242122148682588, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _modelBaseSpeed.m_Curve.Array.size

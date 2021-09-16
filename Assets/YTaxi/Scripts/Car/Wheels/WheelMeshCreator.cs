@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using YTaxi.Shop;
@@ -53,11 +54,14 @@ namespace YTaxi.Wheels
                 
                 newPart.transform.localScale = localScale;
                 
-                newPart.transform.LookAt(point);
-    
+                newPart.transform.LookAt(point,Vector3.down);
+                var pair = Instantiate(newPart);
+                pair.transform.position += new Vector3(0,0,440);
                 wheelParts.Add(newPart);
+                wheelParts.Add(pair);
     
                 Center += newPart.transform.position;
+                Center += pair.transform.position;
                 currentPoint = point;
             }
             parent.transform.position = Center/wheelParts.Count;
