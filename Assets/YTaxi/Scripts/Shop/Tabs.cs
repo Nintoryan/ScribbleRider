@@ -1,7 +1,7 @@
-using DG.Tweening;
+using Plugins.Demigiant.DOTween.Modules;
 using UnityEngine;
 
-namespace YTaxi.Shop
+namespace YTaxi.Scripts.Shop
 {
     public class Tabs : MonoBehaviour
     {

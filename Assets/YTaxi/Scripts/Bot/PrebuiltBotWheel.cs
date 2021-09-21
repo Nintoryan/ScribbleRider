@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
 using UnityEngine;
-using YTaxi.Wheels;
+using YTaxi.Scripts.Car.Wheels;
 
-namespace YTaxi.Bot
+namespace YTaxi.Scripts.Bot
 {
     public class PrebuiltBotWheel : MonoBehaviour
     {
-        [SerializeField] private Car _car;
-        [SerializeField] private Car _player;
+        [SerializeField] private Car.Car _car;
+        [SerializeField] private Car.Car _player;
         
         [SerializeField] private WheelAndTime[] _wheelsVariants;
     

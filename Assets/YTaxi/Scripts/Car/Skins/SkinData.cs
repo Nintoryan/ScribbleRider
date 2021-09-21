@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace YTaxi.Customization
+namespace YTaxi.Scripts.Car.Skins
 {
     [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/SkinData", order = 1)]
     public class SkinData : ScriptableObject

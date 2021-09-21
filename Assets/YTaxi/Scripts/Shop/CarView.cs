@@ -1,8 +1,8 @@
 using UnityEngine;
-using YTaxi.Customization;
-using YTaxi.Data;
+using YTaxi.Scripts.Car.Skins;
+using YTaxi.Scripts.Progress;
 
-namespace YTaxi.Shop
+namespace YTaxi.Scripts.Shop
 {
     public class CarView : MonoBehaviour
     {

@@ -1,9 +1,9 @@
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using YTaxi.Data;
+using YTaxi.Scripts.Progress;
 
-namespace YTaxi.Shop
+namespace YTaxi.Scripts.Shop
 {
     public class Shop : MonoBehaviour
     {

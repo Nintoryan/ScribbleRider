@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace YTaxi.Camera
+namespace YTaxi.Scripts
 {
     public class TargetFollower : MonoBehaviour
     {

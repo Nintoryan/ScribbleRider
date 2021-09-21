@@ -1,6 +1,6 @@
-using YTaxi.Data;
+using YTaxi.Scripts.Progress;
 
-namespace YTaxi.Shop
+namespace YTaxi.Scripts.Shop
 {
     public class WheelSkin : Skin, SelectableItem
     {

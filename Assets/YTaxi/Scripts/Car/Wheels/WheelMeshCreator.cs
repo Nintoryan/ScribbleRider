@@ -1,9 +1,8 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-using YTaxi.Shop;
+using YTaxi.Scripts.Shop;
 
-namespace YTaxi.Wheels
+namespace YTaxi.Scripts.Car.Wheels
 {
     public class WheelMeshCreator : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace YTaxi.Wheels
+namespace YTaxi.Scripts.Car.Wheels
 {
     public class WheelPart : MonoBehaviour
     {

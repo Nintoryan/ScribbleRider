@@ -1,6 +1,7 @@
 using UnityEngine;
+using YTaxi.Scripts.Car;
 
-namespace YTaxi.Zones
+namespace YTaxi.Scripts.Zones
 {
     public abstract class Zone : MonoBehaviour, IZone
     {

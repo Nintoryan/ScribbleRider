@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace YTaxi.Zones
+namespace YTaxi.Scripts.Zones
 {
     public class ObstaclesWater : MonoBehaviour
     {

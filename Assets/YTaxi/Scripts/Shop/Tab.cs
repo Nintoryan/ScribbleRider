@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace YTaxi.Shop
+namespace YTaxi.Scripts.Shop
 {
     public class Tab : MonoBehaviour
     {

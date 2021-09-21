@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace YTaxi.Obstacles
+namespace YTaxi.Scripts.Obstacles
 {
     public class FloatingBarrel : MonoBehaviour
     {

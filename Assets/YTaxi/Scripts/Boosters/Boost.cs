@@ -1,7 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using YTaxi.Scripts.Car;
 
-namespace YTaxi.Boosters
+namespace YTaxi.Scripts.Boosters
 {
     public class Boost : MonoBehaviour
     {

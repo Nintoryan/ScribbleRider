@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace YTaxi.Shop
+namespace YTaxi.Scripts.Shop
 {
     public class Stand : MonoBehaviour
     {

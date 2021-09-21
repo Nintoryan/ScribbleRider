@@ -1,4 +1,6 @@
-namespace YTaxi.Zones
+using YTaxi.Scripts.Car;
+
+namespace YTaxi.Scripts.Zones
 {
     public class SlowlyZone : Zone
     {

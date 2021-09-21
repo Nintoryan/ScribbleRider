@@ -1,11 +1,10 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using YTaxi.Bot;
-using YTaxi.Wheels;
+using YTaxi.Scripts.Bot;
+using YTaxi.Scripts.Car.Wheels;
 
-namespace YTaxi
+namespace YTaxi.Scripts.Car
 {
     public class Car : MonoBehaviour
     {

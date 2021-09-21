@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI.Extensions;
-using YTaxi.CustomUserInput;
-using YTaxi.Wheels;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Primitives;
+using YTaxi.Scripts.Car.Wheels;
 
-namespace YTaxi.Drawing
+namespace YTaxi.Scripts
 {
     public class Drawing : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace YTaxi.UI
+namespace YTaxi.Scripts.UI
 {
     public class SkinNotification : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
-using YTaxi;
+using YTaxi.Scripts.Car;
 
-namespace YTaxi.Zones
+namespace YTaxi.Scripts.Zones
 {
     public interface IZone
     {

@@ -1,9 +1,9 @@
 using DG.Tweening;
+using Plugins.Demigiant.DOTween.Modules;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-namespace YTaxi.UI
+namespace YTaxi.Scripts.UI
 {
     public class WinScreen : MonoBehaviour
     {

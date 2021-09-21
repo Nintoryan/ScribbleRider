@@ -1,9 +1,10 @@
 using UnityEngine;
 
-namespace YTaxi.Data
+namespace YTaxi.Scripts.Progress
 {
     public static class PlayerData
     {
+        public const int AmountOfLevels = 7;
         public static int LevelNumber
         {
             get => PlayerPrefs.GetInt("YTaxi_Level_Number");

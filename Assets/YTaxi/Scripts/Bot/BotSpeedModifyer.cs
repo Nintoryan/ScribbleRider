@@ -1,12 +1,10 @@
-using System;
 using UnityEngine;
-using YTaxi.Zones;
 
-namespace YTaxi.Bot
+namespace YTaxi.Scripts.Bot
 {
     public class BotSpeedModifyer : MonoBehaviour
     {
-        [SerializeField] private Car _bot;
+        [SerializeField] private Car.Car _bot;
         [SerializeField] private Finish _finish;
 
         public AnimationCurve _duringDistanceSpeedModify;

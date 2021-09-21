@@ -1,15 +1,16 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using YTaxi.Scripts.Car;
 
-namespace YTaxi.Zones
+namespace YTaxi.Scripts
 {
     public class Finish : MonoBehaviour
     {
         /// <summary>
         /// Invokes on any car reach the finish 
         /// </summary>
-        public event UnityAction<Car> OnFinished;
+        public event UnityAction<Car.Car> OnFinished;
         private void OnTriggerEnter(Collider other)
         {
             var carEffects = other.GetComponentInParent<CarEffects>();
@@ -22,7 +23,7 @@ namespace YTaxi.Zones
             }
         }
     
-        private IEnumerator Finished(Car _car)
+        private IEnumerator Finished(Car.Car _car)
         {
             yield return new WaitForSeconds(0.5f);
             OnFinished?.Invoke(_car);

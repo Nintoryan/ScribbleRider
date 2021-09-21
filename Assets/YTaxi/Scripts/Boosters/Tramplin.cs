@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace YTaxi.Boosters
+namespace YTaxi.Scripts.Boosters
 {
     public class NewBehaviourScript : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace YTaxi
+namespace YTaxi.Scripts.Car
 {
     public class Spoiler : MonoBehaviour
     {

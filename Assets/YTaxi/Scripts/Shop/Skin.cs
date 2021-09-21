@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-using YTaxi.Data;
+using YTaxi.Scripts.Progress;
 
-namespace YTaxi.Shop
+namespace YTaxi.Scripts.Shop
 {
     public class Skin : MonoBehaviour
     {
@@ -64,10 +64,10 @@ namespace YTaxi.Shop
         Opened,
         Selected
     }
-}
 
-public interface SelectableItem
-{
-    void Select();
-    void Refresh();
+    public interface SelectableItem
+    {
+        void Select();
+        void Refresh();
+    }
 }

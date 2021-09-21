@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
-using YTaxi.Data;
+using YTaxi.Scripts.Progress;
 
-namespace YTaxi.UI
+namespace YTaxi.Scripts.UI
 {
     public class ProgressBar : MonoBehaviour
     {

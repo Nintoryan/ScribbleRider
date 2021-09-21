@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
- 
-namespace YTaxi.CustomUserInput
+
+namespace YTaxi.Scripts
 {
     public class HoldAndDrag : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler, IPointerClickHandler
     {

@@ -1,14 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using YTaxi.Data;
-using YTaxi.Zones;
+using YTaxi.Scripts.Progress;
 
-namespace YTaxi.UI
+namespace YTaxi.Scripts.UI
 {
     public class UIBrain : MonoBehaviour
     {
         [SerializeField] private ProgressBar _progress;
-        [SerializeField] private Car _player;
+        [SerializeField] private Car.Car _player;
         [SerializeField] private Finish _finish;
         [SerializeField] private GameObject _winCanvas;
         [SerializeField] private GameObject _looseCanvas;
@@ -16,7 +15,7 @@ namespace YTaxi.UI
         [SerializeField] private GameObject _gamePlayCanvas;
         [SerializeField] private GameObject _menuCanvas;
     
-        private Car FinishedFirst;
+        private Car.Car FinishedFirst;
         
     
         private void Start()
@@ -38,7 +37,7 @@ namespace YTaxi.UI
         {
             if (_player == null)
             {
-                _player = FindObjectOfType<Car>();
+                _player = FindObjectOfType<Car.Car>();
             }
     
             if (_finish == null)
@@ -49,7 +48,7 @@ namespace YTaxi.UI
         }
     #endif
     
-        private void DetectReachingFinish(Car _car)
+        private void DetectReachingFinish(Car.Car _car)
         {
             if (FinishedFirst == null)
             {
@@ -96,8 +95,9 @@ namespace YTaxi.UI
         public void NextLevel()
         {
             PlayerData.LevelNumber++;
-            SkinNotification.NewSkins++;
-            SceneManager.LoadScene($"YTaxi/Scenes/Level{PlayerData.LevelNumber%7}");
+            if(PlayerData.LevelNumber < 4)
+                SkinNotification.NewSkins+=2;
+            SceneManager.LoadScene($"YTaxi/Scenes/Level{PlayerData.LevelNumber%PlayerData.AmountOfLevels}");
         }
     
         public void Restart()

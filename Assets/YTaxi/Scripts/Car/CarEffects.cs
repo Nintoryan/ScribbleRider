@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.Events;
 
-namespace YTaxi
+namespace YTaxi.Scripts.Car
 {
     public class CarEffects : MonoBehaviour
     {
