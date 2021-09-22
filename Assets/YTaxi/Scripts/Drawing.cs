@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Primitives;
+using UnityEngine.UI.Extensions;
 using YTaxi.Scripts.Car.Wheels;
 
 namespace YTaxi.Scripts

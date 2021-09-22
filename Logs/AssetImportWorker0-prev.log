@@ -15,11 +15,11 @@ C:/Users/Nintoryan/Documents/GitHub/YTaxi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54275
+63145
 Successfully changed project path to: C:/Users/Nintoryan/Documents/GitHub/YTaxi
 C:/Users/Nintoryan/Documents/GitHub/YTaxi
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 95.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,107 +35,104 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004282 seconds.
+Registered in 0.004462 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 98.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.583 seconds
+- Completed reload, in  3.688 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008346 seconds.
+Registered in 0.008238 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 127.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 100.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.899 seconds
+- Completed reload, in  1.969 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 142.5 MB.
 System memory in use after: 140.5 MB.
 
 Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3685.
-Total: 5.349400 ms (FindLiveObjects: 0.497100 ms CreateObjectMapping: 0.236100 ms MarkObjects: 3.267500 ms  DeleteObjects: 1.346900 ms)
+Total: 4.774600 ms (FindLiveObjects: 0.413500 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.953600 ms  DeleteObjects: 1.308100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/YTaxi/Scenes/Level0.unity
-  artifactKey: Guid(dba6a0ddaf2d4c848af1e292f52bc775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level0.unity using Guid(dba6a0ddaf2d4c848af1e292f52bc775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29393503eadf9ec7769fdfcb59b84601') in 0.021772 seconds
-  Import took 0.028723 seconds .
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg using Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ed6dc357d067daf2be5f9e4363459c') in 0.096095 seconds
+  Import took 0.104849 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 75.050007 seconds.
-  path: Assets/YTaxi/Scenes/level1.unity
-  artifactKey: Guid(48c167eebd6c77f468d3d716fb33d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/level1.unity using Guid(48c167eebd6c77f468d3d716fb33d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe731056c494b880f4842896fd686967') in 0.004089 seconds
-  Import took 0.023811 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f156917f8fd59f692afdb75212bd975') in 0.014150 seconds
+  Import took 0.019763 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.339742 seconds.
-  path: Assets/YTaxi/Scenes/Level1.unity
-  artifactKey: Guid(48c167eebd6c77f468d3d716fb33d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level1.unity using Guid(48c167eebd6c77f468d3d716fb33d29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca281c437ccef9db52f1bc09d3b74984') in 0.003293 seconds
-  Import took 0.010350 seconds .
+  Time since last request: 0.000364 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414e4634ce4ab27ace4e73deee46fb0e') in 0.011480 seconds
+  Import took 0.018054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.729272 seconds.
-  path: Assets/YTaxi/Scenes/Level2.unity
-  artifactKey: Guid(c405996b719d1f142855387a2a1854c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level2.unity using Guid(c405996b719d1f142855387a2a1854c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2840bf1905a90195e169de63a99d6609') in 0.004012 seconds
-  Import took 0.010871 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e4ccf1c136fbdcfce0ddbab6c5ead0') in 0.013321 seconds
+  Import took 0.019945 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.317477 seconds.
-  path: Assets/YTaxi/Scenes/Level3.unity
-  artifactKey: Guid(56cc2823d587bcd4c9a368200cab026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level3.unity using Guid(56cc2823d587bcd4c9a368200cab026a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73213f3f3c507924385d9c5eefe2234d') in 0.004039 seconds
-  Import took 0.010188 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66843d5b31912a82c26dc2d6f6b4013') in 0.010037 seconds
+  Import took 0.015681 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.109895 seconds.
-  path: Assets/YTaxi/Scenes/Level4.unity
-  artifactKey: Guid(9427bda5a07e92a46853f0d9cb6f9fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level4.unity using Guid(9427bda5a07e92a46853f0d9cb6f9fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fab527734e45e2f0787c90457507334') in 0.003899 seconds
-  Import took 0.020518 seconds .
+  Time since last request: 0.000203 seconds.
+  path: Assets/YTaxi/Sprites/Menu/End/reply 1.png
+  artifactKey: Guid(7d84355d878d88d458502ba3afd62fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YTaxi/Sprites/Menu/End/reply 1.png using Guid(7d84355d878d88d458502ba3afd62fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c315f7e65c7a15032644fbbfc7e2c45a') in 0.060228 seconds
+  Import took 0.065986 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 9.138483 seconds.
-  path: Assets/YTaxi/Scenes/Level5.unity
-  artifactKey: Guid(e7ac4999fc6f2144ab277f05bccd47a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level5.unity using Guid(e7ac4999fc6f2144ab277f05bccd47a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e63fa4ff14511d8f3980fa6359d755e') in 0.004234 seconds
-  Import took 0.014091 seconds .
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.8 MB.
+System memory in use after: 75.9 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 7.932284 seconds.
-  path: Assets/YTaxi/Scenes/Level6.unity
-  artifactKey: Guid(a157379f5e5509049a978620d9b08206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YTaxi/Scenes/Level6.unity using Guid(a157379f5e5509049a978620d9b08206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f9b7a37384f963ab3687f28ac3dc72') in 0.005247 seconds
-  Import took 0.012672 seconds .
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3695.
+Total: 5.826300 ms (FindLiveObjects: 0.374400 ms CreateObjectMapping: 0.103300 ms MarkObjects: 3.539900 ms  DeleteObjects: 1.807000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

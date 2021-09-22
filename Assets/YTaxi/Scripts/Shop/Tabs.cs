@@ -1,4 +1,4 @@
-using Plugins.Demigiant.DOTween.Modules;
+using DG.Tweening;
 using UnityEngine;
 
 namespace YTaxi.Scripts.Shop
