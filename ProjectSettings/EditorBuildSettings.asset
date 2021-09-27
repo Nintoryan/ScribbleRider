@@ -27,6 +27,105 @@ EditorBuildSettings:
     path: Assets/YTaxi/Scenes/Level6.unity
     guid: a157379f5e5509049a978620d9b08206
   - enabled: 1
+    path: Assets/YTaxi/Scenes/Level7.unity
+    guid: e0310e59320977c41b82d6765fbbc9a7
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level8.unity
+    guid: d29902faa91c9af44a820c217d6e7628
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level9.unity
+    guid: ee872a6b5a4d1e445bdb0904984ff961
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level10.unity
+    guid: eed9ad33bd2bfdf4190b2df5d118103c
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level11.unity
+    guid: d22df10d78af83f4b81b6b4b0beca2a8
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level12.unity
+    guid: a3d8bacf0cd30f74b8a0c1988d31ea7d
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level13.unity
+    guid: 8d88d81cb6f1883489d62f1c4450bfc6
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level14.unity
+    guid: eccb7b90f13330948a47b0debb1efe15
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level15.unity
+    guid: c1e5011c15127194db3212189744b83b
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level16.unity
+    guid: b98446e9642705c4aa0f820a62a06a06
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level17.unity
+    guid: 3e70d7f930b283641bfade8df4be54e9
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level18.unity
+    guid: 7197b3baf58379e4980ccbbe0222adf5
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level19.unity
+    guid: c2e6df677a3607244952f2edd13242e2
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level20.unity
+    guid: c0a2be0229ce0a240b3285ed3f14696e
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level21.unity
+    guid: 031334dccb003a54998ebf05e964f9a2
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level22.unity
+    guid: 89264f46e48493d4687859d1fd9e398a
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level23.unity
+    guid: cb75ec1858578db4d9b646ddb9f82277
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level24.unity
+    guid: 4b31e06b90e91004385669071f009a78
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level25.unity
+    guid: 9beeec69614bc2d4e9c99893065ef5ea
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level26.unity
+    guid: 80b3604415bff5242b252b9073f475db
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level27.unity
+    guid: 86b0617fa83902b47bdfa3ddeba5d56b
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level28.unity
+    guid: 5598713277a56374db0e175eee94f494
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level29.unity
+    guid: 07f9973d785db6a4891cff8663f56674
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level30.unity
+    guid: 921509a75dae7f14d9da2a7f285b650e
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level31.unity
+    guid: cf63ddc9bde4d704c93651a479fea397
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level32.unity
+    guid: 0c2a5e1098ada0440abf8f93f2a92506
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level33.unity
+    guid: f472be8e03d71cc4092ea14a8fb2a82f
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level34.unity
+    guid: 0bf27e5d6b567024aadc1237caedd832
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level35.unity
+    guid: 320c0fcdfb640884b98dcfcffba30d3e
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level36.unity
+    guid: 69d1f38b3417a2042870d733715efe1c
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level37.unity
+    guid: 5beac130faaa2b94aa27bf0fde422fbe
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level39.unity
+    guid: 43734faad7dbd6a4ab5ca90da2159dd7
+  - enabled: 1
+    path: Assets/YTaxi/Scenes/Level40.unity
+    guid: d8ec8eee2dea343418aaaa9f31ad553d
+  - enabled: 1
     path: Assets/YTaxi/Scenes/Shop.unity
     guid: 5d9df2229ef24b4499f28174f19eeaf5
   m_configObjects: {}
