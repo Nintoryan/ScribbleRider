@@ -6,7 +6,7 @@ namespace YTaxi.Scripts.Car
     {
         [SerializeField] private Car _car;
         [SerializeField] private float _spoilerForce;
-        [SerializeField] private float _baseReductionCoef;
+        private float _baseReductionCoef = 0.3f;
         [SerializeField] private Transform _point;
         
     
