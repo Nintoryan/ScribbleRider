@@ -96,10 +96,10 @@ EditorBuildSettings:
     path: Assets/YTaxi/Scenes/Level29.unity
     guid: 07f9973d785db6a4891cff8663f56674
   - enabled: 1
-    path: Assets/YTaxi/Scenes/Level30.unity
+    path: Assets/YTaxi/Scenes/Level31.unity
     guid: 921509a75dae7f14d9da2a7f285b650e
   - enabled: 1
-    path: Assets/YTaxi/Scenes/Level31.unity
+    path: Assets/YTaxi/Scenes/Level30.unity
     guid: cf63ddc9bde4d704c93651a479fea397
   - enabled: 1
     path: Assets/YTaxi/Scenes/Level32.unity
