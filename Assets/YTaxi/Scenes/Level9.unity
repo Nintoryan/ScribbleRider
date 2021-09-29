@@ -1964,13 +1964,53 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 1567062985494368572, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
-      propertyPath: _modelSpeed
-      value: 13.5
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].time
+      value: 0.53932154
       objectReference: {fileID: 0}
-    - target: {fileID: 1567062985494368572, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
-      propertyPath: _wheelsSpeed
-      value: 48.5
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[2].time
+      value: 0.6071269
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].value
+      value: 1.1083237
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[2].value
+      value: 0.959
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[0].inSlope
+      value: -0.26269358
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].inSlope
+      value: -0.766533
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[2].inSlope
+      value: -2.1445615
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[0].outSlope
+      value: -0.26269358
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].outSlope
+      value: -0.766533
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[2].outSlope
+      value: -2.1445615
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[1].outWeight
+      value: 0.16027196
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649599795416550166, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
+      propertyPath: _duringDistanceSpeedModify.m_Curve.Array.data[2].outWeight
+      value: 0.33333334
       objectReference: {fileID: 0}
     - target: {fileID: 2722305314288003866, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _baseReductionCoef

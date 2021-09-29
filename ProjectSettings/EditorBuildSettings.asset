@@ -96,10 +96,10 @@ EditorBuildSettings:
     path: Assets/YTaxi/Scenes/Level29.unity
     guid: 07f9973d785db6a4891cff8663f56674
   - enabled: 1
-    path: Assets/YTaxi/Scenes/Level31.unity
+    path: Assets/YTaxi/Scenes/Level30.unity
     guid: 921509a75dae7f14d9da2a7f285b650e
   - enabled: 1
-    path: Assets/YTaxi/Scenes/Level30.unity
+    path: Assets/YTaxi/Scenes/Level31.unity
     guid: cf63ddc9bde4d704c93651a479fea397
   - enabled: 1
     path: Assets/YTaxi/Scenes/Level32.unity
@@ -120,11 +120,11 @@ EditorBuildSettings:
     path: Assets/YTaxi/Scenes/Level37.unity
     guid: 5beac130faaa2b94aa27bf0fde422fbe
   - enabled: 1
+    path: Assets/YTaxi/Scenes/Level38.unity
+    guid: 64b3ebbeca88f7d4593b77bc02940b82
+  - enabled: 1
     path: Assets/YTaxi/Scenes/Level39.unity
     guid: 43734faad7dbd6a4ab5ca90da2159dd7
-  - enabled: 1
-    path: Assets/YTaxi/Scenes/Level40.unity
-    guid: d8ec8eee2dea343418aaaa9f31ad553d
   - enabled: 1
     path: Assets/YTaxi/Scenes/Shop.unity
     guid: 5d9df2229ef24b4499f28174f19eeaf5

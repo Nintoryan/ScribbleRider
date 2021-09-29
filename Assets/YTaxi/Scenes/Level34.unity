@@ -1438,14 +1438,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 1567062985494368572, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
-      propertyPath: _modelSpeed
-      value: 13.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1567062985494368572, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
-      propertyPath: _wheelsSpeed
-      value: 48.5
-      objectReference: {fileID: 0}
     - target: {fileID: 2722305314288003866, guid: 745be69628cfccb4182eca682484fb2c, type: 3}
       propertyPath: _baseReductionCoef
       value: 1

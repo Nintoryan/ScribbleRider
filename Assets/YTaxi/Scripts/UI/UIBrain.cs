@@ -95,8 +95,8 @@ namespace YTaxi.Scripts.UI
         public void NextLevel()
         {
             PlayerData.LevelNumber++;
-            if(PlayerData.LevelNumber < 4)
-                SkinNotification.NewSkins+=2;
+            if(PlayerData.LevelNumber % 5 == 0)
+                SkinNotification.NewSkins+=1;
             SceneManager.LoadScene($"YTaxi/Scenes/Level{PlayerData.LevelNumber%PlayerData.AmountOfLevels}");
         }
     
