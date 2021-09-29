@@ -1437,6 +1437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _score: {fileID: 2861524458684413098}
+  minScore: 40
+  maxScore: 60
   _nextButtonRect: {fileID: 6621989059333662863}
   _nextButtonImages:
   - {fileID: 7892541352871064292}

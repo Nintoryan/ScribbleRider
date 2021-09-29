@@ -7,6 +7,11 @@ namespace YTaxi.Scripts.UI
     public class WinScreen : MonoBehaviour
     {
         [SerializeField] private Text _score;
+        [SerializeField] private int minScore;
+        [SerializeField] private int maxScore;
+        
+        
+        
         [SerializeField] private RectTransform _nextButtonRect;
         
         [SerializeField] private Image[] _nextButtonImages;
@@ -20,6 +25,8 @@ namespace YTaxi.Scripts.UI
         private void OnEnable()
         {
             var s = DOTween.Sequence();
+            var score = Random.Range(minScore, maxScore);
+            _score.text = $"+{score} очков";
             s.SetAutoKill(true);
             s.Append(_blur.DOFade(0.8f, 1f));
             s.Join(_winScreen.DOAnchorPosY(0, 1f));
