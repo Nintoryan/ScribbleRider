@@ -1,11 +1,11 @@
 /// Credit David Gileadi
 /// Sourced from - https://bitbucket.org/UnityUIExtensions/unity-ui-extensions/pull-requests/11
 
-using System;
-using UnityEngine.Events;
+using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls
 {
 
     [RequireComponent(typeof(Selectable))]

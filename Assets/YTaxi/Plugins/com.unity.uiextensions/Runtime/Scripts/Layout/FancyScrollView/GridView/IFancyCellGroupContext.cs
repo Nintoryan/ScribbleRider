@@ -2,8 +2,9 @@
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
 using System;
+using UnityEngine;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.GridView
 {
     /// <summary>
     /// <see cref="FancyCellGroup{TItemData, TContext}"/> のコンテキストインターフェース.

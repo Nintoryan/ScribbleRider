@@ -2,9 +2,11 @@
 ///Sourced from - http://forum.unity3d.com/threads/accordion-type-layout.271818/
 
 using System;
-using UnityEngine.UI.Extensions.Tweens;
+using UnityEngine;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.Accordion.Tweening;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.Accordion
 {
     [RequireComponent(typeof(RectTransform), typeof(LayoutElement))]
 	[AddComponentMenu("UI/Extensions/Accordion/Accordion Element")]

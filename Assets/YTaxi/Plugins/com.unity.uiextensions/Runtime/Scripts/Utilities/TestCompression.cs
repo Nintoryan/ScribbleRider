@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 
-public class TestCompression : MonoBehaviour {
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
+{
+	public class TestCompression : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+		// Use this for initialization
+		void Start () {
 	
-	}
+		}
 	
-	// Update is called once per frame
-	void Update () {
+		// Update is called once per frame
+		void Update () {
 	
+		}
 	}
 }

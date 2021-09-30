@@ -2,12 +2,14 @@
 /// Sourced from - https://github.com/Titinious/CurlyUI
 
 using System.Collections.Generic;
-
-#if UNITY_EDITOR
 using UnityEditor;
+using UnityEngine;
+using UnityEngine.UI;
+#if UNITY_EDITOR
+
 #endif
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Effects.CurlyUI
 {
     [RequireComponent(typeof(RectTransform))]
     [RequireComponent(typeof(Graphic))]

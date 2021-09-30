@@ -2,6 +2,7 @@
 /// Sourced from - https://forum.unity3d.com/threads/read-only-fields.68976/
 /// 
 using UnityEditor;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
 namespace UnityEngine.UI.Extensions
 { 

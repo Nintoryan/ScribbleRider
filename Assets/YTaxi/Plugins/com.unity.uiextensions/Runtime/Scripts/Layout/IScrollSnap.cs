@@ -2,7 +2,7 @@
 /// Required for scrollbar support to work across ALL scroll snaps
 
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
     internal interface IScrollSnap
     {

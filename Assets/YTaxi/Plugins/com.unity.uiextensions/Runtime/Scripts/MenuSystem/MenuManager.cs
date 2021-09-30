@@ -4,9 +4,10 @@
 /// Updated by SionDarksideJ - Fixed implementation as it assumed GO's we automatically assigned to instances
 
 using System.Collections.Generic;
-using System.Reflection;
+using UnityEngine;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.MenuSystem
 {
     [AddComponentMenu("UI/Extensions/Menu Manager")]
     [DisallowMultipleComponent]

@@ -6,9 +6,12 @@
 ///                        - autoselect "firstSelectedGameObject" since it doesn't seem to work automatically
 /// Updated 08-29-15 - On request of Issue #13 on repo, added a manual navigation order.
 
+using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts
 {
     public enum NavigationMode { Auto = 0, Manual = 1};
     [RequireComponent(typeof(EventSystem))]

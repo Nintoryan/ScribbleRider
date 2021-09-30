@@ -1,7 +1,10 @@
 ﻿/// Credit Ziboo
 /// Sourced from - http://forum.unity3d.com/threads/free-reorderable-list.364600/
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ReorderableList
 {
     public class ReorderableListDebug : MonoBehaviour
     {

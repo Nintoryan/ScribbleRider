@@ -2,8 +2,9 @@
 ///Sourced from - http://forum.unity3d.com/threads/color-picker.267043/
 
 using System;
+using UnityEngine;
 
-namespace UnityEngine.UI.Extensions.ColorPicker
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ColorPicker
 {
     #region ColorUtilities
 

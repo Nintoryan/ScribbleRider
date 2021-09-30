@@ -15,8 +15,9 @@
 
 
 using System.Collections.Generic;
+using UnityEngine;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
 {
     /**
         Class for representing a Bezier path, and methods for getting suitable points to 

@@ -1,6 +1,7 @@
 ﻿using System;
+using UnityEngine;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
 {
     public static class ExtentionMethods
     {

@@ -1,6 +1,8 @@
 using DG.Tweening;
+using MinigamesCommon;
 using UnityEngine;
 using UnityEngine.UI;
+using YTaxi.Scripts.Progress;
 
 namespace YTaxi.Scripts.UI
 {
@@ -24,9 +26,16 @@ namespace YTaxi.Scripts.UI
         
         private void OnEnable()
         {
-            var s = DOTween.Sequence();
             var score = Random.Range(minScore, maxScore);
+            
+            MiniGameScoreData.Last = score;
+            MiniGameScoreData.Session += score;
+            
+            new MiniGameCityMediator().SavePassedLevel("YTaxi",PlayerData.LevelNumber,MiniGameScoreData.Session);
+            
             _score.text = $"+{score} очков";
+            
+            var s = DOTween.Sequence();
             s.SetAutoKill(true);
             s.Append(_blur.DOFade(0.8f, 1f));
             s.Join(_winScreen.DOAnchorPosY(0, 1f));

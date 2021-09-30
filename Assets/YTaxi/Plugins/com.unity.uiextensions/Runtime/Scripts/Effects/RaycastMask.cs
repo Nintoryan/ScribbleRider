@@ -26,7 +26,10 @@ THE SOFTWARE.
 \***************************************************************************/
 
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Effects
 {
     [RequireComponent(typeof(RectTransform))]
     [RequireComponent(typeof(Image))]

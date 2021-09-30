@@ -7,9 +7,11 @@ Simply place the script on the ScrollRect that contains the selectable children 
 
 using System;
 using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
 {
 	[RequireComponent(typeof(ScrollRect))]
 	[AddComponentMenu("UI/Extensions/UIScrollToSelection")]

@@ -3,7 +3,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace HerbariumGames.Tool
+namespace YTaxi.Plugins.HerbariumGamesPlugin.Editor
 {
     public class Screenshoter
     {

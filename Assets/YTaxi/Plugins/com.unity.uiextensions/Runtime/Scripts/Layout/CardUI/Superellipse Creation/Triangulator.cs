@@ -3,10 +3,10 @@
 /// Sourced from - https://github.com/ryanslikesocool/Unity-Card-UI
 /// </summary>
 
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.CardUI.Superellipse_Creation
 {
 ///Credit where credit is due
 ///https://wiki.unity3d.com/index.php?title=Triangulator 

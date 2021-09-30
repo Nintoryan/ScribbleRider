@@ -7,13 +7,14 @@
 
 using System;
 using System.Collections.Generic;
-
-#if NEW_INPUT_SYSTEM
+using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
+#if NEW_INPUT_SYSTEM
+
 #endif
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
 {
     public static class UIExtensionsInputManager
     {

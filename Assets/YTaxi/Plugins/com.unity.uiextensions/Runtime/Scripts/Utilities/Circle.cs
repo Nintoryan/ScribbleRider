@@ -3,7 +3,9 @@
 /// Updated and modified for UI Extensions to be more generic
 
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
 {
     public class Circle
     {

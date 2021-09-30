@@ -2,6 +2,7 @@
 /// Sourced from - http://forum.unity3d.com/threads/sprite-icons-with-text-e-g-emoticons.265927/
 
 using UnityEditor;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls;
 
 namespace UnityEngine.UI.Extensions
 {

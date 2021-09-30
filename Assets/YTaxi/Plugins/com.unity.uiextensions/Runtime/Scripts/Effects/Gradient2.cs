@@ -7,10 +7,13 @@
 ///
 /// Remember that for radial and diamond gradients, colors are applied per-vertex so if you have multiple points on your gradient where the color changes and there aren't enough vertices, you won't see all of the colors.
 /// </summary>
+
 using System;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Effects
 {
     [AddComponentMenu("UI/Effects/Extensions/Gradient2")]
     public class Gradient2 : BaseMeshEffect

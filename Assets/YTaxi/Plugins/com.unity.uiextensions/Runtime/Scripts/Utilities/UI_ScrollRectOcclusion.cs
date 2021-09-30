@@ -3,8 +3,10 @@
 /// Demo - https://youtu.be/uVTV7Udx78k?t=39s ScrollRectOcclusion - disables the objects outside of the scrollrect viewport. Useful for scrolls with lots of content, reduces geometry and drawcalls (if content is not batched) In some cases it might create a bit of spikes, especially if you have lots of UI.Text objects in the childs. In that case consider to Add CanvasGroup to your childs and instead of calling setActive on game object change CanvasGroup.alpha value. At 0 it is not being rendered hence will also optimize the performance. 
 
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
 {
     /// <summary>
     /// ScrollRectOcclusion - disables the objects outside of the scrollrect viewport. 

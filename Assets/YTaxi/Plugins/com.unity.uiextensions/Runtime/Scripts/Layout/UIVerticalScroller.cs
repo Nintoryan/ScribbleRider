@@ -2,9 +2,12 @@
 /// Sourced from - https://www.youtube.com/channel/UCHp8LZ_0-iCvl-5pjHATsgw
 /// Please donate: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RJ8D9FRFQF9VS
 
+using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
     [RequireComponent(typeof(ScrollRect))]
     [AddComponentMenu("Layout/Extensions/Vertical Scroller")]

@@ -3,6 +3,7 @@
 
 using UnityEditor;
 using UnityEditor.AnimatedValues;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller;
 
 // For maintenance, every new [SerializeField] variable in Scroller must be declared here
 

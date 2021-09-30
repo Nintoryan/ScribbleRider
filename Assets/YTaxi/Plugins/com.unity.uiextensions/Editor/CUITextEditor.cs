@@ -2,6 +2,7 @@
 /// Sourced from - https://github.com/Titinious/CurlyUI
 
 using UnityEditor;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Effects.CurlyUI;
 
 namespace UnityEngine.UI.Extensions
 {

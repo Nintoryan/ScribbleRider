@@ -1,13 +1,15 @@
 ﻿///Credit Martin Nerurkar // www.martin.nerurkar.de // www.sharkbombs.com
 ///Sourced from - http://www.sharkbombs.com/2015/02/10/tooltips-with-the-new-unity-ui-ugui/
+
+using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.ToolTips.BoundTooltip
 {
     [AddComponentMenu("UI/Extensions/Bound Tooltip/Bound Tooltip Trigger")]
 	public class BoundTooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
 	{
-		[TextAreaAttribute]
+		[TextArea]
 		public string text;
 
 		public bool useMousePosition = false;

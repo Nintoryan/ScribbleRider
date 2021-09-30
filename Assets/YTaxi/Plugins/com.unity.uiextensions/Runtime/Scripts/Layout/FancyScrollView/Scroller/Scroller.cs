@@ -2,10 +2,11 @@
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
 using System;
+using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI.Extensions.EasingCore;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller
 {
     /// <summary>
     /// スクロール位置の制御を行うコンポーネント.

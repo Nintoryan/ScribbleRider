@@ -7,7 +7,10 @@
 /// 
 /// </summary>
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
     /// <summary>
     /// TODO:

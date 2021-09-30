@@ -3,11 +3,10 @@
 /// Sourced from - https://github.com/ryanslikesocool/Unity-Card-UI
 /// </summary>
 
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.CardUI.Superellipse_Creation
 {
 ///The formula for a basic superellipse is
 ///Mathf.Pow(Mathf.Abs(x / a), n) + Mathf.Pow(Mathf.Abs(y / b), n) = 1

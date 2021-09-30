@@ -1,12 +1,12 @@
 /// Credit David Gileadi
 /// Sourced from - https://bitbucket.org/UnityUIExtensions/unity-ui-extensions/pull-requests/12
 
-using System;
 using System.Collections;
-using UnityEngine.Events;
+using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls
 {
     [AddComponentMenu("UI/Extensions/Segmented Control/Segment")]
     [RequireComponent(typeof(Selectable))]

@@ -1,4 +1,6 @@
+using MinigamesCommon;
 using UnityEngine;
+using YTaxi.Scripts.Progress;
 
 namespace YTaxi.Scripts.UI
 {
@@ -6,7 +8,7 @@ namespace YTaxi.Scripts.UI
     {
         public void Exit()
         {
-            
+            new MiniGameCityMediator().ExitMiniGame("YTaxi",PlayerData.LevelNumber,MiniGameScoreData.Session);
         }
     }
 

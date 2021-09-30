@@ -2,8 +2,11 @@
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
 using System;
+using UnityEngine;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.ScrollRect;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.GridView
 {
     /// <summary>
     /// <see cref="FancyGridView{TItemData, TContext}"/> のコンテキスト基底クラス.

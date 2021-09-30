@@ -1,12 +1,12 @@
 ﻿/// Credit setchi (https://github.com/setchi)
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller
 {
     public enum MovementType
     {
-        Unrestricted = ScrollRect.MovementType.Unrestricted,
-        Elastic = ScrollRect.MovementType.Elastic,
-        Clamped = ScrollRect.MovementType.Clamped
+        Unrestricted = UnityEngine.UI.ScrollRect.MovementType.Unrestricted,
+        Elastic = UnityEngine.UI.ScrollRect.MovementType.Elastic,
+        Clamped = UnityEngine.UI.ScrollRect.MovementType.Clamped
     }
 }

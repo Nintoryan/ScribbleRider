@@ -3,9 +3,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
+using UnityEngine;
+using UnityEngine.UI;
 
-
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Primitives
 {
     [AddComponentMenu("UI/Extensions/Primitives/Squircle")]
     public class UISquircle : UIPrimitiveBase

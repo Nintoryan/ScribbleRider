@@ -5,8 +5,9 @@
 
 
 using System.Collections;
+using UnityEngine;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
 {
     /// <summary>
     /// Dynamic scaling of text or image (including button) based on curves

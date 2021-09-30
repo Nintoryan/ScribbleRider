@@ -1,7 +1,11 @@
 ﻿/// Credit drHogan 
 /// Sourced from - http://www.hammerandravens.com/multi-use-tooltip-system-in-unity3d/
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.ToolTips
 {
     [AddComponentMenu("UI/Extensions/HoverTooltip")]
     public class HoverTooltip : MonoBehaviour

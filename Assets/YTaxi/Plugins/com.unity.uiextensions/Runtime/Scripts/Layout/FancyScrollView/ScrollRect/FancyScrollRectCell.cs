@@ -1,7 +1,11 @@
 ﻿/// Credit setchi (https://github.com/setchi)
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Core;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.ScrollRect
 {
     /// <summary>
     /// <see cref="FancyScrollRect{TItemData, TContext}"/> のセルを実装するための抽象基底クラス.

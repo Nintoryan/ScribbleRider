@@ -6,9 +6,10 @@
 
 
 using System;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts
 {
     /// <summary>
     /// Includes a few fixes of my own, mainly to tidy up duplicates, remove unneeded stuff and testing. (nothing major, all the crew above did the hard work!)

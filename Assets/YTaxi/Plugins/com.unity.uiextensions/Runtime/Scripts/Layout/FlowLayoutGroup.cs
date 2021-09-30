@@ -6,8 +6,10 @@
 /// Vertical Flow by Ramon Molossi 
 
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
 	/// <summary>
 	/// Layout Group controller that arranges children in bars, fitting as many on a line until total size exceeds parent bounds

@@ -2,8 +2,10 @@
 /// Sourced from - https://github.com/Titinious/CurlyUI
 
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Effects.CurlyUI
 {
     [RequireComponent(typeof(RectTransform))]
     [RequireComponent(typeof(Image))]

@@ -1,11 +1,16 @@
 ﻿/// Credit setchi (https://github.com/setchi)
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Core;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.ScrollRect;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.GridView
 {
     /// <summary>
     /// <see cref="FancyGridView{TItemData, TContext}"/> のセルを実装するための抽象基底クラス.
-    /// <see cref="FancyCell{TItemData, TContext}.Context"/> が不要な場合は
+    /// <see cref="FancyCell{TItemData,TContext}.Context"/> が不要な場合は
     /// 代わりに <see cref="FancyGridViewCell{TItemData}"/> を使用します.
     /// </summary>
     /// <typeparam name="TItemData">アイテムのデータ型.</typeparam>

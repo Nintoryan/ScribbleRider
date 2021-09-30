@@ -2,9 +2,12 @@
 /// Sourced from - http://forum.unity3d.com/threads/color-picker.267043/
 /// Updated by SimonDarksideJ - Updated to use touch position rather than mouse for multi-touch
 
+using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ColorPicker.Events;
 
-namespace UnityEngine.UI.Extensions.ColorPicker
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ColorPicker
 {
 	/// <summary>
 	/// Samples colors from a screen capture. 

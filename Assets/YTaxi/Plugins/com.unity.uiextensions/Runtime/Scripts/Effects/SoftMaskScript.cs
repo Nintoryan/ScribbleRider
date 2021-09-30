@@ -2,7 +2,11 @@
 /// Sourced from - http://www.randomchaos.co.uk/SoftAlphaUIMask.aspx
 /// Updated by valtain - https://bitbucket.org/SimonDarksideJ/unity-ui-extensions/pull-requests/33
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Effects
 {
     [ExecuteInEditMode]
     [AddComponentMenu("UI/Effects/Extensions/SoftMaskScript")]

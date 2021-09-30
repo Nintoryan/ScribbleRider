@@ -2,7 +2,9 @@
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Core
 {
     /// <summary>
     /// <see cref="FancyScrollView{TItemData, TContext}"/> のセルを実装するための抽象基底クラス.

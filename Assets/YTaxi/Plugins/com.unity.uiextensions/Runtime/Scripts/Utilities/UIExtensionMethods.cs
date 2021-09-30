@@ -1,6 +1,9 @@
 ﻿/// Credit Simon (simonDarksideJ) Jackson
 /// Sourced from - My head
-namespace UnityEngine.UI.Extensions
+
+using UnityEngine;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
 {
     public static class UIExtensionMethods
     {

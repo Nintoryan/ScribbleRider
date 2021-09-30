@@ -3,8 +3,11 @@
 /// Updated/Refactored from - http://forum.unity3d.com/threads/new-ui-and-line-drawing.253772/#post-2528050
 
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Primitives
 {
     [AddComponentMenu("UI/Extensions/Primitives/UILineRenderer")]
     [RequireComponent(typeof(RectTransform))]
@@ -343,8 +346,8 @@ namespace UnityEngine.UI.Extensions
         {
             if (activeSprite != null)
             {
-                var outer = Sprites.DataUtility.GetOuterUV(activeSprite);
-                var inner = Sprites.DataUtility.GetInnerUV(activeSprite);
+                var outer = UnityEngine.Sprites.DataUtility.GetOuterUV(activeSprite);
+                var inner = UnityEngine.Sprites.DataUtility.GetInnerUV(activeSprite);
                 UV_TOP_LEFT = new Vector2(outer.x, outer.y);
                 UV_BOTTOM_LEFT = new Vector2(outer.x, outer.w);
                 UV_TOP_CENTER_LEFT = new Vector2(inner.x, inner.y);

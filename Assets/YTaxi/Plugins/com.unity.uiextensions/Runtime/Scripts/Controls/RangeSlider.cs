@@ -4,10 +4,12 @@
 /// Raises a UnityEvent passing the low and high values
 
 using System;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls
 {
     [AddComponentMenu("UI/Extensions/Range Slider", 34)]
     [ExecuteInEditMode]

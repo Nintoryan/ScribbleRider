@@ -2,8 +2,9 @@
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
 using System.Collections.Generic;
+using UnityEngine;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Core
 {
     /// <summary>
     /// スクロールビューを実装するための抽象基底クラス.

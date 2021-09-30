@@ -4,9 +4,11 @@
 /// Updated by SimonDarksideJ - major refactoring on updating current position and scroll management
 
 using System;
+using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
     [RequireComponent(typeof(ScrollRect))]
     [AddComponentMenu("Layout/Extensions/Vertical Scroll Snap")]

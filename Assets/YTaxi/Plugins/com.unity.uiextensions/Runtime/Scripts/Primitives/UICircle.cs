@@ -18,8 +18,10 @@
 ///       aspect ratios and resolutions to ensure consistent behaviour.
 
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Primitives
 {
     [AddComponentMenu("UI/Extensions/Primitives/UI Circle")]
     public class UICircle : UIPrimitiveBase

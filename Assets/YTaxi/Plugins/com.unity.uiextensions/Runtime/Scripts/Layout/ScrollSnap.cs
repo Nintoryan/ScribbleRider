@@ -9,10 +9,14 @@
 ///   if you don't wish to use this auto resize turn of autoLayoutItems
 /// - fixed current page made it independent from pivot
 /// - replaced pagination with delegate function
-using System;
-using UnityEngine.EventSystems;
 
-namespace UnityEngine.UI.Extensions
+using System;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
     [ExecuteInEditMode]
     [RequireComponent(typeof(ScrollRect))]
@@ -81,7 +85,7 @@ namespace UnityEngine.UI.Extensions
         public Button PrevButton;
 
         [Tooltip("Number of items visible in one page of scroll frame.")]
-        [RangeAttribute(1, 100)]
+        [Range(1, 100)]
         public int ItemsVisibleAtOnce = 1;
 
         [Tooltip("Sets minimum width of list items to 1/itemsVisibleAtOnce.")]

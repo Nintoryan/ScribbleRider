@@ -3,7 +3,9 @@
 /// Updated by SimonDarksideJ - Refactored to be a more generic component
 
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.MenuSystem
 {
     public abstract class Menu<T> : Menu where T : Menu<T>
     {

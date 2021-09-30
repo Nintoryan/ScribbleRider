@@ -1,7 +1,7 @@
 ﻿/// Credit setchi (https://github.com/setchi)
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller
 {
     public enum ScrollDirection
     {

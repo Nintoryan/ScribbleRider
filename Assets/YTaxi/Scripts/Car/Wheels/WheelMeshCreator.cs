@@ -13,8 +13,7 @@ namespace YTaxi.Scripts.Car.Wheels
     
         private void Start()
         {
-            wheelPart = Instantiate(wheelPart);
-            wheelPart.transform.SetParent(null);
+            wheelPart = Instantiate(wheelPart, null, true);
             wheelPart.SetMaterial(_carView.GetCurrentMaterial());
         }
     

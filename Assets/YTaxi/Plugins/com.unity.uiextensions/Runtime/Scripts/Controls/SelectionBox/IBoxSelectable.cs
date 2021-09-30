@@ -4,7 +4,9 @@
 ///Sourced from - http://forum.unity3d.com/threads/color-picker.267043/
 
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.SelectionBox
 {
 
     /*

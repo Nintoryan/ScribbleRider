@@ -2,9 +2,10 @@
 /// Sourced from - https://bitbucket.org/UnityUIExtensions/unity-ui-extensions/issues/120/horizontal-scroll-snap-scroll-bar-fix
 /// Updated by simonDarksideJ - Made extension support all types of scroll snap
 
+using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
     [DisallowMultipleComponent]
     public class ScrollSnapScrollbarHelper : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IBeginDragHandler, IEndDragHandler, IDragHandler

@@ -2,7 +2,11 @@
 /// Sourced from - http://forum.unity3d.com/threads/any-way-to-show-part-of-an-image-without-using-mask.360085/#post-2332030
 
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Effects.ShaderEffects
 {
     [AddComponentMenu("UI/Effects/Extensions/UIScreenEffect")]
     [ExecuteInEditMode]

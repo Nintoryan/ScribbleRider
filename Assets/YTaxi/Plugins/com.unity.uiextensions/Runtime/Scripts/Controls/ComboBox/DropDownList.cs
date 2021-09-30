@@ -3,8 +3,10 @@
 
 
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ComboBox
 {
     /// <summary>
     ///  Extension to the UI class which creates a dropdown list 

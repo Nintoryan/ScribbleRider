@@ -2,13 +2,16 @@
 /// Sourced from - https://bitbucket.org/UnityUIExtensions/unity-ui-extensions/pull-requests/28
 /// Updated by SimonDarksideJ - Added some exception management and a SetNewItems to replace the content programmatically
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.EventSystems;
+using UnityEngine;
 using UnityEngine.Events;
-using System;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
     [ExecuteInEditMode]
     [RequireComponent(typeof(ScrollRect))]

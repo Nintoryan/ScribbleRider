@@ -4,8 +4,10 @@
 /// </summary>
 
 using System.Collections;
+using UnityEngine;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.CardUI._2D_Cards
 {
 
     public class CardStack2D : MonoBehaviour

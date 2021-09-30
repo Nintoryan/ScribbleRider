@@ -5,9 +5,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities
 {
     [AddComponentMenu("UI/Extensions/UI Magnetic Infinite Scroll")]
     [RequireComponent(typeof(ScrollRect))]

@@ -2,7 +2,10 @@
 ///Sourced from - http://forum.unity3d.com/threads/color-picker.267043/
 
 
-namespace UnityEngine.UI.Extensions.ColorPicker
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ColorPicker
 {
     [RequireComponent(typeof(BoxSlider), typeof(RawImage)), ExecuteInEditMode()]
     public class SVBoxSlider : MonoBehaviour

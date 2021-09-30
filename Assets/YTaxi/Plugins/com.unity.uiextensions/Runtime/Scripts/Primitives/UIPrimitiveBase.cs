@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Primitives
 {
     public enum ResolutionMode
     {

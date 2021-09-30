@@ -4,9 +4,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEngine.UI.Extensions.EasingCore;
+using UnityEngine;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Core;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.ScrollRect;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.GridView
 {
     /// <summary>
     /// グリッドレイアウトのスクロールビューを実装するための抽象基底クラス.

@@ -4,7 +4,9 @@
  * Licensed under MIT (https://github.com/setchi/EasingCore/blob/master/LICENSE)
  */
 
-namespace UnityEngine.UI.Extensions.EasingCore
+using UnityEngine;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller
 {
     public enum Ease
     {

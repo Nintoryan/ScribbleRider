@@ -1,7 +1,10 @@
 ﻿/// Credit ömer faruk sayılır
 /// Sourced from - https://bitbucket.org/snippets/Lordinarius/nrn4L
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Effects
 {
     [ExecuteInEditMode, RequireComponent(typeof(Image))]
     [AddComponentMenu("UI/Effects/Extensions/Shining Effect")]

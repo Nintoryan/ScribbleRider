@@ -2,8 +2,10 @@
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
 using System.Linq;
+using UnityEngine;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Core;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.GridView
 {
     /// <summary>
     /// 複数の <see cref="FancyCell{TItemData, TContext}"/> を持つセルグループ実装するための抽象基底クラス.

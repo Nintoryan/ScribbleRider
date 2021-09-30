@@ -2,8 +2,9 @@
 /// Sourced from - https://github.com/setchi/FancyScrollView
 
 using System;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.ScrollRect
 {
     /// <summary>
     /// <see cref="FancyScrollRect{TItemData, TContext}"/> のコンテキストインターフェース.

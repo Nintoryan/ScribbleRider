@@ -1,9 +1,12 @@
 /// Credit Ges
 /// Sourced from - http://forum.unity3d.com/threads/scripts-useful-4-6-scripts-collection.264161/page-3#post-2280109
 
+using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
     [ExecuteInEditMode]
     [RequireComponent(typeof(RectTransform))]

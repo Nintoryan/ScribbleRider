@@ -2,8 +2,10 @@
 ///Sourced from - http://forum.unity3d.com/threads/color-picker.267043/
 
 using System.Globalization;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions.ColorPicker
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ColorPicker
 {
 
     [RequireComponent(typeof(InputField))]

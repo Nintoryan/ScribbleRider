@@ -1,6 +1,9 @@
 ﻿using UnityEngine.Events;
 
-public class HSVChangedEvent : UnityEvent<float, float, float>
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ColorPicker.Events
 {
+    public class HSVChangedEvent : UnityEvent<float, float, float>
+    {
 
+    }
 }

@@ -1,7 +1,10 @@
 /// Credit ChoMPHi
 /// Sourced from - http://forum.unity3d.com/threads/script-flippable-for-ui-graphics.291711/
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Effects
 {
     [RequireComponent(typeof(RectTransform), typeof(Graphic)), DisallowMultipleComponent]
     [AddComponentMenu("UI/Effects/Extensions/Flippable")]

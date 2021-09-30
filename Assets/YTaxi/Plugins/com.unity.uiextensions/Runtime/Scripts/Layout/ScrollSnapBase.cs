@@ -3,10 +3,13 @@
 /// Updated by simonDarksideJ - removed dependency on a custom ScrollRect script. Now implements drag interfaces and standard Scroll Rect.
 
 using System;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout
 {
     public class ScrollSnapBase : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IScrollSnap, IPointerClickHandler
     {

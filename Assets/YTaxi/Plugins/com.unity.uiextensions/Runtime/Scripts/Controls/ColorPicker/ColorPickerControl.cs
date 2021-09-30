@@ -1,8 +1,11 @@
 ///Credit judah4
 ///Sourced from - http://forum.unity3d.com/threads/color-picker.267043/
-using System.Collections.Generic;
 
-namespace UnityEngine.UI.Extensions.ColorPicker
+using System.Collections.Generic;
+using UnityEngine;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ColorPicker.Events;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ColorPicker
 {
 	[ExecuteInEditMode]
 	public class ColorPickerControl : MonoBehaviour

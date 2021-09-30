@@ -3,10 +3,12 @@
 
 using System;
 using System.Collections;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls
 {
     // Stepper control
     [AddComponentMenu("UI/Extensions/Stepper")]

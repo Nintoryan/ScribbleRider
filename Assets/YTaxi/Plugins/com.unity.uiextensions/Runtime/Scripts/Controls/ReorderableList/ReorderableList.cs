@@ -2,9 +2,12 @@
 /// Sourced from - http://forum.unity3d.com/threads/free-reorderable-list.364600/
 
 using System;
+using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls.ReorderableList
 {
 
     [RequireComponent(typeof(RectTransform)), DisallowMultipleComponent]

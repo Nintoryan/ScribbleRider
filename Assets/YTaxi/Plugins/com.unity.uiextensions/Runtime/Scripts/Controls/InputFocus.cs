@@ -2,7 +2,11 @@
 /// Sourced from - http://forum.unity3d.com/threads/inputfield-focus-and-unfocus.306634/
 /// Usage, assign component to Input field, set OnEndEdit function to the one in this script and the Click for the submit button to the buttonPressed function.
 
-namespace UnityEngine.UI.Extensions
+using UnityEngine;
+using UnityEngine.UI;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities;
+
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Controls
 {
     [RequireComponent(typeof(InputField))]
 	[AddComponentMenu("UI/Extensions/InputFocus")]

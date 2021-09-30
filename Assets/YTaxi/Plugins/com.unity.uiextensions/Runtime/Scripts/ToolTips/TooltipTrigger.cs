@@ -1,15 +1,16 @@
 ﻿using System.Collections;
-///Credit Martin Nerurkar // www.martin.nerurkar.de // www.sharkbombs.com
-///Sourced from - http://www.sharkbombs.com/2015/02/10/tooltips-with-the-new-unity-ui-ugui/
+using UnityEngine;
 using UnityEngine.EventSystems;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Utilities; ///Credit Martin Nerurkar // www.martin.nerurkar.de // www.sharkbombs.com
+///Sourced from - http://www.sharkbombs.com/2015/02/10/tooltips-with-the-new-unity-ui-ugui/
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.ToolTips
 {
     [RequireComponent(typeof(RectTransform))]
     [AddComponentMenu("UI/Extensions/Tooltip/Tooltip Trigger")]
     public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
     {
-        [TextAreaAttribute]
+        [TextArea]
         public string text;
 
         public enum TooltipPositioningType {

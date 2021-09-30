@@ -3,9 +3,11 @@
 
 using System;
 using System.Collections.Generic;
-using UnityEngine.UI.Extensions.EasingCore;
+using UnityEngine;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Core;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.Scroller;
 
-namespace UnityEngine.UI.Extensions
+namespace YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout.FancyScrollView.ScrollRect
 {
     /// <summary>
     /// ScrollRect スタイルのスクロールビューを実装するための抽象基底クラス.
@@ -15,7 +17,7 @@ namespace UnityEngine.UI.Extensions
     /// </summary>
     /// <typeparam name="TItemData">アイテムのデータ型.</typeparam>
     /// <typeparam name="TContext"><see cref="FancyScrollView{TItemData, TContext}.Context"/> の型.</typeparam>
-    [RequireComponent(typeof(Scroller))]
+    [RequireComponent(typeof(Scroller.Scroller))]
     public abstract class FancyScrollRect<TItemData, TContext> : FancyScrollView<TItemData, TContext>
         where TContext : class, IFancyScrollRectContext, new()
     {
@@ -56,7 +58,7 @@ namespace UnityEngine.UI.Extensions
         /// </remarks>
         protected virtual bool Scrollable => MaxScrollPosition > 0f;
 
-        Scroller cachedScroller;
+        Scroller.Scroller cachedScroller;
 
         /// <summary>
         /// スクロール位置を制御する <see cref="FancyScrollView.Scroller"/> のインスタンス.
@@ -64,7 +66,7 @@ namespace UnityEngine.UI.Extensions
         /// <remarks>
         /// <see cref="Scroller"/> のスクロール位置を変更する際は必ず <see cref="ToScrollerPosition(float)"/> を使用して変換した位置を使用してください.
         /// </remarks>
-        protected Scroller Scroller => cachedScroller ?? (cachedScroller = GetComponent<Scroller>());
+        protected Scroller.Scroller Scroller => cachedScroller ?? (cachedScroller = GetComponent<Scroller.Scroller>());
 
         float ScrollLength => 1f / Mathf.Max(cellInterval, 1e-2f) - 1f;
 

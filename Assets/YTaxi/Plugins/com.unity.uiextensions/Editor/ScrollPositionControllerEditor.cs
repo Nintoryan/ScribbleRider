@@ -4,6 +4,7 @@
 // For maintenance, every new [SerializeField] variable in ScrollPositionController must be declared here
 
 using UnityEditor;
+using YTaxi.Plugins.com.unity.uiextensions.Runtime.Scripts.Layout;
 
 namespace UnityEngine.UI.Extensions
 {
