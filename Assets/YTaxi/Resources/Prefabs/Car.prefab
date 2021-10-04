@@ -160,7 +160,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _car: {fileID: 2841133623985587764}
   _spoilerForce: 20000
-  _baseReductionCoef: 0.3
   _point: {fileID: 2132211715257042043}
 --- !u!114 &7444920242111708879
 MonoBehaviour:
@@ -189,7 +188,7 @@ GameObject:
   - component: {fileID: 2841133624088891131}
   - component: {fileID: 2841133624088891130}
   - component: {fileID: 2841133624088891132}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}

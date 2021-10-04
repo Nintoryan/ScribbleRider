@@ -34,7 +34,7 @@ namespace YTaxi.Scripts.Shop
 
         public void CloseShop()
         {
-            SceneManager.LoadScene($"YTaxi/Scenes/Level{PlayerData.LevelNumber%7}");
+            SceneManager.LoadScene($"YTaxi/Scenes/Level{PlayerData.LevelNumber%PlayerData.AmountOfLevels}");
         }
 
         private void RefreshCarSkins(Skin selected)

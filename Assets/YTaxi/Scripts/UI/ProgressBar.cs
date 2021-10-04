@@ -28,7 +28,7 @@ namespace YTaxi.Scripts.UI
             _start = _carStartX;
             _length = _finishX - _start;
     
-            _levelNumber.text = PlayerData.LevelNumber.ToString();
+            _levelNumber.text = (PlayerData.LevelNumber+1).ToString();
         }
         
         private void SetValue(float value)
