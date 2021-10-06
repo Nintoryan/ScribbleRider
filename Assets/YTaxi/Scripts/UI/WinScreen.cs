@@ -30,6 +30,7 @@ namespace YTaxi.Scripts.UI
             
             MiniGameScoreData.Last = score;
             MiniGameScoreData.Session += score;
+            PlayerData.LevelNumber++;
             
             new MiniGameCityMediator().SavePassedLevel("YTaxi",PlayerData.LevelNumber,MiniGameScoreData.Session);
             
