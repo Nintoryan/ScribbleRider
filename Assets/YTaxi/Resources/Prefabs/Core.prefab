@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5780124039771122996}
+  - component: {fileID: 4879616471440536657}
   m_Layer: 0
   m_Name: Core
   m_TagString: Untagged
@@ -35,6 +36,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4879616471440536657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523018708862353759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454c190c8b0c39445a207e902139dd85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 5865242122148682588}
+  Bot: {fileID: 1567062985494368572}
 --- !u!114 &2649599795416550166
 MonoBehaviour:
   m_ObjectHideFlags: 0

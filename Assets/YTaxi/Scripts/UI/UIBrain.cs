@@ -15,8 +15,7 @@ namespace YTaxi.Scripts.UI
         [SerializeField] private GameObject _drawingCanvas;
         [SerializeField] private GameObject _gamePlayCanvas;
         [SerializeField] private GameObject _menuCanvas;
-    
-        private Car.Car FinishedFirst;
+        
         
     
         private void Start()
@@ -49,16 +48,9 @@ namespace YTaxi.Scripts.UI
         }
     #endif
     
-        private void DetectReachingFinish(Car.Car _car)
+        private void DetectReachingFinish(bool isWin)
         {
-            if (FinishedFirst == null)
-            {
-                FinishedFirst = _car;
-            }
-    
-            if (_car != _player) return;
-            
-            if (_car == FinishedFirst)
+            if (isWin)
             {
                 OpenWinCanvas();
             }
@@ -66,7 +58,6 @@ namespace YTaxi.Scripts.UI
             {
                 OpenLooseCanvas();               
             }
-    
         }
         
         private void OpenWinCanvas()
