@@ -53,7 +53,7 @@ namespace YTaxi.Scripts.UI
 
             s.AppendInterval(0.5f);
             
-            s.Join(_exitButton.DOAnchorPosY(-284.0f, 0.8f));
+            s.Join(_exitButton.DOAnchorPosY(-251, 0.8f));
             s.Join(_exitButtonBackground.DOFade(1, 0.8f));
             s.Join(_exitButtonLabel.DOFade(1, 0.8f));
         }
