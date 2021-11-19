@@ -36,7 +36,7 @@ namespace YTaxi.Scripts.UI
             
             _score.text = $"+{score} очков";
             
-            var s = DOTween.Sequence();
+            var s = DOTween.Sequence().SetUpdate(true);
             s.SetAutoKill(true);
             s.Append(_blur.DOFade(0.8f, 1f));
             s.Join(_winScreen.DOAnchorPosY(0, 1f));
