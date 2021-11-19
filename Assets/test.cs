@@ -1,5 +1,6 @@
 using MinigamesCommon;
 using UnityEngine;
+using YTaxi.Scripts.Progress;
 
 public class test : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public class test : MonoBehaviour
     
     private void Start()
     {
-        new MiniGameInitializer().InitializeGame("YTaxi",_levelNumber);
+        new MiniGameInitializer().InitializeGame("YTaxi",PlayerData.LevelNumber);
     }
 
 }
