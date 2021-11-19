@@ -33,9 +33,6 @@ namespace YTaxi.Scripts
                 {
                     StartCoroutine(EndLevel(isWin && !isBotFirst));
                 }
-
-                var a = new GameObject[12];
-                var b = a.Any(c => c.activeSelf);
             }
         }
     
