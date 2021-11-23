@@ -6,11 +6,20 @@ namespace YTaxi.Scripts.UI
 {
     public class Onboarding : MonoBehaviour
     {
+        private bool isShownOnce => PlayerPrefs.GetInt("YTaxiOnboardingIsShownOnce")==1;
         [SerializeField] private GameObject _ui;
         [SerializeField] private GameObject _drawingCanvas;
 
         [SerializeField] private GameObject _onboarding;
         [SerializeField] private Button _continue;
+
+        private void Awake()
+        {
+            if (isShownOnce)
+            {
+                OnContinueClicked();
+            }
+        }
 
         private void OnEnable()
         {
@@ -30,6 +39,7 @@ namespace YTaxi.Scripts.UI
 
         private void OnContinueClicked()
         {
+            PlayerPrefs.SetInt("YTaxiOnboardingIsShownOnce", 1);
             _ui.SetActive(true);
             _drawingCanvas.SetActive(true);
             

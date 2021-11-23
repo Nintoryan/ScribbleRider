@@ -82,7 +82,11 @@ namespace YTaxi.Scripts.Car
         {
             _wheelsSpeed = 0;
             _modelSpeed = 0;
-                //_model.isKinematic = true;
+            _model.isKinematic =true;
+            foreach (var wheel in _currentWheels)
+            {
+                wheel.GetComponent<Rigidbody>().isKinematic = true;
+            }
         }
 
         public void SetWheels(Wheel _wheel)
