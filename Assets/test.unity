@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelNumber: 0
+  _levelsToComplete: 5
 --- !u!4 &118123286
 Transform:
   m_ObjectHideFlags: 0
