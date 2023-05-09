@@ -1,14 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using MinigamesCommon;
 using UnityEngine;
+using YTaxi.Scripts.Progress;
 
 public class test : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int _levelNumber;
+    [SerializeField] private int _levelsToComplete;
+    
+    
+    private void Start()
     {
-        new MiniGameInitializer().InitializeGame("YTaxi",20);
+        new MiniGameInitializer().InitializeGame("YTaxi",PlayerData.LevelNumber,_levelsToComplete);
+            //PlayerData.LevelNumber
     }
 
 }

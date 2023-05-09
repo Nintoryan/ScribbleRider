@@ -1,3 +1,4 @@
+using MinigamesCommon;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using YTaxi.Scripts.Progress;
@@ -14,8 +15,7 @@ namespace YTaxi.Scripts.UI
         [SerializeField] private GameObject _drawingCanvas;
         [SerializeField] private GameObject _gamePlayCanvas;
         [SerializeField] private GameObject _menuCanvas;
-    
-        private Car.Car FinishedFirst;
+        
         
     
         private void Start()
@@ -48,16 +48,9 @@ namespace YTaxi.Scripts.UI
         }
     #endif
     
-        private void DetectReachingFinish(Car.Car _car)
+        private void DetectReachingFinish(bool isWin)
         {
-            if (FinishedFirst == null)
-            {
-                FinishedFirst = _car;
-            }
-    
-            if (_car != _player) return;
-            
-            if (_car == FinishedFirst)
+            if (isWin)
             {
                 OpenWinCanvas();
             }
@@ -65,7 +58,6 @@ namespace YTaxi.Scripts.UI
             {
                 OpenLooseCanvas();               
             }
-    
         }
         
         private void OpenWinCanvas()
@@ -94,10 +86,15 @@ namespace YTaxi.Scripts.UI
     
         public void NextLevel()
         {
-            PlayerData.LevelNumber++;
-            if(PlayerData.LevelNumber % 5 == 0)
+            if(PlayerData.LevelNumber % 5 == 0 && PlayerData.LevelNumber < PlayerData.AmountOfLevels)
                 SkinNotification.NewSkins+=1;
-            SceneManager.LoadScene($"YTaxi/Scenes/Level{PlayerData.LevelNumber%PlayerData.AmountOfLevels}");
+            var levelToLoad = PlayerData.LevelNumber;
+            if (levelToLoad > PlayerData.AmountOfLevels)
+            {
+                levelToLoad = MiniGameLevelsLoop.GetNextRandomLevel();
+            }
+            PlayerData.CurrentSceneNumber = levelToLoad;
+            SceneManager.LoadScene($"YTaxi/Scenes/Level{levelToLoad}");
         }
     
         public void Restart()

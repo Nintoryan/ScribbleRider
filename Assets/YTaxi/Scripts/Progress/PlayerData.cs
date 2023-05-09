@@ -4,12 +4,15 @@ namespace YTaxi.Scripts.Progress
 {
     public static class PlayerData
     {
-        public const int AmountOfLevels = 40;
+        public const int AmountOfLevels = 39;
+        
         public static int LevelNumber
         {
             get => PlayerPrefs.GetInt("YTaxi_Level_Number");
             set => PlayerPrefs.SetInt("YTaxi_Level_Number", value);
         }
+
+        public static int CurrentSceneNumber;
         public static int SelectedWheels
         {
             get => PlayerPrefs.GetInt("YTaxi_Selected_Wheels");

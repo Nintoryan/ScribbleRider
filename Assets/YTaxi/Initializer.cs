@@ -13,7 +13,11 @@ namespace YTaxi
             MiniGameScoreData.Session = 0;
             
             PlayerData.LevelNumber = MiniGameInitializer.StartLevel;
-            SceneManager.LoadScene($"YTaxi/Scenes/Level{PlayerData.LevelNumber}");
+            MiniGameLevelsLoop.Initialize(10,PlayerData.AmountOfLevels);
+            var levelToLoad = PlayerData.LevelNumber > PlayerData.AmountOfLevels ? MiniGameLevelsLoop.GetNextRandomLevel() : PlayerData.LevelNumber;
+
+            PlayerData.CurrentSceneNumber = levelToLoad;
+            SceneManager.LoadScene($"YTaxi/Scenes/Level{levelToLoad}");
         }
 
     }

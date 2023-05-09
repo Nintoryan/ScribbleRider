@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -74,6 +75,17 @@ namespace YTaxi.Scripts.Car
             {
                 _finished = true;
                 OnFinished?.Invoke();
+            }
+        }
+
+        public void Stop()
+        {
+            _wheelsSpeed = 0;
+            _modelSpeed = 0;
+            _model.isKinematic =true;
+            foreach (var wheel in _currentWheels)
+            {
+                wheel.GetComponent<Rigidbody>().isKinematic = true;
             }
         }
 
